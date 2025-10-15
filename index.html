@@ -99,11 +99,9 @@
       border-bottom: 1px solid var(--border);
       background: #fff;
       position: sticky; top: 0; z-index: 2;  /* header fixo */
-    }
-    .popupHeader h2 {
-      margin: 0; font-size: 22px; line-height: 1.2; color: #111;
       text-align: left;
     }
+    .popupHeader h2 { margin: 0; font-size: 22px; line-height: 1.2; color: #111; }
     .closeBtn {
       position: absolute; top: 10px; right: 10px;
       background: var(--red); color: white; border: none;
@@ -116,7 +114,7 @@
       overflow: auto;                    /* rolagem do conteúdo */
     }
 
-    /* Seção de Formas (grid fluido + rolagem própria quando gigante) */
+    /* Seção de Versões (grid fluido + rolagem própria quando gigante) */
     .formsWrap {
       border: 1px solid var(--border);
       border-radius: 12px;
@@ -131,7 +129,7 @@
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
       gap: 12px;
-      max-height: 50vh;                 /* MUITAS formas? vira scroll só aqui */
+      max-height: 50vh;                 /* MUITAS versões? vira scroll só aqui */
       overflow: auto;
       padding-right: 4px;
     }
@@ -241,10 +239,10 @@
       </div>
 
       <div class="popupBody">
-        <!-- FORMAS -->
+        <!-- VERSÕES -->
         <div class="formsWrap">
           <div class="formsTitle">
-            <span>Formas Pokémon GO</span>
+            <span>Versões Disponíveis</span>
             <span id="formsCount" style="font-weight:600; color:#666;"></span>
           </div>
           <div class="formsGrid" id="formsContainer"></div>
@@ -255,6 +253,24 @@
 
         <!-- EXTRA -->
         <div class="extra-info" id="extraInfo"></div>
+
+        <!-- BOTÃO FECHAR -->
+        <div style="display:flex; justify-content:center; margin-top:18px; padding-bottom:10px;">
+          <button onclick="closePopup()" style="
+            background:#d32f2f;
+            color:white;
+            font-size:16px;
+            font-weight:bold;
+            border:none;
+            border-radius:10px;
+            padding:10px 30px;
+            cursor:pointer;
+            box-shadow:0 2px 5px rgba(0,0,0,0.3);
+            transition:background 0.2s;
+          " onmouseover="this.style.background='#b71c1c'" onmouseout="this.style.background='#d32f2f'">
+            FECHAR
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -301,7 +317,7 @@
       statsBox.innerHTML = "";
       extraInfo.innerHTML = "";
 
-      // Monta blocos de formas (inclui a base Normal/Shiny como primeiro card)
+      // Monta blocos de versões (inclui a base Normal/Shiny como primeiro card)
       const allForms = [];
 
       // Forma base
@@ -316,7 +332,7 @@
         p.formas.forEach(f => allForms.push(f));
       }
 
-      formsCount.textContent = `• ${allForms.length} formas`;
+      formsCount.textContent = `• ${allForms.length} versões`;
 
       // Render com grid fluido + scroll próprio
       const frag = document.createDocumentFragment();
