@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokémon Database com Estatísticas</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f4f4; color: #333; margin:0; }
+    header { background: #ef5350; color: white; padding: 20px; text-align: center; }
+    #searchBox { width: 90%; max-width: 500px; padding:10px; margin:20px auto; display:block; border-radius:8px; border:1px solid #ccc; }
+    #pokemonContainer { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); gap:15px; padding:20px; }
+    .pokemonCard { background: white; border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.1); padding:10px; text-align: center; }
+    .pokemonSprite { width: 100px; height: 100px; object-fit: contain; }
+    .pokemonName { font-weight: bold; font-size: 18px; margin:5px 0; }
+    .pokemonType { font-size: 14px; color: #666; }
+    .stats { text-align: left; margin-top: 10px; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <header><h1>Pokémon Database</h1></header>
+  <input type="text" id="searchBox" placeholder="Buscar por nome ou ID...">
+  <section id="pokemonContainer"></section>
+
+  <script>
+    let pokemons = [];
+
+    async function loadPokemons() {
+      const resp = await fetch("data/pokemons.json");
+      pokemons = await resp.json();
+      renderPokemons(pokemons);
+    }
+
+    function renderPokemons(list) {
+      const container = document.getElementById("pokemonContainer");
+      container.innerHTML = "";
+      list.forEach(p => {
+        const card = document.createElement("div");
+        card.className = "pokemonCard";
+        // Criar o HTML interno
+        card.innerHTML = `
+          <img src="${p.sprite}" alt="${p.nome}" class="pokemonSprite">
+          <div class="pokemonName">#${String(p.id).padStart(3, '0')} ${p.nome}</div>
+          <div class="pokemonType">${p.tipos.join(" / ")}</div>
+          <div class="stats">
+            HP: ${p.estatisticas.hp} <br>
+            Atk: ${p.estatisticas.atk} &nbsp; Def: ${p.estatisticas.def} <br>
+            SpAtk: ${p.estatisticas.sp_atk} &nbsp; SpDef: ${p.estatisticas.sp_def} <br>
+            Speed: ${p.estatisticas.speed}
+          </div>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    document.getElementById("searchBox").addEventListener("input", () => {
+      const q = document.getElementById("searchBox").value.toLowerCase();
+      const filtrados = pokemons.filter(p =>
+        p.nome.toLowerCase().includes(q) ||
+        p.id.toString().includes(q)
+      );
+      renderPokemons(filtrados);
+    });
+
+    loadPokemons();
+  </script>
+</body>
+</html>
