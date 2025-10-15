@@ -157,32 +157,72 @@
       color: #555;
     }
 
-    table.stats {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 10px;
-    }
-
-    table.stats th, table.stats td {
+    .stats-box {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      background: #fafafa;
+      border-radius: 10px;
+      padding: 15px;
+      margin-top: 20px;
       border: 1px solid #ddd;
-      padding: 6px;
-      text-align: center;
     }
 
-    table.stats th {
-      background-color: #ef5350;
-      color: white;
+    .stat-item {
+      background: white;
+      border-radius: 8px;
+      padding: 8px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #333;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
 
-    .evolution {
+    .extra-info {
+      background: white;
+      border-radius: 10px;
+      padding: 10px;
       margin-top: 15px;
-      font-size: 16px;
+      border: 1px solid #ddd;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: left;
+      font-size: 15px;
+      color: #333;
     }
 
-    .evolution span {
+    .extra-info span {
       font-weight: bold;
       color: #ef5350;
     }
+
+    .type-tag {
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 6px;
+      color: white;
+      font-weight: bold;
+      font-size: 13px;
+      margin-right: 5px;
+    }
+
+    /* Cores dos tipos */
+    .type-Electric { background: #FFD700; color: #000; }
+    .type-Fire { background: #F08030; }
+    .type-Water { background: #6890F0; }
+    .type-Grass { background: #78C850; }
+    .type-Ice { background: #98D8D8; color: #000; }
+    .type-Fighting { background: #C03028; }
+    .type-Poison { background: #A040A0; }
+    .type-Ground { background: #E0C068; color: #000; }
+    .type-Flying { background: #A890F0; }
+    .type-Psychic { background: #F85888; }
+    .type-Bug { background: #A8B820; color: #000; }
+    .type-Rock { background: #B8A038; color: #000; }
+    .type-Ghost { background: #705898; }
+    .type-Dragon { background: #7038F8; }
+    .type-Dark { background: #705848; }
+    .type-Steel { background: #B8B8D0; color: #000; }
+    .type-Fairy { background: #EE99AC; }
 
     @media (max-width: 1200px) {
       #pokemonContainer {
@@ -215,16 +255,9 @@
 
       <div class="allForms" id="formsContainer"></div>
 
-      <table class="stats" id="statsTable">
-        <thead>
-          <tr>
-            <th>HP</th><th>ATK</th><th>DEF</th><th>SP.ATK</th><th>SP.DEF</th><th>SPEED</th>
-          </tr>
-        </thead>
-        <tbody id="statsBody"></tbody>
-      </table>
+      <div class="stats-box" id="statsBox"></div>
 
-      <div class="evolution" id="evolutionInfo"></div>
+      <div class="extra-info" id="extraInfo"></div>
     </div>
   </div>
 
@@ -233,8 +266,8 @@
     const popup = document.getElementById("popup");
     const popupTitle = document.getElementById("popupTitle");
     const formsContainer = document.getElementById("formsContainer");
-    const statsBody = document.getElementById("statsBody");
-    const evolutionInfo = document.getElementById("evolutionInfo");
+    const statsBox = document.getElementById("statsBox");
+    const extraInfo = document.getElementById("extraInfo");
 
     async function loadPokemons(region) {
       try {
@@ -260,8 +293,9 @@
     function showPopup(p) {
       popupTitle.textContent = `#${String(p.id).padStart(3, '0')} ${p.nome}`;
       formsContainer.innerHTML = "";
+      statsBox.innerHTML = "";
+      extraInfo.innerHTML = "";
 
-      // forma normal
       formsContainer.innerHTML += `
         <div class="formBox">
           <div><b>Normal</b></div>
@@ -270,7 +304,6 @@
         </div>
       `;
 
-      // formas de evento
       if (p.formas && p.formas.length > 0) {
         p.formas.forEach(f => {
           formsContainer.innerHTML += `
@@ -284,25 +317,27 @@
       }
 
       const s = p.estatisticas;
-      statsBody.innerHTML = `
-        <tr>
-          <td>${s.hp}</td>
-          <td>${s.atk}</td>
-          <td>${s.def}</td>
-          <td>${s.sp_atk}</td>
-          <td>${s.sp_def}</td>
-          <td>${s.speed}</td>
-        </tr>
+      const statsHTML = `
+        <div class="stat-item">HP: ${s.hp}</div>
+        <div class="stat-item">SP.ATK: ${s.sp_atk}</div>
+        <div class="stat-item">ATK: ${s.atk}</div>
+        <div class="stat-item">SP.DEF: ${s.sp_def}</div>
+        <div class="stat-item">DEF: ${s.def}</div>
+        <div class="stat-item">SPEED: ${s.speed}</div>
       `;
+      statsBox.innerHTML = statsHTML;
 
-      if (p.evolucao && p.evolucao.proximo) {
-        evolutionInfo.innerHTML = `
-          Evolui para: <span>${p.evolucao.proximo}</span><br>
-          Condição: ${p.evolucao.condicao}
-        `;
-      } else {
-        evolutionInfo.innerHTML = `<i>Não possui evolução.</i>`;
-      }
+      const tiposHTML = p.tipos.map(t => `<span class="type-tag type-${t}">${t}</span>`).join(" ");
+
+      const evolucao = p.evolucao && p.evolucao.proximo
+        ? `<span>${p.evolucao.proximo}</span>`
+        : `<i>Não possui evolução.</i>`;
+
+      extraInfo.innerHTML = `
+        <div><span>IV 100%:</span> CP 0000</div>
+        <div><span>Tipo:</span> ${tiposHTML}</div>
+        <div><span>Evolui para:</span> ${evolucao}</div>
+      `;
 
       popup.style.display = "flex";
     }
