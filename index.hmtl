@@ -2,63 +2,175 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Pokémon Database com Estatísticas</title>
+  <title>POKEDEX</title>
   <style>
-    body { font-family: Arial, sans-serif; background: #f4f4f4; color: #333; margin:0; }
-    header { background: #ef5350; color: white; padding: 20px; text-align: center; }
-    #searchBox { width: 90%; max-width: 500px; padding:10px; margin:20px auto; display:block; border-radius:8px; border:1px solid #ccc; }
-    #pokemonContainer { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); gap:15px; padding:20px; }
-    .pokemonCard { background: white; border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.1); padding:10px; text-align: center; }
-    .pokemonSprite { width: 100px; height: 100px; object-fit: contain; }
-    .pokemonName { font-weight: bold; font-size: 18px; margin:5px 0; }
-    .pokemonType { font-size: 14px; color: #666; }
-    .stats { text-align: left; margin-top: 10px; font-size: 14px; }
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #ef5350;
+      color: white;
+      font-size: 40px;
+      font-weight: bold;
+      letter-spacing: 3px;
+      padding: 20px 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    }
+
+    #pokemonContainer {
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      gap: 12px;
+      justify-items: center;
+      padding: 20px;
+    }
+
+    .pokemonCard {
+      background: white;
+      border-radius: 12px;
+      width: 100px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+      transition: transform 0.2s, box-shadow 0.2s;
+      cursor: pointer;
+    }
+
+    .pokemonCard:hover {
+      transform: scale(1.08);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    }
+
+    .pokemonCard img {
+      width: 80px;
+      height: 80px;
+      object-fit: contain;
+    }
+
+    /* POPUP */
+    .popup {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.6);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .popupContent {
+      background: white;
+      border-radius: 15px;
+      padding: 25px;
+      max-width: 450px;
+      width: 90%;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      position: relative;
+      animation: fadeIn 0.2s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.9); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    .closeBtn {
+      position: absolute;
+      top: 10px; right: 10px;
+      background: #ef5350;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      font-size: 18px;
+      cursor: pointer;
+      font-weight: bold;
+      line-height: 28px;
+    }
+
+    .popup h2 {
+      margin-top: 10px;
+      font-size: 24px;
+      color: #333;
+    }
+
+    .popup img {
+      width: 130px;
+      height: 130px;
+      margin: 10px;
+    }
+
+    @media (max-width: 1200px) {
+      #pokemonContainer {
+        grid-template-columns: repeat(5, 1fr);
+      }
+    }
   </style>
 </head>
 <body>
-  <header><h1>Pokémon Database</h1></header>
-  <input type="text" id="searchBox" placeholder="Buscar por nome ou ID...">
+  <header>POKEDEX</header>
+
   <section id="pokemonContainer"></section>
 
+  <!-- POPUP -->
+  <div id="popup" class="popup">
+    <div class="popupContent">
+      <button class="closeBtn" onclick="closePopup()">×</button>
+      <h2 id="popupTitle"></h2>
+      <div>
+        <img id="spriteNormal" alt="Normal">
+        <img id="spriteShiny" alt="Shiny">
+      </div>
+    </div>
+  </div>
+
   <script>
+    const container = document.getElementById("pokemonContainer");
+    const popup = document.getElementById("popup");
+    const popupTitle = document.getElementById("popupTitle");
+    const spriteNormal = document.getElementById("spriteNormal");
+    const spriteShiny = document.getElementById("spriteShiny");
+
     let pokemons = [];
 
+    // Carrega o kanto.json (deve estar na mesma pasta)
     async function loadPokemons() {
-      const resp = await fetch("data/pokemons.json");
-      pokemons = await resp.json();
+      const response = await fetch("kanto.json");
+      pokemons = await response.json();
       renderPokemons(pokemons);
     }
 
     function renderPokemons(list) {
-      const container = document.getElementById("pokemonContainer");
       container.innerHTML = "";
       list.forEach(p => {
         const card = document.createElement("div");
         card.className = "pokemonCard";
-        // Criar o HTML interno
-        card.innerHTML = `
-          <img src="${p.sprite}" alt="${p.nome}" class="pokemonSprite">
-          <div class="pokemonName">#${String(p.id).padStart(3, '0')} ${p.nome}</div>
-          <div class="pokemonType">${p.tipos.join(" / ")}</div>
-          <div class="stats">
-            HP: ${p.estatisticas.hp} <br>
-            Atk: ${p.estatisticas.atk} &nbsp; Def: ${p.estatisticas.def} <br>
-            SpAtk: ${p.estatisticas.sp_atk} &nbsp; SpDef: ${p.estatisticas.sp_def} <br>
-            Speed: ${p.estatisticas.speed}
-          </div>
-        `;
+        card.innerHTML = `<img src="${p.sprite_normal}" alt="${p.nome}">`;
+        card.onclick = () => showPopup(p);
         container.appendChild(card);
       });
     }
 
-    document.getElementById("searchBox").addEventListener("input", () => {
-      const q = document.getElementById("searchBox").value.toLowerCase();
-      const filtrados = pokemons.filter(p =>
-        p.nome.toLowerCase().includes(q) ||
-        p.id.toString().includes(q)
-      );
-      renderPokemons(filtrados);
-    });
+    function showPopup(p) {
+      popupTitle.textContent = `#${String(p.id).padStart(3, '0')} ${p.nome}`;
+      spriteNormal.src = p.sprite_normal;
+      spriteShiny.src = p.sprite_shiny;
+      popup.style.display = "flex";
+    }
+
+    function closePopup() {
+      popup.style.display = "none";
+    }
 
     loadPokemons();
   </script>
