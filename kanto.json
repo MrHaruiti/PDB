@@ -1,0 +1,3391 @@
+[
+  {
+    "id": 1,
+    "nome": "Bulbasaur",
+    "tipos": [
+      "Grass",
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/bulbasaur.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/bulbasaur.png",
+    "estatisticas": {
+      "hp": 45,
+      "atk": 49,
+      "def": 49,
+      "sp_atk": 65,
+      "sp_def": 65,
+      "speed": 45
+    },
+    "evolucao": {
+      "proximo": "Ivysaur",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 2,
+    "nome": "Ivysaur",
+    "tipos": [
+      "Grass",
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/ivysaur.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/ivysaur.png",
+    "estatisticas": {
+      "hp": 60,
+      "atk": 62,
+      "def": 63,
+      "sp_atk": 80,
+      "sp_def": 80,
+      "speed": 60
+    },
+    "evolucao": {
+      "proximo": "Venusaur",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 3,
+    "nome": "Venusaur",
+    "tipos": [
+      "Grass",
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/venusaur.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/venusaur.png",
+    "estatisticas": {
+      "hp": 80,
+      "atk": 82,
+      "def": 83,
+      "sp_atk": 100,
+      "sp_def": 100,
+      "speed": 80
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 4,
+    "nome": "Charmander",
+    "tipos": [
+      "Fire"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/charmander.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/charmander.png",
+    "estatisticas": {
+      "hp": 39,
+      "atk": 52,
+      "def": 43,
+      "sp_atk": 60,
+      "sp_def": 50,
+      "speed": 65
+    },
+    "evolucao": {
+      "proximo": "Charmeleon",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 5,
+    "nome": "Charmeleon",
+    "tipos": [
+      "Fire"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/charmeleon.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/charmeleon.png",
+    "estatisticas": {
+      "hp": 58,
+      "atk": 64,
+      "def": 58,
+      "sp_atk": 80,
+      "sp_def": 65,
+      "speed": 80
+    },
+    "evolucao": {
+      "proximo": "Charizard",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 6,
+    "nome": "Charizard",
+    "tipos": [
+      "Fire",
+      "Flying"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/charizard.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/charizard.png",
+    "estatisticas": {
+      "hp": 78,
+      "atk": 84,
+      "def": 78,
+      "sp_atk": 109,
+      "sp_def": 85,
+      "speed": 100
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 7,
+    "nome": "Squirtle",
+    "tipos": [
+      "Water"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/squirtle.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/squirtle.png",
+    "estatisticas": {
+      "hp": 44,
+      "atk": 48,
+      "def": 65,
+      "sp_atk": 50,
+      "sp_def": 64,
+      "speed": 43
+    },
+    "evolucao": {
+      "proximo": "Wartortle",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 8,
+    "nome": "Wartortle",
+    "tipos": [
+      "Water"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/wartortle.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/wartortle.png",
+    "estatisticas": {
+      "hp": 59,
+      "atk": 63,
+      "def": 80,
+      "sp_atk": 65,
+      "sp_def": 80,
+      "speed": 58
+    },
+    "evolucao": {
+      "proximo": "Blastoise",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 9,
+    "nome": "Blastoise",
+    "tipos": [
+      "Water"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/blastoise.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/blastoise.png",
+    "estatisticas": {
+      "hp": 79,
+      "atk": 83,
+      "def": 100,
+      "sp_atk": 85,
+      "sp_def": 105,
+      "speed": 78
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 10,
+    "nome": "Caterpie",
+    "tipos": [
+      "Bug"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/caterpie.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/caterpie.png",
+    "estatisticas": {
+      "hp": 45,
+      "atk": 30,
+      "def": 35,
+      "sp_atk": 20,
+      "sp_def": 20,
+      "speed": 45
+    },
+    "evolucao": {
+      "proximo": "Metapod",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 11,
+    "nome": "Metapod",
+    "tipos": [
+      "Bug"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/metapod.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/metapod.png",
+    "estatisticas": {
+      "hp": 50,
+      "atk": 20,
+      "def": 55,
+      "sp_atk": 25,
+      "sp_def": 25,
+      "speed": 30
+    },
+    "evolucao": {
+      "proximo": "Butterfree",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 12,
+    "nome": "Butterfree",
+    "tipos": [
+      "Bug",
+      "Flying"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/butterfree.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/butterfree.png",
+    "estatisticas": {
+      "hp": 60,
+      "atk": 45,
+      "def": 50,
+      "sp_atk": 90,
+      "sp_def": 80,
+      "speed": 70
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 13,
+    "nome": "Weedle",
+    "tipos": [
+      "Bug",
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/weedle.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/weedle.png",
+    "estatisticas": {
+      "hp": 40,
+      "atk": 35,
+      "def": 30,
+      "sp_atk": 20,
+      "sp_def": 20,
+      "speed": 50
+    },
+    "evolucao": {
+      "proximo": "Kakuna",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 14,
+    "nome": "Kakuna",
+    "tipos": [
+      "Bug",
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/kakuna.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/kakuna.png",
+    "estatisticas": {
+      "hp": 45,
+      "atk": 25,
+      "def": 50,
+      "sp_atk": 25,
+      "sp_def": 25,
+      "speed": 35
+    },
+    "evolucao": {
+      "proximo": "Beedrill",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 15,
+    "nome": "Beedrill",
+    "tipos": [
+      "Bug",
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/beedrill.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/beedrill.png",
+    "estatisticas": {
+      "hp": 65,
+      "atk": 90,
+      "def": 40,
+      "sp_atk": 45,
+      "sp_def": 80,
+      "speed": 75
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 16,
+    "nome": "Pidgey",
+    "tipos": [
+      "Normal",
+      "Flying"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/pidgey.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/pidgey.png",
+    "estatisticas": {
+      "hp": 40,
+      "atk": 45,
+      "def": 40,
+      "sp_atk": 35,
+      "sp_def": 35,
+      "speed": 56
+    },
+    "evolucao": {
+      "proximo": "Pidgeotto",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 17,
+    "nome": "Pidgeotto",
+    "tipos": [
+      "Normal",
+      "Flying"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/pidgeotto.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/pidgeotto.png",
+    "estatisticas": {
+      "hp": 63,
+      "atk": 60,
+      "def": 55,
+      "sp_atk": 50,
+      "sp_def": 50,
+      "speed": 71
+    },
+    "evolucao": {
+      "proximo": "Pidgeot",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 18,
+    "nome": "Pidgeot",
+    "tipos": [
+      "Normal",
+      "Flying"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/pidgeot.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/pidgeot.png",
+    "estatisticas": {
+      "hp": 83,
+      "atk": 80,
+      "def": 75,
+      "sp_atk": 70,
+      "sp_def": 70,
+      "speed": 101
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 19,
+    "nome": "Rattata",
+    "tipos": [
+      "Normal"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/rattata.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/rattata.png",
+    "estatisticas": {
+      "hp": 30,
+      "atk": 56,
+      "def": 35,
+      "sp_atk": 25,
+      "sp_def": 35,
+      "speed": 72
+    },
+    "evolucao": {
+      "proximo": "Raticate",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 20,
+    "nome": "Raticate",
+    "tipos": [
+      "Normal"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/raticate.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/raticate.png",
+    "estatisticas": {
+      "hp": 55,
+      "atk": 81,
+      "def": 60,
+      "sp_atk": 50,
+      "sp_def": 70,
+      "speed": 97
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 21,
+    "nome": "Spearow",
+    "tipos": [
+      "Normal",
+      "Flying"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/spearow.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/spearow.png",
+    "estatisticas": {
+      "hp": 40,
+      "atk": 60,
+      "def": 30,
+      "sp_atk": 31,
+      "sp_def": 31,
+      "speed": 70
+    },
+    "evolucao": {
+      "proximo": "Fearow",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 22,
+    "nome": "Fearow",
+    "tipos": [
+      "Normal",
+      "Flying"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/fearow.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/fearow.png",
+    "estatisticas": {
+      "hp": 65,
+      "atk": 90,
+      "def": 65,
+      "sp_atk": 61,
+      "sp_def": 61,
+      "speed": 100
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 23,
+    "nome": "Ekans",
+    "tipos": [
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/ekans.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/ekans.png",
+    "estatisticas": {
+      "hp": 35,
+      "atk": 60,
+      "def": 44,
+      "sp_atk": 40,
+      "sp_def": 54,
+      "speed": 55
+    },
+    "evolucao": {
+      "proximo": "Arbok",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 24,
+    "nome": "Arbok",
+    "tipos": [
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/arbok.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/arbok.png",
+    "estatisticas": {
+      "hp": 60,
+      "atk": 95,
+      "def": 69,
+      "sp_atk": 65,
+      "sp_def": 79,
+      "speed": 80
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 25,
+    "nome": "Pikachu",
+    "tipos": [
+      "Electric"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/pikachu.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu.png",
+    "estatisticas": {
+      "hp": 35,
+      "atk": 55,
+      "def": 40,
+      "sp_atk": 50,
+      "sp_def": 50,
+      "speed": 90
+    },
+    "evolucao": {
+      "proximo": "Raichu",
+      "condicao": "use-item"
+    }
+  },
+  {
+    "id": 26,
+    "nome": "Raichu",
+    "tipos": [
+      "Electric"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/raichu.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/raichu.png",
+    "estatisticas": {
+      "hp": 60,
+      "atk": 90,
+      "def": 55,
+      "sp_atk": 90,
+      "sp_def": 80,
+      "speed": 110
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 27,
+    "nome": "Sandshrew",
+    "tipos": [
+      "Ground"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/sandshrew.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/sandshrew.png",
+    "estatisticas": {
+      "hp": 50,
+      "atk": 75,
+      "def": 85,
+      "sp_atk": 20,
+      "sp_def": 30,
+      "speed": 40
+    },
+    "evolucao": {
+      "proximo": "Sandslash",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 28,
+    "nome": "Sandslash",
+    "tipos": [
+      "Ground"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/sandslash.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/sandslash.png",
+    "estatisticas": {
+      "hp": 75,
+      "atk": 100,
+      "def": 110,
+      "sp_atk": 45,
+      "sp_def": 55,
+      "speed": 65
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 29,
+    "nome": "Nidoran-f",
+    "tipos": [
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/nidoran-f.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/nidoran-f.png",
+    "estatisticas": {
+      "hp": 55,
+      "atk": 47,
+      "def": 52,
+      "sp_atk": 40,
+      "sp_def": 40,
+      "speed": 41
+    },
+    "evolucao": {
+      "proximo": "Nidorina",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 30,
+    "nome": "Nidorina",
+    "tipos": [
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/nidorina.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/nidorina.png",
+    "estatisticas": {
+      "hp": 70,
+      "atk": 62,
+      "def": 67,
+      "sp_atk": 55,
+      "sp_def": 55,
+      "speed": 56
+    },
+    "evolucao": {
+      "proximo": "Nidoqueen",
+      "condicao": "use-item"
+    }
+  },
+  {
+    "id": 31,
+    "nome": "Nidoqueen",
+    "tipos": [
+      "Poison",
+      "Ground"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/nidoqueen.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/nidoqueen.png",
+    "estatisticas": {
+      "hp": 90,
+      "atk": 92,
+      "def": 87,
+      "sp_atk": 75,
+      "sp_def": 85,
+      "speed": 76
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 32,
+    "nome": "Nidoran-m",
+    "tipos": [
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/nidoran-m.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/nidoran-m.png",
+    "estatisticas": {
+      "hp": 46,
+      "atk": 57,
+      "def": 40,
+      "sp_atk": 40,
+      "sp_def": 40,
+      "speed": 50
+    },
+    "evolucao": {
+      "proximo": "Nidorino",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 33,
+    "nome": "Nidorino",
+    "tipos": [
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/nidorino.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/nidorino.png",
+    "estatisticas": {
+      "hp": 61,
+      "atk": 72,
+      "def": 57,
+      "sp_atk": 55,
+      "sp_def": 55,
+      "speed": 65
+    },
+    "evolucao": {
+      "proximo": "Nidoking",
+      "condicao": "use-item"
+    }
+  },
+  {
+    "id": 34,
+    "nome": "Nidoking",
+    "tipos": [
+      "Poison",
+      "Ground"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/nidoking.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/nidoking.png",
+    "estatisticas": {
+      "hp": 81,
+      "atk": 102,
+      "def": 77,
+      "sp_atk": 85,
+      "sp_def": 75,
+      "speed": 85
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 35,
+    "nome": "Clefairy",
+    "tipos": [
+      "Fairy"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/clefairy.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/clefairy.png",
+    "estatisticas": {
+      "hp": 70,
+      "atk": 45,
+      "def": 48,
+      "sp_atk": 60,
+      "sp_def": 65,
+      "speed": 35
+    },
+    "evolucao": {
+      "proximo": "Clefable",
+      "condicao": "use-item"
+    }
+  },
+  {
+    "id": 36,
+    "nome": "Clefable",
+    "tipos": [
+      "Fairy"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/clefable.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/clefable.png",
+    "estatisticas": {
+      "hp": 95,
+      "atk": 70,
+      "def": 73,
+      "sp_atk": 95,
+      "sp_def": 90,
+      "speed": 60
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 37,
+    "nome": "Vulpix",
+    "tipos": [
+      "Fire"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/vulpix.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/vulpix.png",
+    "estatisticas": {
+      "hp": 38,
+      "atk": 41,
+      "def": 40,
+      "sp_atk": 50,
+      "sp_def": 65,
+      "speed": 65
+    },
+    "evolucao": {
+      "proximo": "Ninetales",
+      "condicao": "use-item"
+    }
+  },
+  {
+    "id": 38,
+    "nome": "Ninetales",
+    "tipos": [
+      "Fire"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/ninetales.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/ninetales.png",
+    "estatisticas": {
+      "hp": 73,
+      "atk": 76,
+      "def": 75,
+      "sp_atk": 81,
+      "sp_def": 100,
+      "speed": 100
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 39,
+    "nome": "Jigglypuff",
+    "tipos": [
+      "Normal",
+      "Fairy"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/jigglypuff.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/jigglypuff.png",
+    "estatisticas": {
+      "hp": 115,
+      "atk": 45,
+      "def": 20,
+      "sp_atk": 45,
+      "sp_def": 25,
+      "speed": 20
+    },
+    "evolucao": {
+      "proximo": "Wigglytuff",
+      "condicao": "use-item"
+    }
+  },
+  {
+    "id": 40,
+    "nome": "Wigglytuff",
+    "tipos": [
+      "Normal",
+      "Fairy"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/wigglytuff.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/wigglytuff.png",
+    "estatisticas": {
+      "hp": 140,
+      "atk": 70,
+      "def": 45,
+      "sp_atk": 85,
+      "sp_def": 50,
+      "speed": 45
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 41,
+    "nome": "Zubat",
+    "tipos": [
+      "Poison",
+      "Flying"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/zubat.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/zubat.png",
+    "estatisticas": {
+      "hp": 40,
+      "atk": 45,
+      "def": 35,
+      "sp_atk": 30,
+      "sp_def": 40,
+      "speed": 55
+    },
+    "evolucao": {
+      "proximo": "Golbat",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 42,
+    "nome": "Golbat",
+    "tipos": [
+      "Poison",
+      "Flying"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/golbat.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/golbat.png",
+    "estatisticas": {
+      "hp": 75,
+      "atk": 80,
+      "def": 70,
+      "sp_atk": 65,
+      "sp_def": 75,
+      "speed": 90
+    },
+    "evolucao": {
+      "proximo": "Crobat",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 43,
+    "nome": "Oddish",
+    "tipos": [
+      "Grass",
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/oddish.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/oddish.png",
+    "estatisticas": {
+      "hp": 45,
+      "atk": 50,
+      "def": 55,
+      "sp_atk": 75,
+      "sp_def": 65,
+      "speed": 30
+    },
+    "evolucao": {
+      "proximo": "Gloom",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 44,
+    "nome": "Gloom",
+    "tipos": [
+      "Grass",
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/gloom.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/gloom.png",
+    "estatisticas": {
+      "hp": 60,
+      "atk": 65,
+      "def": 70,
+      "sp_atk": 85,
+      "sp_def": 75,
+      "speed": 40
+    },
+    "evolucao": {
+      "proximo": "Vileplume",
+      "condicao": "use-item"
+    }
+  },
+  {
+    "id": 45,
+    "nome": "Vileplume",
+    "tipos": [
+      "Grass",
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/vileplume.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/vileplume.png",
+    "estatisticas": {
+      "hp": 75,
+      "atk": 80,
+      "def": 85,
+      "sp_atk": 110,
+      "sp_def": 90,
+      "speed": 50
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 46,
+    "nome": "Paras",
+    "tipos": [
+      "Bug",
+      "Grass"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/paras.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/paras.png",
+    "estatisticas": {
+      "hp": 35,
+      "atk": 70,
+      "def": 55,
+      "sp_atk": 45,
+      "sp_def": 55,
+      "speed": 25
+    },
+    "evolucao": {
+      "proximo": "Parasect",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 47,
+    "nome": "Parasect",
+    "tipos": [
+      "Bug",
+      "Grass"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/parasect.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/parasect.png",
+    "estatisticas": {
+      "hp": 60,
+      "atk": 95,
+      "def": 80,
+      "sp_atk": 60,
+      "sp_def": 80,
+      "speed": 30
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 48,
+    "nome": "Venonat",
+    "tipos": [
+      "Bug",
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/venonat.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/venonat.png",
+    "estatisticas": {
+      "hp": 60,
+      "atk": 55,
+      "def": 50,
+      "sp_atk": 40,
+      "sp_def": 55,
+      "speed": 45
+    },
+    "evolucao": {
+      "proximo": "Venomoth",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 49,
+    "nome": "Venomoth",
+    "tipos": [
+      "Bug",
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/venomoth.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/venomoth.png",
+    "estatisticas": {
+      "hp": 70,
+      "atk": 65,
+      "def": 60,
+      "sp_atk": 90,
+      "sp_def": 75,
+      "speed": 90
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 50,
+    "nome": "Diglett",
+    "tipos": [
+      "Ground"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/diglett.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/diglett.png",
+    "estatisticas": {
+      "hp": 10,
+      "atk": 55,
+      "def": 25,
+      "sp_atk": 35,
+      "sp_def": 45,
+      "speed": 95
+    },
+    "evolucao": {
+      "proximo": "Dugtrio",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 51,
+    "nome": "Dugtrio",
+    "tipos": [
+      "Ground"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/dugtrio.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/dugtrio.png",
+    "estatisticas": {
+      "hp": 35,
+      "atk": 100,
+      "def": 50,
+      "sp_atk": 50,
+      "sp_def": 70,
+      "speed": 120
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 52,
+    "nome": "Meowth",
+    "tipos": [
+      "Normal"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/meowth.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/meowth.png",
+    "estatisticas": {
+      "hp": 40,
+      "atk": 45,
+      "def": 35,
+      "sp_atk": 40,
+      "sp_def": 40,
+      "speed": 90
+    },
+    "evolucao": {
+      "proximo": "Persian",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 53,
+    "nome": "Persian",
+    "tipos": [
+      "Normal"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/persian.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/persian.png",
+    "estatisticas": {
+      "hp": 65,
+      "atk": 70,
+      "def": 60,
+      "sp_atk": 65,
+      "sp_def": 65,
+      "speed": 115
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 54,
+    "nome": "Psyduck",
+    "tipos": [
+      "Water"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/psyduck.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/psyduck.png",
+    "estatisticas": {
+      "hp": 50,
+      "atk": 52,
+      "def": 48,
+      "sp_atk": 65,
+      "sp_def": 50,
+      "speed": 55
+    },
+    "evolucao": {
+      "proximo": "Golduck",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 55,
+    "nome": "Golduck",
+    "tipos": [
+      "Water"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/golduck.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/golduck.png",
+    "estatisticas": {
+      "hp": 80,
+      "atk": 82,
+      "def": 78,
+      "sp_atk": 95,
+      "sp_def": 80,
+      "speed": 85
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 56,
+    "nome": "Mankey",
+    "tipos": [
+      "Fighting"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/mankey.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/mankey.png",
+    "estatisticas": {
+      "hp": 40,
+      "atk": 80,
+      "def": 35,
+      "sp_atk": 35,
+      "sp_def": 45,
+      "speed": 70
+    },
+    "evolucao": {
+      "proximo": "Primeape",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 57,
+    "nome": "Primeape",
+    "tipos": [
+      "Fighting"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/primeape.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/primeape.png",
+    "estatisticas": {
+      "hp": 65,
+      "atk": 105,
+      "def": 60,
+      "sp_atk": 60,
+      "sp_def": 70,
+      "speed": 95
+    },
+    "evolucao": {
+      "proximo": "Annihilape",
+      "condicao": "other"
+    }
+  },
+  {
+    "id": 58,
+    "nome": "Growlithe",
+    "tipos": [
+      "Fire"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/growlithe.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/growlithe.png",
+    "estatisticas": {
+      "hp": 55,
+      "atk": 70,
+      "def": 45,
+      "sp_atk": 70,
+      "sp_def": 50,
+      "speed": 60
+    },
+    "evolucao": {
+      "proximo": "Arcanine",
+      "condicao": "use-item"
+    }
+  },
+  {
+    "id": 59,
+    "nome": "Arcanine",
+    "tipos": [
+      "Fire"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/arcanine.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/arcanine.png",
+    "estatisticas": {
+      "hp": 90,
+      "atk": 110,
+      "def": 80,
+      "sp_atk": 100,
+      "sp_def": 80,
+      "speed": 95
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 60,
+    "nome": "Poliwag",
+    "tipos": [
+      "Water"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/poliwag.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/poliwag.png",
+    "estatisticas": {
+      "hp": 40,
+      "atk": 50,
+      "def": 40,
+      "sp_atk": 40,
+      "sp_def": 40,
+      "speed": 90
+    },
+    "evolucao": {
+      "proximo": "Poliwhirl",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 61,
+    "nome": "Poliwhirl",
+    "tipos": [
+      "Water"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/poliwhirl.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/poliwhirl.png",
+    "estatisticas": {
+      "hp": 65,
+      "atk": 65,
+      "def": 65,
+      "sp_atk": 50,
+      "sp_def": 50,
+      "speed": 90
+    },
+    "evolucao": {
+      "proximo": "Poliwrath",
+      "condicao": "use-item"
+    }
+  },
+  {
+    "id": 62,
+    "nome": "Poliwrath",
+    "tipos": [
+      "Water",
+      "Fighting"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/poliwrath.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/poliwrath.png",
+    "estatisticas": {
+      "hp": 90,
+      "atk": 95,
+      "def": 95,
+      "sp_atk": 70,
+      "sp_def": 90,
+      "speed": 70
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 63,
+    "nome": "Abra",
+    "tipos": [
+      "Psychic"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/abra.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/abra.png",
+    "estatisticas": {
+      "hp": 25,
+      "atk": 20,
+      "def": 15,
+      "sp_atk": 105,
+      "sp_def": 55,
+      "speed": 90
+    },
+    "evolucao": {
+      "proximo": "Kadabra",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 64,
+    "nome": "Kadabra",
+    "tipos": [
+      "Psychic"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/kadabra.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/kadabra.png",
+    "estatisticas": {
+      "hp": 40,
+      "atk": 35,
+      "def": 30,
+      "sp_atk": 120,
+      "sp_def": 70,
+      "speed": 105
+    },
+    "evolucao": {
+      "proximo": "Alakazam",
+      "condicao": "trade"
+    }
+  },
+  {
+    "id": 65,
+    "nome": "Alakazam",
+    "tipos": [
+      "Psychic"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/alakazam.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/alakazam.png",
+    "estatisticas": {
+      "hp": 55,
+      "atk": 50,
+      "def": 45,
+      "sp_atk": 135,
+      "sp_def": 95,
+      "speed": 120
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 66,
+    "nome": "Machop",
+    "tipos": [
+      "Fighting"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/machop.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/machop.png",
+    "estatisticas": {
+      "hp": 70,
+      "atk": 80,
+      "def": 50,
+      "sp_atk": 35,
+      "sp_def": 35,
+      "speed": 35
+    },
+    "evolucao": {
+      "proximo": "Machoke",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 67,
+    "nome": "Machoke",
+    "tipos": [
+      "Fighting"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/machoke.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/machoke.png",
+    "estatisticas": {
+      "hp": 80,
+      "atk": 100,
+      "def": 70,
+      "sp_atk": 50,
+      "sp_def": 60,
+      "speed": 45
+    },
+    "evolucao": {
+      "proximo": "Machamp",
+      "condicao": "trade"
+    }
+  },
+  {
+    "id": 68,
+    "nome": "Machamp",
+    "tipos": [
+      "Fighting"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/machamp.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/machamp.png",
+    "estatisticas": {
+      "hp": 90,
+      "atk": 130,
+      "def": 80,
+      "sp_atk": 65,
+      "sp_def": 85,
+      "speed": 55
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 69,
+    "nome": "Bellsprout",
+    "tipos": [
+      "Grass",
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/bellsprout.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/bellsprout.png",
+    "estatisticas": {
+      "hp": 50,
+      "atk": 75,
+      "def": 35,
+      "sp_atk": 70,
+      "sp_def": 30,
+      "speed": 40
+    },
+    "evolucao": {
+      "proximo": "Weepinbell",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 70,
+    "nome": "Weepinbell",
+    "tipos": [
+      "Grass",
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/weepinbell.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/weepinbell.png",
+    "estatisticas": {
+      "hp": 65,
+      "atk": 90,
+      "def": 50,
+      "sp_atk": 85,
+      "sp_def": 45,
+      "speed": 55
+    },
+    "evolucao": {
+      "proximo": "Victreebel",
+      "condicao": "use-item"
+    }
+  },
+  {
+    "id": 71,
+    "nome": "Victreebel",
+    "tipos": [
+      "Grass",
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/victreebel.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/victreebel.png",
+    "estatisticas": {
+      "hp": 80,
+      "atk": 105,
+      "def": 65,
+      "sp_atk": 100,
+      "sp_def": 70,
+      "speed": 70
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 72,
+    "nome": "Tentacool",
+    "tipos": [
+      "Water",
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/tentacool.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/tentacool.png",
+    "estatisticas": {
+      "hp": 40,
+      "atk": 40,
+      "def": 35,
+      "sp_atk": 50,
+      "sp_def": 100,
+      "speed": 70
+    },
+    "evolucao": {
+      "proximo": "Tentacruel",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 73,
+    "nome": "Tentacruel",
+    "tipos": [
+      "Water",
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/tentacruel.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/tentacruel.png",
+    "estatisticas": {
+      "hp": 80,
+      "atk": 70,
+      "def": 65,
+      "sp_atk": 80,
+      "sp_def": 120,
+      "speed": 100
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 74,
+    "nome": "Geodude",
+    "tipos": [
+      "Rock",
+      "Ground"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/geodude.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/geodude.png",
+    "estatisticas": {
+      "hp": 40,
+      "atk": 80,
+      "def": 100,
+      "sp_atk": 30,
+      "sp_def": 30,
+      "speed": 20
+    },
+    "evolucao": {
+      "proximo": "Graveler",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 75,
+    "nome": "Graveler",
+    "tipos": [
+      "Rock",
+      "Ground"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/graveler.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/graveler.png",
+    "estatisticas": {
+      "hp": 55,
+      "atk": 95,
+      "def": 115,
+      "sp_atk": 45,
+      "sp_def": 45,
+      "speed": 35
+    },
+    "evolucao": {
+      "proximo": "Golem",
+      "condicao": "trade"
+    }
+  },
+  {
+    "id": 76,
+    "nome": "Golem",
+    "tipos": [
+      "Rock",
+      "Ground"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/golem.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/golem.png",
+    "estatisticas": {
+      "hp": 80,
+      "atk": 120,
+      "def": 130,
+      "sp_atk": 55,
+      "sp_def": 65,
+      "speed": 45
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 77,
+    "nome": "Ponyta",
+    "tipos": [
+      "Fire"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/ponyta.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/ponyta.png",
+    "estatisticas": {
+      "hp": 50,
+      "atk": 85,
+      "def": 55,
+      "sp_atk": 65,
+      "sp_def": 65,
+      "speed": 90
+    },
+    "evolucao": {
+      "proximo": "Rapidash",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 78,
+    "nome": "Rapidash",
+    "tipos": [
+      "Fire"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/rapidash.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/rapidash.png",
+    "estatisticas": {
+      "hp": 65,
+      "atk": 100,
+      "def": 70,
+      "sp_atk": 80,
+      "sp_def": 80,
+      "speed": 105
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 79,
+    "nome": "Slowpoke",
+    "tipos": [
+      "Water",
+      "Psychic"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/slowpoke.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/slowpoke.png",
+    "estatisticas": {
+      "hp": 90,
+      "atk": 65,
+      "def": 65,
+      "sp_atk": 40,
+      "sp_def": 40,
+      "speed": 15
+    },
+    "evolucao": {
+      "proximo": "Slowbro",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 80,
+    "nome": "Slowbro",
+    "tipos": [
+      "Water",
+      "Psychic"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/slowbro.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/slowbro.png",
+    "estatisticas": {
+      "hp": 95,
+      "atk": 75,
+      "def": 110,
+      "sp_atk": 100,
+      "sp_def": 80,
+      "speed": 30
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 81,
+    "nome": "Magnemite",
+    "tipos": [
+      "Electric",
+      "Steel"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/magnemite.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/magnemite.png",
+    "estatisticas": {
+      "hp": 25,
+      "atk": 35,
+      "def": 70,
+      "sp_atk": 95,
+      "sp_def": 55,
+      "speed": 45
+    },
+    "evolucao": {
+      "proximo": "Magneton",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 82,
+    "nome": "Magneton",
+    "tipos": [
+      "Electric",
+      "Steel"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/magneton.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/magneton.png",
+    "estatisticas": {
+      "hp": 50,
+      "atk": 60,
+      "def": 95,
+      "sp_atk": 120,
+      "sp_def": 70,
+      "speed": 70
+    },
+    "evolucao": {
+      "proximo": "Magnezone",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 83,
+    "nome": "Farfetchd",
+    "tipos": [
+      "Normal",
+      "Flying"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/farfetchd.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/farfetchd.png",
+    "estatisticas": {
+      "hp": 52,
+      "atk": 90,
+      "def": 55,
+      "sp_atk": 58,
+      "sp_def": 62,
+      "speed": 60
+    },
+    "evolucao": {
+      "proximo": "Sirfetchd",
+      "condicao": "three-critical-hits"
+    }
+  },
+  {
+    "id": 84,
+    "nome": "Doduo",
+    "tipos": [
+      "Normal",
+      "Flying"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/doduo.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/doduo.png",
+    "estatisticas": {
+      "hp": 35,
+      "atk": 85,
+      "def": 45,
+      "sp_atk": 35,
+      "sp_def": 35,
+      "speed": 75
+    },
+    "evolucao": {
+      "proximo": "Dodrio",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 85,
+    "nome": "Dodrio",
+    "tipos": [
+      "Normal",
+      "Flying"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/dodrio.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/dodrio.png",
+    "estatisticas": {
+      "hp": 60,
+      "atk": 110,
+      "def": 70,
+      "sp_atk": 60,
+      "sp_def": 60,
+      "speed": 110
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 86,
+    "nome": "Seel",
+    "tipos": [
+      "Water"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/seel.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/seel.png",
+    "estatisticas": {
+      "hp": 65,
+      "atk": 45,
+      "def": 55,
+      "sp_atk": 45,
+      "sp_def": 70,
+      "speed": 45
+    },
+    "evolucao": {
+      "proximo": "Dewgong",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 87,
+    "nome": "Dewgong",
+    "tipos": [
+      "Water",
+      "Ice"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/dewgong.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/dewgong.png",
+    "estatisticas": {
+      "hp": 90,
+      "atk": 70,
+      "def": 80,
+      "sp_atk": 70,
+      "sp_def": 95,
+      "speed": 70
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 88,
+    "nome": "Grimer",
+    "tipos": [
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/grimer.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/grimer.png",
+    "estatisticas": {
+      "hp": 80,
+      "atk": 80,
+      "def": 50,
+      "sp_atk": 40,
+      "sp_def": 50,
+      "speed": 25
+    },
+    "evolucao": {
+      "proximo": "Muk",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 89,
+    "nome": "Muk",
+    "tipos": [
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/muk.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/muk.png",
+    "estatisticas": {
+      "hp": 105,
+      "atk": 105,
+      "def": 75,
+      "sp_atk": 65,
+      "sp_def": 100,
+      "speed": 50
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 90,
+    "nome": "Shellder",
+    "tipos": [
+      "Water"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/shellder.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/shellder.png",
+    "estatisticas": {
+      "hp": 30,
+      "atk": 65,
+      "def": 100,
+      "sp_atk": 45,
+      "sp_def": 25,
+      "speed": 40
+    },
+    "evolucao": {
+      "proximo": "Cloyster",
+      "condicao": "use-item"
+    }
+  },
+  {
+    "id": 91,
+    "nome": "Cloyster",
+    "tipos": [
+      "Water",
+      "Ice"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/cloyster.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/cloyster.png",
+    "estatisticas": {
+      "hp": 50,
+      "atk": 95,
+      "def": 180,
+      "sp_atk": 85,
+      "sp_def": 45,
+      "speed": 70
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 92,
+    "nome": "Gastly",
+    "tipos": [
+      "Ghost",
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/gastly.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/gastly.png",
+    "estatisticas": {
+      "hp": 30,
+      "atk": 35,
+      "def": 30,
+      "sp_atk": 100,
+      "sp_def": 35,
+      "speed": 80
+    },
+    "evolucao": {
+      "proximo": "Haunter",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 93,
+    "nome": "Haunter",
+    "tipos": [
+      "Ghost",
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/haunter.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/haunter.png",
+    "estatisticas": {
+      "hp": 45,
+      "atk": 50,
+      "def": 45,
+      "sp_atk": 115,
+      "sp_def": 55,
+      "speed": 95
+    },
+    "evolucao": {
+      "proximo": "Gengar",
+      "condicao": "trade"
+    }
+  },
+  {
+    "id": 94,
+    "nome": "Gengar",
+    "tipos": [
+      "Ghost",
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/gengar.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/gengar.png",
+    "estatisticas": {
+      "hp": 60,
+      "atk": 65,
+      "def": 60,
+      "sp_atk": 130,
+      "sp_def": 75,
+      "speed": 110
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 95,
+    "nome": "Onix",
+    "tipos": [
+      "Rock",
+      "Ground"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/onix.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/onix.png",
+    "estatisticas": {
+      "hp": 35,
+      "atk": 45,
+      "def": 160,
+      "sp_atk": 30,
+      "sp_def": 45,
+      "speed": 70
+    },
+    "evolucao": {
+      "proximo": "Steelix",
+      "condicao": "trade"
+    }
+  },
+  {
+    "id": 96,
+    "nome": "Drowzee",
+    "tipos": [
+      "Psychic"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/drowzee.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/drowzee.png",
+    "estatisticas": {
+      "hp": 60,
+      "atk": 48,
+      "def": 45,
+      "sp_atk": 43,
+      "sp_def": 90,
+      "speed": 42
+    },
+    "evolucao": {
+      "proximo": "Hypno",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 97,
+    "nome": "Hypno",
+    "tipos": [
+      "Psychic"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/hypno.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/hypno.png",
+    "estatisticas": {
+      "hp": 85,
+      "atk": 73,
+      "def": 70,
+      "sp_atk": 73,
+      "sp_def": 115,
+      "speed": 67
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 98,
+    "nome": "Krabby",
+    "tipos": [
+      "Water"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/krabby.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/krabby.png",
+    "estatisticas": {
+      "hp": 30,
+      "atk": 105,
+      "def": 90,
+      "sp_atk": 25,
+      "sp_def": 25,
+      "speed": 50
+    },
+    "evolucao": {
+      "proximo": "Kingler",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 99,
+    "nome": "Kingler",
+    "tipos": [
+      "Water"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/kingler.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/kingler.png",
+    "estatisticas": {
+      "hp": 55,
+      "atk": 130,
+      "def": 115,
+      "sp_atk": 50,
+      "sp_def": 50,
+      "speed": 75
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 100,
+    "nome": "Voltorb",
+    "tipos": [
+      "Electric"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/voltorb.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/voltorb.png",
+    "estatisticas": {
+      "hp": 40,
+      "atk": 30,
+      "def": 50,
+      "sp_atk": 55,
+      "sp_def": 55,
+      "speed": 100
+    },
+    "evolucao": {
+      "proximo": "Electrode",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 101,
+    "nome": "Electrode",
+    "tipos": [
+      "Electric"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/electrode.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/electrode.png",
+    "estatisticas": {
+      "hp": 60,
+      "atk": 50,
+      "def": 70,
+      "sp_atk": 80,
+      "sp_def": 80,
+      "speed": 150
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 102,
+    "nome": "Exeggcute",
+    "tipos": [
+      "Grass",
+      "Psychic"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/exeggcute.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/exeggcute.png",
+    "estatisticas": {
+      "hp": 60,
+      "atk": 40,
+      "def": 80,
+      "sp_atk": 60,
+      "sp_def": 45,
+      "speed": 40
+    },
+    "evolucao": {
+      "proximo": "Exeggutor",
+      "condicao": "use-item"
+    }
+  },
+  {
+    "id": 103,
+    "nome": "Exeggutor",
+    "tipos": [
+      "Grass",
+      "Psychic"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/exeggutor.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/exeggutor.png",
+    "estatisticas": {
+      "hp": 95,
+      "atk": 95,
+      "def": 85,
+      "sp_atk": 125,
+      "sp_def": 75,
+      "speed": 55
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 104,
+    "nome": "Cubone",
+    "tipos": [
+      "Ground"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/cubone.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/cubone.png",
+    "estatisticas": {
+      "hp": 50,
+      "atk": 50,
+      "def": 95,
+      "sp_atk": 40,
+      "sp_def": 50,
+      "speed": 35
+    },
+    "evolucao": {
+      "proximo": "Marowak",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 105,
+    "nome": "Marowak",
+    "tipos": [
+      "Ground"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/marowak.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/marowak.png",
+    "estatisticas": {
+      "hp": 60,
+      "atk": 80,
+      "def": 110,
+      "sp_atk": 50,
+      "sp_def": 80,
+      "speed": 45
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 106,
+    "nome": "Hitmonlee",
+    "tipos": [
+      "Fighting"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/hitmonlee.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/hitmonlee.png",
+    "estatisticas": {
+      "hp": 50,
+      "atk": 120,
+      "def": 53,
+      "sp_atk": 35,
+      "sp_def": 110,
+      "speed": 87
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 107,
+    "nome": "Hitmonchan",
+    "tipos": [
+      "Fighting"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/hitmonchan.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/hitmonchan.png",
+    "estatisticas": {
+      "hp": 50,
+      "atk": 105,
+      "def": 79,
+      "sp_atk": 35,
+      "sp_def": 110,
+      "speed": 76
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 108,
+    "nome": "Lickitung",
+    "tipos": [
+      "Normal"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/lickitung.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/lickitung.png",
+    "estatisticas": {
+      "hp": 90,
+      "atk": 55,
+      "def": 75,
+      "sp_atk": 60,
+      "sp_def": 75,
+      "speed": 30
+    },
+    "evolucao": {
+      "proximo": "Lickilicky",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 109,
+    "nome": "Koffing",
+    "tipos": [
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/koffing.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/koffing.png",
+    "estatisticas": {
+      "hp": 40,
+      "atk": 65,
+      "def": 95,
+      "sp_atk": 60,
+      "sp_def": 45,
+      "speed": 35
+    },
+    "evolucao": {
+      "proximo": "Weezing",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 110,
+    "nome": "Weezing",
+    "tipos": [
+      "Poison"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/weezing.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/weezing.png",
+    "estatisticas": {
+      "hp": 65,
+      "atk": 90,
+      "def": 120,
+      "sp_atk": 85,
+      "sp_def": 70,
+      "speed": 60
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 111,
+    "nome": "Rhyhorn",
+    "tipos": [
+      "Ground",
+      "Rock"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/rhyhorn.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/rhyhorn.png",
+    "estatisticas": {
+      "hp": 80,
+      "atk": 85,
+      "def": 95,
+      "sp_atk": 30,
+      "sp_def": 30,
+      "speed": 25
+    },
+    "evolucao": {
+      "proximo": "Rhydon",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 112,
+    "nome": "Rhydon",
+    "tipos": [
+      "Ground",
+      "Rock"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/rhydon.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/rhydon.png",
+    "estatisticas": {
+      "hp": 105,
+      "atk": 130,
+      "def": 120,
+      "sp_atk": 45,
+      "sp_def": 45,
+      "speed": 40
+    },
+    "evolucao": {
+      "proximo": "Rhyperior",
+      "condicao": "trade"
+    }
+  },
+  {
+    "id": 113,
+    "nome": "Chansey",
+    "tipos": [
+      "Normal"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/chansey.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/chansey.png",
+    "estatisticas": {
+      "hp": 250,
+      "atk": 5,
+      "def": 5,
+      "sp_atk": 35,
+      "sp_def": 105,
+      "speed": 50
+    },
+    "evolucao": {
+      "proximo": "Blissey",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 114,
+    "nome": "Tangela",
+    "tipos": [
+      "Grass"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/tangela.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/tangela.png",
+    "estatisticas": {
+      "hp": 65,
+      "atk": 55,
+      "def": 115,
+      "sp_atk": 100,
+      "sp_def": 40,
+      "speed": 60
+    },
+    "evolucao": {
+      "proximo": "Tangrowth",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 115,
+    "nome": "Kangaskhan",
+    "tipos": [
+      "Normal"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/kangaskhan.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/kangaskhan.png",
+    "estatisticas": {
+      "hp": 105,
+      "atk": 95,
+      "def": 80,
+      "sp_atk": 40,
+      "sp_def": 80,
+      "speed": 90
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 116,
+    "nome": "Horsea",
+    "tipos": [
+      "Water"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/horsea.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/horsea.png",
+    "estatisticas": {
+      "hp": 30,
+      "atk": 40,
+      "def": 70,
+      "sp_atk": 70,
+      "sp_def": 25,
+      "speed": 60
+    },
+    "evolucao": {
+      "proximo": "Seadra",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 117,
+    "nome": "Seadra",
+    "tipos": [
+      "Water"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/seadra.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/seadra.png",
+    "estatisticas": {
+      "hp": 55,
+      "atk": 65,
+      "def": 95,
+      "sp_atk": 95,
+      "sp_def": 45,
+      "speed": 85
+    },
+    "evolucao": {
+      "proximo": "Kingdra",
+      "condicao": "trade"
+    }
+  },
+  {
+    "id": 118,
+    "nome": "Goldeen",
+    "tipos": [
+      "Water"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/goldeen.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/goldeen.png",
+    "estatisticas": {
+      "hp": 45,
+      "atk": 67,
+      "def": 60,
+      "sp_atk": 35,
+      "sp_def": 50,
+      "speed": 63
+    },
+    "evolucao": {
+      "proximo": "Seaking",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 119,
+    "nome": "Seaking",
+    "tipos": [
+      "Water"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/seaking.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/seaking.png",
+    "estatisticas": {
+      "hp": 80,
+      "atk": 92,
+      "def": 65,
+      "sp_atk": 65,
+      "sp_def": 80,
+      "speed": 68
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 120,
+    "nome": "Staryu",
+    "tipos": [
+      "Water"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/staryu.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/staryu.png",
+    "estatisticas": {
+      "hp": 30,
+      "atk": 45,
+      "def": 55,
+      "sp_atk": 70,
+      "sp_def": 55,
+      "speed": 85
+    },
+    "evolucao": {
+      "proximo": "Starmie",
+      "condicao": "use-item"
+    }
+  },
+  {
+    "id": 121,
+    "nome": "Starmie",
+    "tipos": [
+      "Water",
+      "Psychic"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/starmie.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/starmie.png",
+    "estatisticas": {
+      "hp": 60,
+      "atk": 75,
+      "def": 85,
+      "sp_atk": 100,
+      "sp_def": 85,
+      "speed": 115
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 122,
+    "nome": "Mr-mime",
+    "tipos": [
+      "Psychic",
+      "Fairy"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/mr-mime.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/mr-mime.png",
+    "estatisticas": {
+      "hp": 40,
+      "atk": 45,
+      "def": 65,
+      "sp_atk": 100,
+      "sp_def": 120,
+      "speed": 90
+    },
+    "evolucao": {
+      "proximo": "Mr-rime",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 123,
+    "nome": "Scyther",
+    "tipos": [
+      "Bug",
+      "Flying"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/scyther.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/scyther.png",
+    "estatisticas": {
+      "hp": 70,
+      "atk": 110,
+      "def": 80,
+      "sp_atk": 55,
+      "sp_def": 80,
+      "speed": 105
+    },
+    "evolucao": {
+      "proximo": "Scizor",
+      "condicao": "trade"
+    }
+  },
+  {
+    "id": 124,
+    "nome": "Jynx",
+    "tipos": [
+      "Ice",
+      "Psychic"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/jynx.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/jynx.png",
+    "estatisticas": {
+      "hp": 65,
+      "atk": 50,
+      "def": 35,
+      "sp_atk": 115,
+      "sp_def": 95,
+      "speed": 95
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 125,
+    "nome": "Electabuzz",
+    "tipos": [
+      "Electric"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/electabuzz.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/electabuzz.png",
+    "estatisticas": {
+      "hp": 65,
+      "atk": 83,
+      "def": 57,
+      "sp_atk": 95,
+      "sp_def": 85,
+      "speed": 105
+    },
+    "evolucao": {
+      "proximo": "Electivire",
+      "condicao": "trade"
+    }
+  },
+  {
+    "id": 126,
+    "nome": "Magmar",
+    "tipos": [
+      "Fire"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/magmar.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/magmar.png",
+    "estatisticas": {
+      "hp": 65,
+      "atk": 95,
+      "def": 57,
+      "sp_atk": 100,
+      "sp_def": 85,
+      "speed": 93
+    },
+    "evolucao": {
+      "proximo": "Magmortar",
+      "condicao": "trade"
+    }
+  },
+  {
+    "id": 127,
+    "nome": "Pinsir",
+    "tipos": [
+      "Bug"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/pinsir.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/pinsir.png",
+    "estatisticas": {
+      "hp": 65,
+      "atk": 125,
+      "def": 100,
+      "sp_atk": 55,
+      "sp_def": 70,
+      "speed": 85
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 128,
+    "nome": "Tauros",
+    "tipos": [
+      "Normal"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/tauros.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/tauros.png",
+    "estatisticas": {
+      "hp": 75,
+      "atk": 100,
+      "def": 95,
+      "sp_atk": 40,
+      "sp_def": 70,
+      "speed": 110
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 129,
+    "nome": "Magikarp",
+    "tipos": [
+      "Water"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/magikarp.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/magikarp.png",
+    "estatisticas": {
+      "hp": 20,
+      "atk": 10,
+      "def": 55,
+      "sp_atk": 15,
+      "sp_def": 20,
+      "speed": 80
+    },
+    "evolucao": {
+      "proximo": "Gyarados",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 130,
+    "nome": "Gyarados",
+    "tipos": [
+      "Water",
+      "Flying"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/gyarados.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/gyarados.png",
+    "estatisticas": {
+      "hp": 95,
+      "atk": 125,
+      "def": 79,
+      "sp_atk": 60,
+      "sp_def": 100,
+      "speed": 81
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 131,
+    "nome": "Lapras",
+    "tipos": [
+      "Water",
+      "Ice"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/lapras.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/lapras.png",
+    "estatisticas": {
+      "hp": 130,
+      "atk": 85,
+      "def": 80,
+      "sp_atk": 85,
+      "sp_def": 95,
+      "speed": 60
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 132,
+    "nome": "Ditto",
+    "tipos": [
+      "Normal"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/ditto.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/ditto.png",
+    "estatisticas": {
+      "hp": 48,
+      "atk": 48,
+      "def": 48,
+      "sp_atk": 48,
+      "sp_def": 48,
+      "speed": 48
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 133,
+    "nome": "Eevee",
+    "tipos": [
+      "Normal"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/eevee.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/eevee.png",
+    "estatisticas": {
+      "hp": 55,
+      "atk": 55,
+      "def": 50,
+      "sp_atk": 45,
+      "sp_def": 65,
+      "speed": 55
+    },
+    "evolucao": {
+      "proximo": "Vaporeon",
+      "condicao": "use-item"
+    }
+  },
+  {
+    "id": 134,
+    "nome": "Vaporeon",
+    "tipos": [
+      "Water"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/vaporeon.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/vaporeon.png",
+    "estatisticas": {
+      "hp": 130,
+      "atk": 65,
+      "def": 60,
+      "sp_atk": 110,
+      "sp_def": 95,
+      "speed": 65
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 135,
+    "nome": "Jolteon",
+    "tipos": [
+      "Electric"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/jolteon.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/jolteon.png",
+    "estatisticas": {
+      "hp": 65,
+      "atk": 65,
+      "def": 60,
+      "sp_atk": 110,
+      "sp_def": 95,
+      "speed": 130
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 136,
+    "nome": "Flareon",
+    "tipos": [
+      "Fire"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/flareon.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/flareon.png",
+    "estatisticas": {
+      "hp": 65,
+      "atk": 130,
+      "def": 60,
+      "sp_atk": 95,
+      "sp_def": 110,
+      "speed": 65
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 137,
+    "nome": "Porygon",
+    "tipos": [
+      "Normal"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/porygon.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/porygon.png",
+    "estatisticas": {
+      "hp": 65,
+      "atk": 60,
+      "def": 70,
+      "sp_atk": 85,
+      "sp_def": 75,
+      "speed": 40
+    },
+    "evolucao": {
+      "proximo": "Porygon2",
+      "condicao": "trade"
+    }
+  },
+  {
+    "id": 138,
+    "nome": "Omanyte",
+    "tipos": [
+      "Rock",
+      "Water"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/omanyte.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/omanyte.png",
+    "estatisticas": {
+      "hp": 35,
+      "atk": 40,
+      "def": 100,
+      "sp_atk": 90,
+      "sp_def": 55,
+      "speed": 35
+    },
+    "evolucao": {
+      "proximo": "Omastar",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 139,
+    "nome": "Omastar",
+    "tipos": [
+      "Rock",
+      "Water"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/omastar.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/omastar.png",
+    "estatisticas": {
+      "hp": 70,
+      "atk": 60,
+      "def": 125,
+      "sp_atk": 115,
+      "sp_def": 70,
+      "speed": 55
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 140,
+    "nome": "Kabuto",
+    "tipos": [
+      "Rock",
+      "Water"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/kabuto.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/kabuto.png",
+    "estatisticas": {
+      "hp": 30,
+      "atk": 80,
+      "def": 90,
+      "sp_atk": 55,
+      "sp_def": 45,
+      "speed": 55
+    },
+    "evolucao": {
+      "proximo": "Kabutops",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 141,
+    "nome": "Kabutops",
+    "tipos": [
+      "Rock",
+      "Water"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/kabutops.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/kabutops.png",
+    "estatisticas": {
+      "hp": 60,
+      "atk": 115,
+      "def": 105,
+      "sp_atk": 65,
+      "sp_def": 70,
+      "speed": 80
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 142,
+    "nome": "Aerodactyl",
+    "tipos": [
+      "Rock",
+      "Flying"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/aerodactyl.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/aerodactyl.png",
+    "estatisticas": {
+      "hp": 80,
+      "atk": 105,
+      "def": 65,
+      "sp_atk": 60,
+      "sp_def": 75,
+      "speed": 130
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 143,
+    "nome": "Snorlax",
+    "tipos": [
+      "Normal"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/snorlax.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/snorlax.png",
+    "estatisticas": {
+      "hp": 160,
+      "atk": 110,
+      "def": 65,
+      "sp_atk": 65,
+      "sp_def": 110,
+      "speed": 30
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 144,
+    "nome": "Articuno",
+    "tipos": [
+      "Ice",
+      "Flying"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/articuno.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/articuno.png",
+    "estatisticas": {
+      "hp": 90,
+      "atk": 85,
+      "def": 100,
+      "sp_atk": 95,
+      "sp_def": 125,
+      "speed": 85
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 145,
+    "nome": "Zapdos",
+    "tipos": [
+      "Electric",
+      "Flying"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/zapdos.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/zapdos.png",
+    "estatisticas": {
+      "hp": 90,
+      "atk": 90,
+      "def": 85,
+      "sp_atk": 125,
+      "sp_def": 90,
+      "speed": 100
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 146,
+    "nome": "Moltres",
+    "tipos": [
+      "Fire",
+      "Flying"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/moltres.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/moltres.png",
+    "estatisticas": {
+      "hp": 90,
+      "atk": 100,
+      "def": 90,
+      "sp_atk": 125,
+      "sp_def": 85,
+      "speed": 90
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 147,
+    "nome": "Dratini",
+    "tipos": [
+      "Dragon"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/dratini.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/dratini.png",
+    "estatisticas": {
+      "hp": 41,
+      "atk": 64,
+      "def": 45,
+      "sp_atk": 50,
+      "sp_def": 50,
+      "speed": 50
+    },
+    "evolucao": {
+      "proximo": "Dragonair",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 148,
+    "nome": "Dragonair",
+    "tipos": [
+      "Dragon"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/dragonair.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/dragonair.png",
+    "estatisticas": {
+      "hp": 61,
+      "atk": 84,
+      "def": 65,
+      "sp_atk": 70,
+      "sp_def": 70,
+      "speed": 70
+    },
+    "evolucao": {
+      "proximo": "Dragonite",
+      "condicao": "level-up"
+    }
+  },
+  {
+    "id": 149,
+    "nome": "Dragonite",
+    "tipos": [
+      "Dragon",
+      "Flying"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/dragonite.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/dragonite.png",
+    "estatisticas": {
+      "hp": 91,
+      "atk": 134,
+      "def": 95,
+      "sp_atk": 100,
+      "sp_def": 100,
+      "speed": 80
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 150,
+    "nome": "Mewtwo",
+    "tipos": [
+      "Psychic"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/mewtwo.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/mewtwo.png",
+    "estatisticas": {
+      "hp": 106,
+      "atk": 110,
+      "def": 90,
+      "sp_atk": 154,
+      "sp_def": 90,
+      "speed": 130
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  },
+  {
+    "id": 151,
+    "nome": "Mew",
+    "tipos": [
+      "Psychic"
+    ],
+    "geracao": 1,
+    "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/mew.png",
+    "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/mew.png",
+    "estatisticas": {
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "sp_atk": 100,
+      "sp_def": 100,
+      "speed": 100
+    },
+    "evolucao": {
+      "proximo": null,
+      "condicao": "nenhuma"
+    }
+  }
+]
