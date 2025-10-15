@@ -54,7 +54,6 @@
       object-fit: contain;
     }
 
-    /* POPUP */
     .popup {
       display: none;
       position: fixed;
@@ -70,7 +69,7 @@
       background: white;
       border-radius: 15px;
       padding: 25px;
-      max-width: 450px;
+      max-width: 500px;
       width: 90%;
       text-align: center;
       box-shadow: 0 4px 10px rgba(0,0,0,0.4);
@@ -110,6 +109,33 @@
       margin: 10px;
     }
 
+    table.stats {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    table.stats th, table.stats td {
+      border: 1px solid #ddd;
+      padding: 6px;
+      text-align: center;
+    }
+
+    table.stats th {
+      background-color: #ef5350;
+      color: white;
+    }
+
+    .evolution {
+      margin-top: 15px;
+      font-size: 16px;
+    }
+
+    .evolution span {
+      font-weight: bold;
+      color: #ef5350;
+    }
+
     @media (max-width: 1200px) {
       #pokemonContainer {
         grid-template-columns: repeat(5, 1fr);
@@ -122,7 +148,6 @@
 
   <section id="pokemonContainer"></section>
 
-  <!-- POPUP -->
   <div id="popup" class="popup">
     <div class="popupContent">
       <button class="closeBtn" onclick="closePopup()">×</button>
@@ -131,6 +156,15 @@
         <img id="spriteNormal" alt="Normal">
         <img id="spriteShiny" alt="Shiny">
       </div>
+      <table class="stats" id="statsTable">
+        <thead>
+          <tr>
+            <th>HP</th><th>ATK</th><th>DEF</th><th>SP.ATK</th><th>SP.DEF</th><th>SPEED</th>
+          </tr>
+        </thead>
+        <tbody id="statsBody"></tbody>
+      </table>
+      <div class="evolution" id="evolutionInfo"></div>
     </div>
   </div>
 
@@ -140,10 +174,11 @@
     const popupTitle = document.getElementById("popupTitle");
     const spriteNormal = document.getElementById("spriteNormal");
     const spriteShiny = document.getElementById("spriteShiny");
+    const statsBody = document.getElementById("statsBody");
+    const evolutionInfo = document.getElementById("evolutionInfo");
 
     let pokemons = [];
 
-    // Carrega o kanto.json (deve estar na mesma pasta)
     async function loadPokemons() {
       const response = await fetch("kanto.json");
       pokemons = await response.json();
@@ -165,6 +200,30 @@
       popupTitle.textContent = `#${String(p.id).padStart(3, '0')} ${p.nome}`;
       spriteNormal.src = p.sprite_normal;
       spriteShiny.src = p.sprite_shiny;
+
+      // Estatísticas
+      const s = p.estatisticas;
+      statsBody.innerHTML = `
+        <tr>
+          <td>${s.hp}</td>
+          <td>${s.atk}</td>
+          <td>${s.def}</td>
+          <td>${s.sp_atk}</td>
+          <td>${s.sp_def}</td>
+          <td>${s.speed}</td>
+        </tr>
+      `;
+
+      // Evolução
+      if (p.evolucao && p.evolucao.proximo) {
+        evolutionInfo.innerHTML = `
+          Evolui para: <span>${p.evolucao.proximo}</span><br>
+          Condição: ${p.evolucao.condicao}
+        `;
+      } else {
+        evolutionInfo.innerHTML = `<i>Não possui evolução.</i>`;
+      }
+
       popup.style.display = "flex";
     }
 
