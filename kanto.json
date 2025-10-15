@@ -9,6 +9,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/bulbasaur.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/bulbasaur.png",
+    "formas": [],
     "estatisticas": {
       "hp": 45,
       "atk": 49,
@@ -32,6 +33,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/ivysaur.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/ivysaur.png",
+    "formas": [],
     "estatisticas": {
       "hp": 60,
       "atk": 62,
@@ -55,6 +57,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/venusaur.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/venusaur.png",
+    "formas": [],
     "estatisticas": {
       "hp": 80,
       "atk": 82,
@@ -77,6 +80,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/charmander.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/charmander.png",
+    "formas": [],
     "estatisticas": {
       "hp": 39,
       "atk": 52,
@@ -99,6 +103,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/charmeleon.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/charmeleon.png",
+    "formas": [],
     "estatisticas": {
       "hp": 58,
       "atk": 64,
@@ -122,6 +127,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/charizard.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/charizard.png",
+    "formas": [],
     "estatisticas": {
       "hp": 78,
       "atk": 84,
@@ -144,6 +150,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/squirtle.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/squirtle.png",
+    "formas": [],
     "estatisticas": {
       "hp": 44,
       "atk": 48,
@@ -166,6 +173,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/wartortle.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/wartortle.png",
+    "formas": [],
     "estatisticas": {
       "hp": 59,
       "atk": 63,
@@ -188,6 +196,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/blastoise.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/blastoise.png",
+    "formas": [],
     "estatisticas": {
       "hp": 79,
       "atk": 83,
@@ -210,6 +219,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/caterpie.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/caterpie.png",
+    "formas": [],
     "estatisticas": {
       "hp": 45,
       "atk": 30,
@@ -232,6 +242,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/metapod.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/metapod.png",
+    "formas": [],
     "estatisticas": {
       "hp": 50,
       "atk": 20,
@@ -255,6 +266,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/butterfree.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/butterfree.png",
+    "formas": [],
     "estatisticas": {
       "hp": 60,
       "atk": 45,
@@ -278,6 +290,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/weedle.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/weedle.png",
+    "formas": [],
     "estatisticas": {
       "hp": 40,
       "atk": 35,
@@ -301,6 +314,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/kakuna.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/kakuna.png",
+    "formas": [],
     "estatisticas": {
       "hp": 45,
       "atk": 25,
@@ -324,6 +338,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/beedrill.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/beedrill.png",
+    "formas": [],
     "estatisticas": {
       "hp": 65,
       "atk": 90,
@@ -347,6 +362,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/pidgey.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/pidgey.png",
+    "formas": [],
     "estatisticas": {
       "hp": 40,
       "atk": 45,
@@ -370,6 +386,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/pidgeotto.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/pidgeotto.png",
+    "formas": [],
     "estatisticas": {
       "hp": 63,
       "atk": 60,
@@ -393,6 +410,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/pidgeot.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/pidgeot.png",
+    "formas": [],
     "estatisticas": {
       "hp": 83,
       "atk": 80,
@@ -415,6 +433,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/rattata.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/rattata.png",
+    "formas": [],
     "estatisticas": {
       "hp": 30,
       "atk": 56,
@@ -437,6 +456,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/raticate.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/raticate.png",
+    "formas": [],
     "estatisticas": {
       "hp": 55,
       "atk": 81,
@@ -460,6 +480,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/spearow.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/spearow.png",
+    "formas": [],
     "estatisticas": {
       "hp": 40,
       "atk": 60,
@@ -483,6 +504,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/fearow.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/fearow.png",
+    "formas": [],
     "estatisticas": {
       "hp": 65,
       "atk": 90,
@@ -505,6 +527,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/ekans.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/ekans.png",
+    "formas": [],
     "estatisticas": {
       "hp": 35,
       "atk": 60,
@@ -527,6 +550,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/arbok.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/arbok.png",
+    "formas": [],
     "estatisticas": {
       "hp": 60,
       "atk": 95,
@@ -549,6 +573,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/pikachu.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu.png",
+    "formas": [],
     "estatisticas": {
       "hp": 35,
       "atk": 55,
@@ -571,6 +596,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/raichu.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/raichu.png",
+    "formas": [],
     "estatisticas": {
       "hp": 60,
       "atk": 90,
@@ -593,6 +619,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/sandshrew.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/sandshrew.png",
+    "formas": [],
     "estatisticas": {
       "hp": 50,
       "atk": 75,
@@ -615,6 +642,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/sandslash.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/sandslash.png",
+    "formas": [],
     "estatisticas": {
       "hp": 75,
       "atk": 100,
@@ -637,6 +665,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/nidoran-f.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/nidoran-f.png",
+    "formas": [],
     "estatisticas": {
       "hp": 55,
       "atk": 47,
@@ -659,6 +688,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/nidorina.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/nidorina.png",
+    "formas": [],
     "estatisticas": {
       "hp": 70,
       "atk": 62,
@@ -682,6 +712,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/nidoqueen.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/nidoqueen.png",
+    "formas": [],
     "estatisticas": {
       "hp": 90,
       "atk": 92,
@@ -704,6 +735,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/nidoran-m.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/nidoran-m.png",
+    "formas": [],
     "estatisticas": {
       "hp": 46,
       "atk": 57,
@@ -726,6 +758,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/nidorino.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/nidorino.png",
+    "formas": [],
     "estatisticas": {
       "hp": 61,
       "atk": 72,
@@ -749,6 +782,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/nidoking.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/nidoking.png",
+    "formas": [],
     "estatisticas": {
       "hp": 81,
       "atk": 102,
@@ -771,6 +805,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/clefairy.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/clefairy.png",
+    "formas": [],
     "estatisticas": {
       "hp": 70,
       "atk": 45,
@@ -793,6 +828,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/clefable.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/clefable.png",
+    "formas": [],
     "estatisticas": {
       "hp": 95,
       "atk": 70,
@@ -815,6 +851,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/vulpix.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/vulpix.png",
+    "formas": [],
     "estatisticas": {
       "hp": 38,
       "atk": 41,
@@ -837,6 +874,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/ninetales.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/ninetales.png",
+    "formas": [],
     "estatisticas": {
       "hp": 73,
       "atk": 76,
@@ -860,6 +898,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/jigglypuff.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/jigglypuff.png",
+    "formas": [],
     "estatisticas": {
       "hp": 115,
       "atk": 45,
@@ -883,6 +922,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/wigglytuff.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/wigglytuff.png",
+    "formas": [],
     "estatisticas": {
       "hp": 140,
       "atk": 70,
@@ -906,6 +946,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/zubat.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/zubat.png",
+    "formas": [],
     "estatisticas": {
       "hp": 40,
       "atk": 45,
@@ -929,6 +970,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/golbat.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/golbat.png",
+    "formas": [],
     "estatisticas": {
       "hp": 75,
       "atk": 80,
@@ -952,6 +994,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/oddish.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/oddish.png",
+    "formas": [],
     "estatisticas": {
       "hp": 45,
       "atk": 50,
@@ -975,6 +1018,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/gloom.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/gloom.png",
+    "formas": [],
     "estatisticas": {
       "hp": 60,
       "atk": 65,
@@ -998,6 +1042,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/vileplume.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/vileplume.png",
+    "formas": [],
     "estatisticas": {
       "hp": 75,
       "atk": 80,
@@ -1021,6 +1066,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/paras.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/paras.png",
+    "formas": [],
     "estatisticas": {
       "hp": 35,
       "atk": 70,
@@ -1044,6 +1090,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/parasect.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/parasect.png",
+    "formas": [],
     "estatisticas": {
       "hp": 60,
       "atk": 95,
@@ -1067,6 +1114,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/venonat.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/venonat.png",
+    "formas": [],
     "estatisticas": {
       "hp": 60,
       "atk": 55,
@@ -1090,6 +1138,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/venomoth.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/venomoth.png",
+    "formas": [],
     "estatisticas": {
       "hp": 70,
       "atk": 65,
@@ -1112,6 +1161,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/diglett.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/diglett.png",
+    "formas": [],
     "estatisticas": {
       "hp": 10,
       "atk": 55,
@@ -1134,6 +1184,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/dugtrio.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/dugtrio.png",
+    "formas": [],
     "estatisticas": {
       "hp": 35,
       "atk": 100,
@@ -1156,6 +1207,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/meowth.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/meowth.png",
+    "formas": [],
     "estatisticas": {
       "hp": 40,
       "atk": 45,
@@ -1178,6 +1230,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/persian.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/persian.png",
+    "formas": [],
     "estatisticas": {
       "hp": 65,
       "atk": 70,
@@ -1200,6 +1253,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/psyduck.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/psyduck.png",
+    "formas": [],
     "estatisticas": {
       "hp": 50,
       "atk": 52,
@@ -1222,6 +1276,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/golduck.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/golduck.png",
+    "formas": [],
     "estatisticas": {
       "hp": 80,
       "atk": 82,
@@ -1244,6 +1299,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/mankey.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/mankey.png",
+    "formas": [],
     "estatisticas": {
       "hp": 40,
       "atk": 80,
@@ -1266,6 +1322,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/primeape.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/primeape.png",
+    "formas": [],
     "estatisticas": {
       "hp": 65,
       "atk": 105,
@@ -1288,6 +1345,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/growlithe.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/growlithe.png",
+    "formas": [],
     "estatisticas": {
       "hp": 55,
       "atk": 70,
@@ -1310,6 +1368,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/arcanine.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/arcanine.png",
+    "formas": [],
     "estatisticas": {
       "hp": 90,
       "atk": 110,
@@ -1332,6 +1391,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/poliwag.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/poliwag.png",
+    "formas": [],
     "estatisticas": {
       "hp": 40,
       "atk": 50,
@@ -1354,6 +1414,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/poliwhirl.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/poliwhirl.png",
+    "formas": [],
     "estatisticas": {
       "hp": 65,
       "atk": 65,
@@ -1377,6 +1438,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/poliwrath.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/poliwrath.png",
+    "formas": [],
     "estatisticas": {
       "hp": 90,
       "atk": 95,
@@ -1399,6 +1461,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/abra.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/abra.png",
+    "formas": [],
     "estatisticas": {
       "hp": 25,
       "atk": 20,
@@ -1421,6 +1484,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/kadabra.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/kadabra.png",
+    "formas": [],
     "estatisticas": {
       "hp": 40,
       "atk": 35,
@@ -1443,6 +1507,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/alakazam.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/alakazam.png",
+    "formas": [],
     "estatisticas": {
       "hp": 55,
       "atk": 50,
@@ -1465,6 +1530,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/machop.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/machop.png",
+    "formas": [],
     "estatisticas": {
       "hp": 70,
       "atk": 80,
@@ -1487,6 +1553,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/machoke.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/machoke.png",
+    "formas": [],
     "estatisticas": {
       "hp": 80,
       "atk": 100,
@@ -1509,6 +1576,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/machamp.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/machamp.png",
+    "formas": [],
     "estatisticas": {
       "hp": 90,
       "atk": 130,
@@ -1532,6 +1600,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/bellsprout.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/bellsprout.png",
+    "formas": [],
     "estatisticas": {
       "hp": 50,
       "atk": 75,
@@ -1555,6 +1624,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/weepinbell.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/weepinbell.png",
+    "formas": [],
     "estatisticas": {
       "hp": 65,
       "atk": 90,
@@ -1578,6 +1648,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/victreebel.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/victreebel.png",
+    "formas": [],
     "estatisticas": {
       "hp": 80,
       "atk": 105,
@@ -1601,6 +1672,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/tentacool.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/tentacool.png",
+    "formas": [],
     "estatisticas": {
       "hp": 40,
       "atk": 40,
@@ -1624,6 +1696,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/tentacruel.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/tentacruel.png",
+    "formas": [],
     "estatisticas": {
       "hp": 80,
       "atk": 70,
@@ -1647,6 +1720,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/geodude.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/geodude.png",
+    "formas": [],
     "estatisticas": {
       "hp": 40,
       "atk": 80,
@@ -1670,6 +1744,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/graveler.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/graveler.png",
+    "formas": [],
     "estatisticas": {
       "hp": 55,
       "atk": 95,
@@ -1693,6 +1768,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/golem.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/golem.png",
+    "formas": [],
     "estatisticas": {
       "hp": 80,
       "atk": 120,
@@ -1715,6 +1791,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/ponyta.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/ponyta.png",
+    "formas": [],
     "estatisticas": {
       "hp": 50,
       "atk": 85,
@@ -1737,6 +1814,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/rapidash.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/rapidash.png",
+    "formas": [],
     "estatisticas": {
       "hp": 65,
       "atk": 100,
@@ -1760,6 +1838,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/slowpoke.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/slowpoke.png",
+    "formas": [],
     "estatisticas": {
       "hp": 90,
       "atk": 65,
@@ -1783,6 +1862,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/slowbro.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/slowbro.png",
+    "formas": [],
     "estatisticas": {
       "hp": 95,
       "atk": 75,
@@ -1806,6 +1886,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/magnemite.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/magnemite.png",
+    "formas": [],
     "estatisticas": {
       "hp": 25,
       "atk": 35,
@@ -1829,6 +1910,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/magneton.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/magneton.png",
+    "formas": [],
     "estatisticas": {
       "hp": 50,
       "atk": 60,
@@ -1852,6 +1934,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/farfetchd.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/farfetchd.png",
+    "formas": [],
     "estatisticas": {
       "hp": 52,
       "atk": 90,
@@ -1875,6 +1958,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/doduo.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/doduo.png",
+    "formas": [],
     "estatisticas": {
       "hp": 35,
       "atk": 85,
@@ -1898,6 +1982,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/dodrio.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/dodrio.png",
+    "formas": [],
     "estatisticas": {
       "hp": 60,
       "atk": 110,
@@ -1920,6 +2005,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/seel.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/seel.png",
+    "formas": [],
     "estatisticas": {
       "hp": 65,
       "atk": 45,
@@ -1943,6 +2029,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/dewgong.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/dewgong.png",
+    "formas": [],
     "estatisticas": {
       "hp": 90,
       "atk": 70,
@@ -1965,6 +2052,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/grimer.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/grimer.png",
+    "formas": [],
     "estatisticas": {
       "hp": 80,
       "atk": 80,
@@ -1987,6 +2075,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/muk.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/muk.png",
+    "formas": [],
     "estatisticas": {
       "hp": 105,
       "atk": 105,
@@ -2009,6 +2098,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/shellder.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/shellder.png",
+    "formas": [],
     "estatisticas": {
       "hp": 30,
       "atk": 65,
@@ -2032,6 +2122,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/cloyster.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/cloyster.png",
+    "formas": [],
     "estatisticas": {
       "hp": 50,
       "atk": 95,
@@ -2055,6 +2146,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/gastly.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/gastly.png",
+    "formas": [],
     "estatisticas": {
       "hp": 30,
       "atk": 35,
@@ -2078,6 +2170,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/haunter.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/haunter.png",
+    "formas": [],
     "estatisticas": {
       "hp": 45,
       "atk": 50,
@@ -2101,6 +2194,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/gengar.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/gengar.png",
+    "formas": [],
     "estatisticas": {
       "hp": 60,
       "atk": 65,
@@ -2124,6 +2218,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/onix.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/onix.png",
+    "formas": [],
     "estatisticas": {
       "hp": 35,
       "atk": 45,
@@ -2146,6 +2241,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/drowzee.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/drowzee.png",
+    "formas": [],
     "estatisticas": {
       "hp": 60,
       "atk": 48,
@@ -2168,6 +2264,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/hypno.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/hypno.png",
+    "formas": [],
     "estatisticas": {
       "hp": 85,
       "atk": 73,
@@ -2190,6 +2287,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/krabby.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/krabby.png",
+    "formas": [],
     "estatisticas": {
       "hp": 30,
       "atk": 105,
@@ -2212,6 +2310,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/kingler.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/kingler.png",
+    "formas": [],
     "estatisticas": {
       "hp": 55,
       "atk": 130,
@@ -2234,6 +2333,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/voltorb.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/voltorb.png",
+    "formas": [],
     "estatisticas": {
       "hp": 40,
       "atk": 30,
@@ -2256,6 +2356,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/electrode.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/electrode.png",
+    "formas": [],
     "estatisticas": {
       "hp": 60,
       "atk": 50,
@@ -2279,6 +2380,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/exeggcute.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/exeggcute.png",
+    "formas": [],
     "estatisticas": {
       "hp": 60,
       "atk": 40,
@@ -2302,6 +2404,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/exeggutor.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/exeggutor.png",
+    "formas": [],
     "estatisticas": {
       "hp": 95,
       "atk": 95,
@@ -2324,6 +2427,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/cubone.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/cubone.png",
+    "formas": [],
     "estatisticas": {
       "hp": 50,
       "atk": 50,
@@ -2346,6 +2450,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/marowak.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/marowak.png",
+    "formas": [],
     "estatisticas": {
       "hp": 60,
       "atk": 80,
@@ -2368,6 +2473,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/hitmonlee.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/hitmonlee.png",
+    "formas": [],
     "estatisticas": {
       "hp": 50,
       "atk": 120,
@@ -2390,6 +2496,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/hitmonchan.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/hitmonchan.png",
+    "formas": [],
     "estatisticas": {
       "hp": 50,
       "atk": 105,
@@ -2412,6 +2519,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/lickitung.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/lickitung.png",
+    "formas": [],
     "estatisticas": {
       "hp": 90,
       "atk": 55,
@@ -2434,6 +2542,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/koffing.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/koffing.png",
+    "formas": [],
     "estatisticas": {
       "hp": 40,
       "atk": 65,
@@ -2456,6 +2565,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/weezing.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/weezing.png",
+    "formas": [],
     "estatisticas": {
       "hp": 65,
       "atk": 90,
@@ -2479,6 +2589,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/rhyhorn.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/rhyhorn.png",
+    "formas": [],
     "estatisticas": {
       "hp": 80,
       "atk": 85,
@@ -2502,6 +2613,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/rhydon.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/rhydon.png",
+    "formas": [],
     "estatisticas": {
       "hp": 105,
       "atk": 130,
@@ -2524,6 +2636,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/chansey.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/chansey.png",
+    "formas": [],
     "estatisticas": {
       "hp": 250,
       "atk": 5,
@@ -2546,6 +2659,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/tangela.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/tangela.png",
+    "formas": [],
     "estatisticas": {
       "hp": 65,
       "atk": 55,
@@ -2568,6 +2682,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/kangaskhan.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/kangaskhan.png",
+    "formas": [],
     "estatisticas": {
       "hp": 105,
       "atk": 95,
@@ -2590,6 +2705,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/horsea.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/horsea.png",
+    "formas": [],
     "estatisticas": {
       "hp": 30,
       "atk": 40,
@@ -2612,6 +2728,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/seadra.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/seadra.png",
+    "formas": [],
     "estatisticas": {
       "hp": 55,
       "atk": 65,
@@ -2634,6 +2751,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/goldeen.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/goldeen.png",
+    "formas": [],
     "estatisticas": {
       "hp": 45,
       "atk": 67,
@@ -2656,6 +2774,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/seaking.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/seaking.png",
+    "formas": [],
     "estatisticas": {
       "hp": 80,
       "atk": 92,
@@ -2678,6 +2797,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/staryu.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/staryu.png",
+    "formas": [],
     "estatisticas": {
       "hp": 30,
       "atk": 45,
@@ -2701,6 +2821,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/starmie.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/starmie.png",
+    "formas": [],
     "estatisticas": {
       "hp": 60,
       "atk": 75,
@@ -2724,6 +2845,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/mr-mime.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/mr-mime.png",
+    "formas": [],
     "estatisticas": {
       "hp": 40,
       "atk": 45,
@@ -2747,6 +2869,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/scyther.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/scyther.png",
+    "formas": [],
     "estatisticas": {
       "hp": 70,
       "atk": 110,
@@ -2770,6 +2893,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/jynx.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/jynx.png",
+    "formas": [],
     "estatisticas": {
       "hp": 65,
       "atk": 50,
@@ -2792,6 +2916,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/electabuzz.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/electabuzz.png",
+    "formas": [],
     "estatisticas": {
       "hp": 65,
       "atk": 83,
@@ -2814,6 +2939,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/magmar.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/magmar.png",
+    "formas": [],
     "estatisticas": {
       "hp": 65,
       "atk": 95,
@@ -2836,6 +2962,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/pinsir.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/pinsir.png",
+    "formas": [],
     "estatisticas": {
       "hp": 65,
       "atk": 125,
@@ -2858,6 +2985,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/tauros.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/tauros.png",
+    "formas": [],
     "estatisticas": {
       "hp": 75,
       "atk": 100,
@@ -2880,6 +3008,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/magikarp.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/magikarp.png",
+    "formas": [],
     "estatisticas": {
       "hp": 20,
       "atk": 10,
@@ -2903,6 +3032,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/gyarados.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/gyarados.png",
+    "formas": [],
     "estatisticas": {
       "hp": 95,
       "atk": 125,
@@ -2926,6 +3056,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/lapras.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/lapras.png",
+    "formas": [],
     "estatisticas": {
       "hp": 130,
       "atk": 85,
@@ -2948,6 +3079,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/ditto.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/ditto.png",
+    "formas": [],
     "estatisticas": {
       "hp": 48,
       "atk": 48,
@@ -2970,6 +3102,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/eevee.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/eevee.png",
+    "formas": [],
     "estatisticas": {
       "hp": 55,
       "atk": 55,
@@ -2992,6 +3125,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/vaporeon.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/vaporeon.png",
+    "formas": [],
     "estatisticas": {
       "hp": 130,
       "atk": 65,
@@ -3014,6 +3148,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/jolteon.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/jolteon.png",
+    "formas": [],
     "estatisticas": {
       "hp": 65,
       "atk": 65,
@@ -3036,6 +3171,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/flareon.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/flareon.png",
+    "formas": [],
     "estatisticas": {
       "hp": 65,
       "atk": 130,
@@ -3058,6 +3194,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/porygon.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/porygon.png",
+    "formas": [],
     "estatisticas": {
       "hp": 65,
       "atk": 60,
@@ -3081,6 +3218,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/omanyte.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/omanyte.png",
+    "formas": [],
     "estatisticas": {
       "hp": 35,
       "atk": 40,
@@ -3104,6 +3242,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/omastar.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/omastar.png",
+    "formas": [],
     "estatisticas": {
       "hp": 70,
       "atk": 60,
@@ -3127,6 +3266,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/kabuto.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/kabuto.png",
+    "formas": [],
     "estatisticas": {
       "hp": 30,
       "atk": 80,
@@ -3150,6 +3290,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/kabutops.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/kabutops.png",
+    "formas": [],
     "estatisticas": {
       "hp": 60,
       "atk": 115,
@@ -3173,6 +3314,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/aerodactyl.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/aerodactyl.png",
+    "formas": [],
     "estatisticas": {
       "hp": 80,
       "atk": 105,
@@ -3195,6 +3337,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/snorlax.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/snorlax.png",
+    "formas": [],
     "estatisticas": {
       "hp": 160,
       "atk": 110,
@@ -3218,6 +3361,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/articuno.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/articuno.png",
+    "formas": [],
     "estatisticas": {
       "hp": 90,
       "atk": 85,
@@ -3241,6 +3385,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/zapdos.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/zapdos.png",
+    "formas": [],
     "estatisticas": {
       "hp": 90,
       "atk": 90,
@@ -3264,6 +3409,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/moltres.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/moltres.png",
+    "formas": [],
     "estatisticas": {
       "hp": 90,
       "atk": 100,
@@ -3286,6 +3432,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/dratini.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/dratini.png",
+    "formas": [],
     "estatisticas": {
       "hp": 41,
       "atk": 64,
@@ -3308,6 +3455,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/dragonair.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/dragonair.png",
+    "formas": [],
     "estatisticas": {
       "hp": 61,
       "atk": 84,
@@ -3331,6 +3479,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/dragonite.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/dragonite.png",
+    "formas": [],
     "estatisticas": {
       "hp": 91,
       "atk": 134,
@@ -3353,6 +3502,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/mewtwo.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/mewtwo.png",
+    "formas": [],
     "estatisticas": {
       "hp": 106,
       "atk": 110,
@@ -3375,6 +3525,7 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/mew.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/mew.png",
+    "formas": [],
     "estatisticas": {
       "hp": 100,
       "atk": 100,
