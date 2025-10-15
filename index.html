@@ -3,17 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <title>POKEDEX</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
+    :root {
+      --red: #ef5350;
+      --red-dark: #d32f2f;
+      --red-deep: #8b0000;
+      --amber: #ffc107;
+      --card-bg: #ffffff;
+      --muted: #fafafa;
+      --border: #e5e7eb;
+      --text: #333;
+    }
+    * { box-sizing: border-box; }
     body {
       font-family: "Segoe UI", Arial, sans-serif;
       background-color: #f2f2f2;
       margin: 0;
       padding: 0;
       text-align: center;
+      color: var(--text);
     }
-
     header {
-      background-color: #ef5350;
+      background-color: var(--red);
       color: white;
       font-size: 40px;
       font-weight: bold;
@@ -22,14 +34,14 @@
       box-shadow: 0 2px 5px rgba(0,0,0,0.3);
     }
 
+    /* Tabs */
     .tabs {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-      background: #d32f2f;
+      background: var(--red-dark);
       box-shadow: 0 2px 4px rgba(0,0,0,0.25);
     }
-
     .tab {
       color: white;
       font-weight: 600;
@@ -38,21 +50,11 @@
       transition: background 0.2s;
       user-select: none;
     }
+    .tab:hover:not(.disabled) { background: #b71c1c; }
+    .tab.active { background: var(--red-deep); border-bottom: 3px solid var(--amber); }
+    .tab.disabled { opacity: 0.5; cursor: not-allowed; }
 
-    .tab:hover:not(.disabled) {
-      background: #b71c1c;
-    }
-
-    .tab.active {
-      background: #8b0000;
-      border-bottom: 3px solid #ffc107;
-    }
-
-    .tab.disabled {
-      opacity: 0.5;
-      cursor: not-allowed;
-    }
-
+    /* Grid principal */
     #pokemonContainer {
       display: grid;
       grid-template-columns: repeat(10, 1fr);
@@ -60,151 +62,130 @@
       justify-items: center;
       padding: 20px;
     }
-
     .pokemonCard {
-      background: white;
+      background: var(--card-bg);
       border-radius: 12px;
-      width: 100px;
-      height: 100px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      width: 100px; height: 100px;
+      display: flex; align-items: center; justify-content: center;
       box-shadow: 0 2px 5px rgba(0,0,0,0.15);
       transition: transform 0.2s, box-shadow 0.2s;
       cursor: pointer;
     }
+    .pokemonCard:hover { transform: scale(1.08); box-shadow: 0 4px 10px rgba(0,0,0,0.25); }
+    .pokemonCard img { width: 80px; height: 80px; object-fit: contain; }
 
-    .pokemonCard:hover {
-      transform: scale(1.08);
-      box-shadow: 0 4px 10px rgba(0,0,0,0.25);
-    }
-
-    .pokemonCard img {
-      width: 80px;
-      height: 80px;
-      object-fit: contain;
-    }
-
+    /* POPUP */
     .popup {
-      display: none;
-      position: fixed;
-      z-index: 1000;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      background: rgba(0,0,0,0.6);
-      justify-content: center;
-      align-items: center;
-      overflow-y: auto;
+      display: none; position: fixed; z-index: 1000;
+      inset: 0; background: rgba(0,0,0,0.6);
+      justify-content: center; align-items: center;
+      padding: 20px;
     }
-
     .popupContent {
-      background: white;
-      border-radius: 15px;
-      padding: 25px;
-      max-width: 650px;
-      width: 90%;
-      text-align: center;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      background: var(--card-bg);
+      border-radius: 16px;
+      width: min(980px, 96vw);
+      max-height: 92vh;                /* NÃO sai da tela */
+      display: flex; flex-direction: column;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.35);
       position: relative;
-      animation: fadeIn 0.2s ease-in;
+      animation: fadeIn 0.15s ease-in;
+      overflow: hidden;                 /* esconde o excesso; rolagem fica no corpo */
     }
+    @keyframes fadeIn { from { opacity: 0; transform: scale(0.97); } to { opacity: 1; transform: scale(1); } }
 
-    @keyframes fadeIn {
-      from { opacity: 0; transform: scale(0.9); }
-      to { opacity: 1; transform: scale(1); }
+    .popupHeader {
+      padding: 14px 56px 10px 20px;
+      border-bottom: 1px solid var(--border);
+      background: #fff;
+      position: sticky; top: 0; z-index: 2;  /* header fixo */
     }
-
+    .popupHeader h2 {
+      margin: 0; font-size: 22px; line-height: 1.2; color: #111;
+      text-align: left;
+    }
     .closeBtn {
-      position: absolute;
-      top: 10px; right: 10px;
-      background: #ef5350;
-      color: white;
-      border: none;
-      border-radius: 50%;
-      width: 30px;
-      height: 30px;
-      font-size: 18px;
-      cursor: pointer;
-      font-weight: bold;
-      line-height: 28px;
+      position: absolute; top: 10px; right: 10px;
+      background: var(--red); color: white; border: none;
+      border-radius: 50%; width: 34px; height: 34px;
+      font-size: 18px; cursor: pointer; font-weight: bold; line-height: 34px;
     }
 
-    .popup h2 {
-      margin-top: 10px;
-      font-size: 24px;
-      color: #333;
+    .popupBody {
+      padding: 16px;
+      overflow: auto;                    /* rolagem do conteúdo */
     }
 
-    .popup img {
-      width: 120px;
-      height: 120px;
-      margin: 8px;
+    /* Seção de Formas (grid fluido + rolagem própria quando gigante) */
+    .formsWrap {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--muted);
+      padding: 10px;
     }
-
-    .allForms {
+    .formsTitle {
+      text-align: left; font-weight: 700; margin: 2px 6px 10px;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .formsGrid {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 10px;
-      justify-items: center;
-      margin-top: 15px;
-      border-top: 1px solid #ddd;
-      padding-top: 10px;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 12px;
+      max-height: 50vh;                 /* MUITAS formas? vira scroll só aqui */
+      overflow: auto;
+      padding-right: 4px;
     }
-
     .formBox {
-      text-align: center;
-      font-size: 14px;
-      color: #555;
+      background: #fff; border: 1px solid var(--border); border-radius: 10px;
+      padding: 8px; display: flex; flex-direction: column; align-items: center; gap: 6px;
     }
+    .formBox b {
+      font-size: 12px; font-weight: 700; color: #444;
+      display: block; min-height: 30px; line-height: 1.2;
+    }
+    .formImgs { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; align-items: center; }
+    .formImgs img { width: 88px; height: 88px; object-fit: contain; }
 
+    /* Stats 3x3 (duas colunas) */
     .stats-box {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(2, minmax(220px, 1fr));
       gap: 10px;
-      background: #fafafa;
-      border-radius: 10px;
-      padding: 15px;
-      margin-top: 20px;
-      border: 1px solid #ddd;
+      background: var(--muted);
+      border-radius: 12px;
+      padding: 12px;
+      margin-top: 14px;
+      border: 1px solid var(--border);
     }
-
     .stat-item {
-      background: white;
-      border-radius: 8px;
-      padding: 8px;
-      font-size: 14px;
-      font-weight: bold;
-      color: #333;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-
-    .extra-info {
-      background: white;
+      background: #fff;
+      border: 1px solid var(--border);
       border-radius: 10px;
       padding: 10px;
-      margin-top: 15px;
-      border: 1px solid #ddd;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      font-size: 14px;
+      font-weight: 700;
+      color: #111;
+      display: flex; justify-content: space-between;
+    }
+
+    /* Caixa extra */
+    .extra-info {
+      background: #fff;
+      border-radius: 12px;
+      padding: 12px;
+      margin-top: 12px;
+      border: 1px solid var(--border);
       text-align: left;
       font-size: 15px;
       color: #333;
     }
-
-    .extra-info span {
-      font-weight: bold;
-      color: #ef5350;
-    }
+    .extra-info .row { margin: 6px 0; }
+    .extra-info .label { font-weight: 800; color: var(--red); margin-right: 6px; }
 
     .type-tag {
-      display: inline-block;
-      padding: 4px 8px;
-      border-radius: 6px;
-      color: white;
-      font-weight: bold;
-      font-size: 13px;
-      margin-right: 5px;
+      display: inline-block; padding: 4px 8px; border-radius: 6px;
+      color: white; font-weight: bold; font-size: 13px; margin-right: 5px;
     }
-
     /* Cores dos tipos */
     .type-Electric { background: #FFD700; color: #000; }
     .type-Fire { background: #F08030; }
@@ -225,9 +206,12 @@
     .type-Fairy { background: #EE99AC; }
 
     @media (max-width: 1200px) {
-      #pokemonContainer {
-        grid-template-columns: repeat(5, 1fr);
-      }
+      #pokemonContainer { grid-template-columns: repeat(5, 1fr); }
+      .formImgs img { width: 76px; height: 76px; }
+    }
+    @media (max-width: 640px) {
+      .formsGrid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+      .formImgs img { width: 72px; height: 72px; }
     }
   </style>
 </head>
@@ -251,13 +235,27 @@
   <div id="popup" class="popup">
     <div class="popupContent">
       <button class="closeBtn" onclick="closePopup()">×</button>
-      <h2 id="popupTitle"></h2>
 
-      <div class="allForms" id="formsContainer"></div>
+      <div class="popupHeader">
+        <h2 id="popupTitle"></h2>
+      </div>
 
-      <div class="stats-box" id="statsBox"></div>
+      <div class="popupBody">
+        <!-- FORMAS -->
+        <div class="formsWrap">
+          <div class="formsTitle">
+            <span>Formas Pokémon GO</span>
+            <span id="formsCount" style="font-weight:600; color:#666;"></span>
+          </div>
+          <div class="formsGrid" id="formsContainer"></div>
+        </div>
 
-      <div class="extra-info" id="extraInfo"></div>
+        <!-- STATS 3x3 -->
+        <div class="stats-box" id="statsBox"></div>
+
+        <!-- EXTRA -->
+        <div class="extra-info" id="extraInfo"></div>
+      </div>
     </div>
   </div>
 
@@ -266,12 +264,14 @@
     const popup = document.getElementById("popup");
     const popupTitle = document.getElementById("popupTitle");
     const formsContainer = document.getElementById("formsContainer");
+    const formsCount = document.getElementById("formsCount");
     const statsBox = document.getElementById("statsBox");
     const extraInfo = document.getElementById("extraInfo");
 
     async function loadPokemons(region) {
       try {
-        const response = await fetch(region + ".json");
+        // cache-buster pra evitar JSON velho
+        const response = await fetch(region + ".json?ver=" + Date.now());
         const pokemons = await response.json();
         renderPokemons(pokemons);
       } catch (e) {
@@ -290,61 +290,78 @@
       });
     }
 
+    function labelFromNome(nome) {
+      // já vem pronto no JSON ("Pikachu (World Cap)") — fallback só por segurança
+      return nome || "";
+    }
+
     function showPopup(p) {
       popupTitle.textContent = `#${String(p.id).padStart(3, '0')} ${p.nome}`;
       formsContainer.innerHTML = "";
       statsBox.innerHTML = "";
       extraInfo.innerHTML = "";
 
-      formsContainer.innerHTML += `
-        <div class="formBox">
-          <div><b>Normal</b></div>
-          <img src="${p.sprite_normal}" alt="normal">
-          <img src="${p.sprite_shiny}" alt="shiny">
-        </div>
-      `;
+      // Monta blocos de formas (inclui a base Normal/Shiny como primeiro card)
+      const allForms = [];
 
-      if (p.formas && p.formas.length > 0) {
-        p.formas.forEach(f => {
-          formsContainer.innerHTML += `
-            <div class="formBox">
-              <div><b>${f.nome}</b></div>
-              <img src="${f.normal}" alt="${f.nome} normal">
-              <img src="${f.shiny}" alt="${f.nome} shiny">
-            </div>
-          `;
-        });
+      // Forma base
+      allForms.push({
+        nome: `${p.nome} (Normal)`,
+        normal: p.sprite_normal,
+        shiny: p.sprite_shiny
+      });
+
+      // Demais (festivas / variantes)
+      if (Array.isArray(p.formas)) {
+        p.formas.forEach(f => allForms.push(f));
       }
 
-      const s = p.estatisticas;
+      formsCount.textContent = `• ${allForms.length} formas`;
+
+      // Render com grid fluido + scroll próprio
+      const frag = document.createDocumentFragment();
+      allForms.forEach(f => {
+        const box = document.createElement("div");
+        box.className = "formBox";
+        box.innerHTML = `
+          <b>${labelFromNome(f.nome)}</b>
+          <div class="formImgs">
+            <img src="${f.normal}" alt="${f.nome} normal" loading="lazy">
+            <img src="${f.shiny}" alt="${f.nome} shiny" loading="lazy">
+          </div>
+        `;
+        frag.appendChild(box);
+      });
+      formsContainer.appendChild(frag);
+
+      // Stats 3x3 (duas colunas)
+      const s = p.estatisticas || {};
       const statsHTML = `
-        <div class="stat-item">HP: ${s.hp}</div>
-        <div class="stat-item">SP.ATK: ${s.sp_atk}</div>
-        <div class="stat-item">ATK: ${s.atk}</div>
-        <div class="stat-item">SP.DEF: ${s.sp_def}</div>
-        <div class="stat-item">DEF: ${s.def}</div>
-        <div class="stat-item">SPEED: ${s.speed}</div>
+        <div class="stat-item"><span>HP</span><span>${s.hp ?? "-"}</span></div>
+        <div class="stat-item"><span>SP.ATK</span><span>${s.sp_atk ?? "-"}</span></div>
+        <div class="stat-item"><span>ATK</span><span>${s.atk ?? "-"}</span></div>
+        <div class="stat-item"><span>SP.DEF</span><span>${s.sp_def ?? "-"}</span></div>
+        <div class="stat-item"><span>DEF</span><span>${s.def ?? "-"}</span></div>
+        <div class="stat-item"><span>SPEED</span><span>${s.speed ?? "-"}</span></div>
       `;
       statsBox.innerHTML = statsHTML;
 
-      const tiposHTML = p.tipos.map(t => `<span class="type-tag type-${t}">${t}</span>`).join(" ");
-
+      // Extra info
+      const tiposHTML = (p.tipos || []).map(t => `<span class="type-tag type-${t}">${t}</span>`).join(" ");
       const evolucao = p.evolucao && p.evolucao.proximo
         ? `<span>${p.evolucao.proximo}</span>`
         : `<i>Não possui evolução.</i>`;
 
       extraInfo.innerHTML = `
-        <div><span>IV 100%:</span> CP 0000</div>
-        <div><span>Tipo:</span> ${tiposHTML}</div>
-        <div><span>Evolui para:</span> ${evolucao}</div>
+        <div class="row"><span class="label">IV 100%:</span> CP 0000</div>
+        <div class="row"><span class="label">Tipo:</span> ${tiposHTML}</div>
+        <div class="row"><span class="label">Evolui para:</span> ${evolucao}</div>
       `;
 
       popup.style.display = "flex";
     }
 
-    function closePopup() {
-      popup.style.display = "none";
-    }
+    function closePopup() { popup.style.display = "none"; }
 
     document.querySelectorAll(".tab").forEach(tab => {
       tab.addEventListener("click", () => {
@@ -355,6 +372,7 @@
       });
     });
 
+    // Carrega Kanto
     loadPokemons("kanto");
   </script>
 </body>
