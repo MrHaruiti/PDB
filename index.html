@@ -94,13 +94,14 @@
       background: rgba(0,0,0,0.6);
       justify-content: center;
       align-items: center;
+      overflow-y: auto;
     }
 
     .popupContent {
       background: white;
       border-radius: 15px;
       padding: 25px;
-      max-width: 500px;
+      max-width: 650px;
       width: 90%;
       text-align: center;
       box-shadow: 0 4px 10px rgba(0,0,0,0.4);
@@ -135,9 +136,25 @@
     }
 
     .popup img {
-      width: 130px;
-      height: 130px;
-      margin: 10px;
+      width: 120px;
+      height: 120px;
+      margin: 8px;
+    }
+
+    .allForms {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      justify-items: center;
+      margin-top: 15px;
+      border-top: 1px solid #ddd;
+      padding-top: 10px;
+    }
+
+    .formBox {
+      text-align: center;
+      font-size: 14px;
+      color: #555;
     }
 
     table.stats {
@@ -195,10 +212,9 @@
     <div class="popupContent">
       <button class="closeBtn" onclick="closePopup()">×</button>
       <h2 id="popupTitle"></h2>
-      <div>
-        <img id="spriteNormal" alt="Normal">
-        <img id="spriteShiny" alt="Shiny">
-      </div>
+
+      <div class="allForms" id="formsContainer"></div>
+
       <table class="stats" id="statsTable">
         <thead>
           <tr>
@@ -207,6 +223,7 @@
         </thead>
         <tbody id="statsBody"></tbody>
       </table>
+
       <div class="evolution" id="evolutionInfo"></div>
     </div>
   </div>
@@ -215,8 +232,7 @@
     const container = document.getElementById("pokemonContainer");
     const popup = document.getElementById("popup");
     const popupTitle = document.getElementById("popupTitle");
-    const spriteNormal = document.getElementById("spriteNormal");
-    const spriteShiny = document.getElementById("spriteShiny");
+    const formsContainer = document.getElementById("formsContainer");
     const statsBody = document.getElementById("statsBody");
     const evolutionInfo = document.getElementById("evolutionInfo");
 
@@ -243,8 +259,29 @@
 
     function showPopup(p) {
       popupTitle.textContent = `#${String(p.id).padStart(3, '0')} ${p.nome}`;
-      spriteNormal.src = p.sprite_normal;
-      spriteShiny.src = p.sprite_shiny;
+      formsContainer.innerHTML = "";
+
+      // forma normal
+      formsContainer.innerHTML += `
+        <div class="formBox">
+          <div><b>Normal</b></div>
+          <img src="${p.sprite_normal}" alt="normal">
+          <img src="${p.sprite_shiny}" alt="shiny">
+        </div>
+      `;
+
+      // formas de evento
+      if (p.formas && p.formas.length > 0) {
+        p.formas.forEach(f => {
+          formsContainer.innerHTML += `
+            <div class="formBox">
+              <div><b>${f.nome}</b></div>
+              <img src="${f.normal}" alt="${f.nome} normal">
+              <img src="${f.shiny}" alt="${f.nome} shiny">
+            </div>
+          `;
+        });
+      }
 
       const s = p.estatisticas;
       statsBody.innerHTML = `
@@ -283,7 +320,6 @@
       });
     });
 
-    // Carrega Kanto automaticamente
     loadPokemons("kanto");
   </script>
 </body>
