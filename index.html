@@ -18,8 +18,39 @@
       font-size: 40px;
       font-weight: bold;
       letter-spacing: 3px;
-      padding: 20px 0;
+      padding: 20px 0 10px 0;
       box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    }
+
+    .tabs {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      background: #d32f2f;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+    }
+
+    .tab {
+      color: white;
+      font-weight: 600;
+      padding: 12px 20px;
+      cursor: pointer;
+      transition: background 0.2s;
+      user-select: none;
+    }
+
+    .tab:hover:not(.disabled) {
+      background: #b71c1c;
+    }
+
+    .tab.active {
+      background: #8b0000;
+      border-bottom: 3px solid #ffc107;
+    }
+
+    .tab.disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
     }
 
     #pokemonContainer {
@@ -146,6 +177,18 @@
 <body>
   <header>POKEDEX</header>
 
+  <div class="tabs">
+    <div class="tab active" data-region="kanto">Kanto (1)</div>
+    <div class="tab disabled" data-region="johto">Johto (2)</div>
+    <div class="tab disabled" data-region="hoenn">Hoenn (3)</div>
+    <div class="tab disabled" data-region="sinnoh">Sinnoh (4)</div>
+    <div class="tab disabled" data-region="unova">Unova (5)</div>
+    <div class="tab disabled" data-region="kalos">Kalos (6)</div>
+    <div class="tab disabled" data-region="alola">Alola (7)</div>
+    <div class="tab disabled" data-region="galar">Galar (8)</div>
+    <div class="tab disabled" data-region="paldea">Paldea (9)</div>
+  </div>
+
   <section id="pokemonContainer"></section>
 
   <div id="popup" class="popup">
@@ -177,12 +220,14 @@
     const statsBody = document.getElementById("statsBody");
     const evolutionInfo = document.getElementById("evolutionInfo");
 
-    let pokemons = [];
-
-    async function loadPokemons() {
-      const response = await fetch("kanto.json");
-      pokemons = await response.json();
-      renderPokemons(pokemons);
+    async function loadPokemons(region) {
+      try {
+        const response = await fetch(region + ".json");
+        const pokemons = await response.json();
+        renderPokemons(pokemons);
+      } catch (e) {
+        container.innerHTML = `<p>Arquivo <b>${region}.json</b> ainda não foi adicionado.</p>`;
+      }
     }
 
     function renderPokemons(list) {
@@ -201,7 +246,6 @@
       spriteNormal.src = p.sprite_normal;
       spriteShiny.src = p.sprite_shiny;
 
-      // Estatísticas
       const s = p.estatisticas;
       statsBody.innerHTML = `
         <tr>
@@ -214,7 +258,6 @@
         </tr>
       `;
 
-      // Evolução
       if (p.evolucao && p.evolucao.proximo) {
         evolutionInfo.innerHTML = `
           Evolui para: <span>${p.evolucao.proximo}</span><br>
@@ -231,7 +274,17 @@
       popup.style.display = "none";
     }
 
-    loadPokemons();
+    document.querySelectorAll(".tab").forEach(tab => {
+      tab.addEventListener("click", () => {
+        if (tab.classList.contains("disabled")) return;
+        document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+        tab.classList.add("active");
+        loadPokemons(tab.dataset.region);
+      });
+    });
+
+    // Carrega Kanto automaticamente
+    loadPokemons("kanto");
   </script>
 </body>
 </html>
