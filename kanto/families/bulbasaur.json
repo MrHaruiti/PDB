@@ -101,7 +101,6 @@
         {
           "nome": "Venusaur (Clone)",
           "normal": "https://img.pokemondb.net/sprites/go/normal/venusaur-clone.png",
-          "shiny": null,
           "tem_shiny": false,
           "evolui": false,
           "tipo": ["Grass", "Poison"],
