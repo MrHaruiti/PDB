@@ -573,7 +573,797 @@
     "geracao": 1,
     "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/pikachu.png",
     "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu.png",
+<<<<<<< HEAD
     "formas": [],
+=======
+    "formas": [
+      {
+        "nome": "Pikachu (F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-f.png"
+      },
+      {
+        "nome": "Pikachu (Balloon4 F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-balloon4-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-balloon4-f.png"
+      },
+      {
+        "nome": "Pikachu (Balloon4)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-balloon4.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-balloon4.png"
+      },
+      {
+        "nome": "Pikachu (Balloon5 F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-balloon5-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-balloon5-f.png"
+      },
+      {
+        "nome": "Pikachu (Balloon5)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-balloon5.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-balloon5.png"
+      },
+      {
+        "nome": "Pikachu (Adventure Hat F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-adventure-hat-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-adventure-hat-f.png"
+      },
+      {
+        "nome": "Pikachu (Adventure Hat)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-adventure-hat.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-adventure-hat.png"
+      },
+      {
+        "nome": "Pikachu (Akari Kerchief F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-akari-kerchief-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-akari-kerchief-f.png"
+      },
+      {
+        "nome": "Pikachu (Akari Kerchief)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-akari-kerchief.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-akari-kerchief.png"
+      },
+      {
+        "nome": "Pikachu (Amethyst Crown F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-amethyst-crown-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-amethyst-crown-f.png"
+      },
+      {
+        "nome": "Pikachu (Amethyst Crown)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-amethyst-crown.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-amethyst-crown.png"
+      },
+      {
+        "nome": "Pikachu (Aquamarine Crown F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-aquamarine-crown-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-aquamarine-crown-f.png"
+      },
+      {
+        "nome": "Pikachu (Aquamarine Crown)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-aquamarine-crown.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-aquamarine-crown.png"
+      },
+      {
+        "nome": "Pikachu (Batik Shirt F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-batik-shirt-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-batik-shirt-f.png"
+      },
+      {
+        "nome": "Pikachu (Batik Shirt)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-batik-shirt.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-batik-shirt.png"
+      },
+      {
+        "nome": "Pikachu (Beanie F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-beanie-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-beanie-f.png"
+      },
+      {
+        "nome": "Pikachu (Beanie)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-beanie.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-beanie.png"
+      },
+      {
+        "nome": "Pikachu (Black Red Balloons F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-black-red-balloons-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-black-red-balloons-f.png"
+      },
+      {
+        "nome": "Pikachu (Black Red Balloons)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-black-red-balloons.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-black-red-balloons.png"
+      },
+      {
+        "nome": "Pikachu (Blue Tshirt F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-blue-tshirt-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-blue-tshirt-f.png"
+      },
+      {
+        "nome": "Pikachu (Blue Tshirt)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-blue-tshirt.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-blue-tshirt.png"
+      },
+      {
+        "nome": "Pikachu (Brendan Bandana F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-brendan-bandana-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-brendan-bandana-f.png"
+      },
+      {
+        "nome": "Pikachu (Brendan Bandana)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-brendan-bandana.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-brendan-bandana.png"
+      },
+      {
+        "nome": "Pikachu (Cake F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-cake-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-cake-f.png"
+      },
+      {
+        "nome": "Pikachu (Cake)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-cake.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-cake.png"
+      },
+      {
+        "nome": "Pikachu (Captain F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-captain-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-captain-f.png"
+      },
+      {
+        "nome": "Pikachu (Captain)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-captain.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-captain.png"
+      },
+      {
+        "nome": "Pikachu (Charizard Hat F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-charizard-hat-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-charizard-hat-f.png"
+      },
+      {
+        "nome": "Pikachu (Charizard Hat)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-charizard-hat.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-charizard-hat.png"
+      },
+      {
+        "nome": "Pikachu (Cherry Blossoms F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-cherry-blossoms-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-cherry-blossoms-f.png"
+      },
+      {
+        "nome": "Pikachu (Cherry Blossoms)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-cherry-blossoms.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-cherry-blossoms.png"
+      },
+      {
+        "nome": "Pikachu (Clone F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-clone-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-clone-f.png"
+      },
+      {
+        "nome": "Pikachu (Clone)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-clone.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-clone.png"
+      },
+      {
+        "nome": "Pikachu (Dapper Blue F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-dapper-blue-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-dapper-blue-f.png"
+      },
+      {
+        "nome": "Pikachu (Dapper Blue)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-dapper-blue.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-dapper-blue.png"
+      },
+      {
+        "nome": "Pikachu (Dapper Red F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-dapper-red-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-dapper-red-f.png"
+      },
+      {
+        "nome": "Pikachu (Dapper Red)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-dapper-red.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-dapper-red.png"
+      },
+      {
+        "nome": "Pikachu (Dapper Yellow F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-dapper-yellow-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-dapper-yellow-f.png"
+      },
+      {
+        "nome": "Pikachu (Dapper Yellow)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-dapper-yellow.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-dapper-yellow.png"
+      },
+      {
+        "nome": "Pikachu (Dawn Hat F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-dawn-hat-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-dawn-hat-f.png"
+      },
+      {
+        "nome": "Pikachu (Dawn Hat)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-dawn-hat.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-dawn-hat.png"
+      },
+      {
+        "nome": "Pikachu (Detective F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-detective-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-detective-f.png"
+      },
+      {
+        "nome": "Pikachu (Detective)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-detective.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-detective.png"
+      },
+      {
+        "nome": "Pikachu (Flower F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-flower-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-flower-f.png"
+      },
+      {
+        "nome": "Pikachu (Flower)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-flower.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-flower.png"
+      },
+      {
+        "nome": "Pikachu (Flower Hat F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-flower-hat-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-flower-hat-f.png"
+      },
+      {
+        "nome": "Pikachu (Flower Hat)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-flower-hat.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-flower-hat.png"
+      },
+      {
+        "nome": "Pikachu (Formal Blue F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-formal-blue-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-formal-blue-f.png"
+      },
+      {
+        "nome": "Pikachu (Formal Blue)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-formal-blue.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-formal-blue.png"
+      },
+      {
+        "nome": "Pikachu (Formal Red F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-formal-red-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-formal-red-f.png"
+      },
+      {
+        "nome": "Pikachu (Formal Red)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-formal-red.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-formal-red.png"
+      },
+      {
+        "nome": "Pikachu (Formal Yellow F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-formal-yellow-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-formal-yellow-f.png"
+      },
+      {
+        "nome": "Pikachu (Formal Yellow)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-formal-yellow.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-formal-yellow.png"
+      },
+      {
+        "nome": "Pikachu (Gracidea F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-gracidea-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-gracidea-f.png"
+      },
+      {
+        "nome": "Pikachu (Gracidea)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-gracidea.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-gracidea.png"
+      },
+      {
+        "nome": "Pikachu (Green Balloons F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-green-balloons-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-green-balloons-f.png"
+      },
+      {
+        "nome": "Pikachu (Green Balloons)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-green-balloons.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-green-balloons.png"
+      },
+      {
+        "nome": "Pikachu (Green Tshirt F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-green-tshirt-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-green-tshirt-f.png"
+      },
+      {
+        "nome": "Pikachu (Green Tshirt)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-green-tshirt.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-green-tshirt.png"
+      },
+      {
+        "nome": "Pikachu (Halloween Mischief F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-halloween-mischief-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-halloween-mischief-f.png"
+      },
+      {
+        "nome": "Pikachu (Halloween Mischief)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-halloween-mischief.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-halloween-mischief.png"
+      },
+      {
+        "nome": "Pikachu (Hilbert Hat F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-hilbert-hat-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-hilbert-hat-f.png"
+      },
+      {
+        "nome": "Pikachu (Hilbert Hat)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-hilbert-hat.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-hilbert-hat.png"
+      },
+      {
+        "nome": "Pikachu (Hilda Hat F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-hilda-hat-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-hilda-hat-f.png"
+      },
+      {
+        "nome": "Pikachu (Hilda Hat)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-hilda-hat.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-hilda-hat.png"
+      },
+      {
+        "nome": "Pikachu (Holiday 2023 F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-holiday-2023-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-holiday-2023-f.png"
+      },
+      {
+        "nome": "Pikachu (Holiday 2023)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-holiday-2023.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-holiday-2023.png"
+      },
+      {
+        "nome": "Pikachu (Indonesia F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-indonesia-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-indonesia-f.png"
+      },
+      {
+        "nome": "Pikachu (Indonesia)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-indonesia.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-indonesia.png"
+      },
+      {
+        "nome": "Pikachu (Kariyushi F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-kariyushi-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-kariyushi-f.png"
+      },
+      {
+        "nome": "Pikachu (Kariyushi)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-kariyushi.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-kariyushi.png"
+      },
+      {
+        "nome": "Pikachu (Kurta)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-kurta.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-kurta.png"
+      },
+      {
+        "nome": "Pikachu (Lucario Hat F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-lucario-hat-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-lucario-hat-f.png"
+      },
+      {
+        "nome": "Pikachu (Lucario Hat)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-lucario-hat.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-lucario-hat.png"
+      },
+      {
+        "nome": "Pikachu (Lucas Hat F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-lucas-hat-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-lucas-hat-f.png"
+      },
+      {
+        "nome": "Pikachu (Lucas Hat)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-lucas-hat.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-lucas-hat.png"
+      },
+      {
+        "nome": "Pikachu (Malachite Crown F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-malachite-crown-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-malachite-crown-f.png"
+      },
+      {
+        "nome": "Pikachu (Malachite Crown)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-malachite-crown.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-malachite-crown.png"
+      },
+      {
+        "nome": "Pikachu (May Bow F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-may-bow-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-may-bow-f.png"
+      },
+      {
+        "nome": "Pikachu (May Bow)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-may-bow.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-may-bow.png"
+      },
+      {
+        "nome": "Pikachu (Meloetta Hat F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-meloetta-hat-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-meloetta-hat-f.png"
+      },
+      {
+        "nome": "Pikachu (Meloetta Hat)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-meloetta-hat.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-meloetta-hat.png"
+      },
+      {
+        "nome": "Pikachu (Mimikyu F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-mimikyu-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-mimikyu-f.png"
+      },
+      {
+        "nome": "Pikachu (Mimikyu)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-mimikyu.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-mimikyu.png"
+      },
+      {
+        "nome": "Pikachu (Moon Crown F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-moon-crown-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-moon-crown-f.png"
+      },
+      {
+        "nome": "Pikachu (Moon Crown)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-moon-crown.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-moon-crown.png"
+      },
+      {
+        "nome": "Pikachu (Nate Visor F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-nate-visor-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-nate-visor-f.png"
+      },
+      {
+        "nome": "Pikachu (Nate Visor)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-nate-visor.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-nate-visor.png"
+      },
+      {
+        "nome": "Pikachu (New Year Hat F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-new-year-hat-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-new-year-hat-f.png"
+      },
+      {
+        "nome": "Pikachu (New Year Hat)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-new-year-hat.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-new-year-hat.png"
+      },
+      {
+        "nome": "Pikachu (Okinawa Balloon F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-okinawa-balloon-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-okinawa-balloon-f.png"
+      },
+      {
+        "nome": "Pikachu (Okinawa Balloon)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-okinawa-balloon.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-okinawa-balloon.png"
+      },
+      {
+        "nome": "Pikachu (Orange Balloons F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-orange-balloons-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-orange-balloons-f.png"
+      },
+      {
+        "nome": "Pikachu (Orange Balloons)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-orange-balloons.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-orange-balloons.png"
+      },
+      {
+        "nome": "Pikachu (Cap F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-cap-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-cap-f.png"
+      },
+      {
+        "nome": "Pikachu (Cap)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-cap.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-cap.png"
+      },
+      {
+        "nome": "Pikachu (Party Hat F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-party-hat-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-party-hat-f.png"
+      },
+      {
+        "nome": "Pikachu (Party Hat)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-party-hat.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-party-hat.png"
+      },
+      {
+        "nome": "Pikachu (Party Top Hat F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-party-top-hat-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-party-top-hat-f.png"
+      },
+      {
+        "nome": "Pikachu (Party Top Hat)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-party-top-hat.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-party-top-hat.png"
+      },
+      {
+        "nome": "Pikachu (Libre)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-libre.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-libre.png"
+      },
+      {
+        "nome": "Pikachu (Popstar)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-popstar.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-popstar.png"
+      },
+      {
+        "nome": "Pikachu (Rockstar)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-rockstar.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-rockstar.png"
+      },
+      {
+        "nome": "Pikachu (Phd)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-phd.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-phd.png"
+      },
+      {
+        "nome": "Pikachu (Purple Balloons F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-purple-balloons-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-purple-balloons-f.png"
+      },
+      {
+        "nome": "Pikachu (Purple Balloons)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-purple-balloons.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-purple-balloons.png"
+      },
+      {
+        "nome": "Pikachu (Purple Tshirt F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-purple-tshirt-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-purple-tshirt-f.png"
+      },
+      {
+        "nome": "Pikachu (Purple Tshirt)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-purple-tshirt.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-purple-tshirt.png"
+      },
+      {
+        "nome": "Pikachu (Pyrite Crown F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-pyrite-crown-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-pyrite-crown-f.png"
+      },
+      {
+        "nome": "Pikachu (Pyrite Crown)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-pyrite-crown.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-pyrite-crown.png"
+      },
+      {
+        "nome": "Pikachu (Quartz Crown F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-quartz-crown-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-quartz-crown-f.png"
+      },
+      {
+        "nome": "Pikachu (Quartz Crown)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-quartz-crown.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-quartz-crown.png"
+      },
+      {
+        "nome": "Pikachu (Rayquaza Hat F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-rayquaza-hat-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-rayquaza-hat-f.png"
+      },
+      {
+        "nome": "Pikachu (Rayquaza Hat)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-rayquaza-hat.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-rayquaza-hat.png"
+      },
+      {
+        "nome": "Pikachu (Red Party Hat F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-red-party-hat-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-red-party-hat-f.png"
+      },
+      {
+        "nome": "Pikachu (Red Party Hat)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-red-party-hat.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-red-party-hat.png"
+      },
+      {
+        "nome": "Pikachu (Rei Cap F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-rei-cap-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-rei-cap-f.png"
+      },
+      {
+        "nome": "Pikachu (Rei Cap)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-rei-cap.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-rei-cap.png"
+      },
+      {
+        "nome": "Pikachu (Rosa Visor F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-rosa-visor-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-rosa-visor-f.png"
+      },
+      {
+        "nome": "Pikachu (Rosa Visor)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-rosa-visor.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-rosa-visor.png"
+      },
+      {
+        "nome": "Pikachu (Safari Hat F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-safari-hat-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-safari-hat-f.png"
+      },
+      {
+        "nome": "Pikachu (Safari Hat)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-safari-hat.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-safari-hat.png"
+      },
+      {
+        "nome": "Pikachu (Santa F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-santa-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-santa-f.png"
+      },
+      {
+        "nome": "Pikachu (Santa)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-santa.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-santa.png"
+      },
+      {
+        "nome": "Pikachu (Saree)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-saree.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-saree.png"
+      },
+      {
+        "nome": "Pikachu (Shaymin F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-shaymin-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-shaymin-f.png"
+      },
+      {
+        "nome": "Pikachu (Shaymin)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-shaymin.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-shaymin.png"
+      },
+      {
+        "nome": "Pikachu (Straw Hat F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-straw-hat-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-straw-hat-f.png"
+      },
+      {
+        "nome": "Pikachu (Straw Hat)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-straw-hat.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-straw-hat.png"
+      },
+      {
+        "nome": "Pikachu (Striped Tshirt F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-striped-tshirt-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-striped-tshirt-f.png"
+      },
+      {
+        "nome": "Pikachu (Striped Tshirt)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-striped-tshirt.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-striped-tshirt.png"
+      },
+      {
+        "nome": "Pikachu (Summer F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-summer-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-summer-f.png"
+      },
+      {
+        "nome": "Pikachu (Summer)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-summer.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-summer.png"
+      },
+      {
+        "nome": "Pikachu (Sun Crown F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-sun-crown-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-sun-crown-f.png"
+      },
+      {
+        "nome": "Pikachu (Sun Crown)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-sun-crown.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-sun-crown.png"
+      },
+      {
+        "nome": "Pikachu (Tcg F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-tcg-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-tcg-f.png"
+      },
+      {
+        "nome": "Pikachu (Tcg)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-tcg.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-tcg.png"
+      },
+      {
+        "nome": "Pikachu (Thunderbolt Cap F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-thunderbolt-cap-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-thunderbolt-cap-f.png"
+      },
+      {
+        "nome": "Pikachu (Thunderbolt Cap)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-thunderbolt-cap.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-thunderbolt-cap.png"
+      },
+      {
+        "nome": "Pikachu (Tricks Treats F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-tricks-treats-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-tricks-treats-f.png"
+      },
+      {
+        "nome": "Pikachu (Tricks Treats)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-tricks-treats.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-tricks-treats.png"
+      },
+      {
+        "nome": "Pikachu (Umbreon Hat F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-umbreon-hat-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-umbreon-hat-f.png"
+      },
+      {
+        "nome": "Pikachu (Umbreon Hat)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-umbreon-hat.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-umbreon-hat.png"
+      },
+      {
+        "nome": "Pikachu (Holiday F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-holiday-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-holiday-f.png"
+      },
+      {
+        "nome": "Pikachu (Holiday)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-holiday.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-holiday.png"
+      },
+      {
+        "nome": "Pikachu (Witch F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-witch-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-witch-f.png"
+      },
+      {
+        "nome": "Pikachu (Witch)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-witch.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-witch.png"
+      },
+      {
+        "nome": "Pikachu (World Cap F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-world-cap-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-world-cap-f.png"
+      },
+      {
+        "nome": "Pikachu (World Cap)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-world-cap.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-world-cap.png"
+      },
+      {
+        "nome": "Pikachu (World Champs 2022 F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-world-champs-2022-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-world-champs-2022-f.png"
+      },
+      {
+        "nome": "Pikachu (World Champs 2022)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-world-champs-2022.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-world-champs-2022.png"
+      },
+      {
+        "nome": "Pikachu (World Champs 2023 F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-world-champs-2023-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-world-champs-2023-f.png"
+      },
+      {
+        "nome": "Pikachu (World Champs 2023)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-world-champs-2023.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-world-champs-2023.png"
+      },
+      {
+        "nome": "Pikachu (World Champs 2024 F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-world-champs-2024-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-world-champs-2024-f.png"
+      },
+      {
+        "nome": "Pikachu (World Champs 2024)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-world-champs-2024.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-world-champs-2024.png"
+      },
+      {
+        "nome": "Pikachu (World Champs 2025 F)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-world-champs-2025-f.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-world-champs-2025-f.png"
+      },
+      {
+        "nome": "Pikachu (World Champs 2025)",
+        "normal": "https://img.pokemondb.net/sprites/go/normal/pikachu-world-champs-2025.png",
+        "shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu-world-champs-2025.png"
+      }
+    ],
+>>>>>>> 495f4e6a56222707271ef316d85412bdf31e3059
     "estatisticas": {
       "hp": 35,
       "atk": 55,

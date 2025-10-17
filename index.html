@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>POKEDEX</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --red: #ef5350;
+      --red-dark: #d32f2f;
+      --red-deep: #8b0000;
+      --amber: #ffc107;
+      --card-bg: #ffffff;
+      --muted: #fafafa;
+      --border: #e5e7eb;
+      --text: #333;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: var(--text);
+    }
+    header {
+      background-color: var(--red);
+      color: white;
+      font-size: 40px;
+      font-weight: bold;
+      letter-spacing: 3px;
+      padding: 20px 0 10px 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    }
+
+    /* Tabs */
+    .tabs {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      background: var(--red-dark);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+    }
+    .tab {
+      color: white;
+      font-weight: 600;
+      padding: 12px 20px;
+      cursor: pointer;
+      transition: background 0.2s;
+      user-select: none;
+    }
+    .tab:hover:not(.disabled) { background: #b71c1c; }
+    .tab.active { background: var(--red-deep); border-bottom: 3px solid var(--amber); }
+    .tab.disabled { opacity: 0.5; cursor: not-allowed; }
+
+    /* Grid principal */
+    #pokemonContainer {
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      gap: 12px;
+      justify-items: center;
+      padding: 20px;
+    }
+    .pokemonCard {
+      background: var(--card-bg);
+      border-radius: 12px;
+      width: 100px; height: 100px;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+      transition: transform 0.2s, box-shadow 0.2s;
+      cursor: pointer;
+    }
+    .pokemonCard:hover { transform: scale(1.08); box-shadow: 0 4px 10px rgba(0,0,0,0.25); }
+    .pokemonCard img { width: 80px; height: 80px; object-fit: contain; }
+
+    /* POPUP */
+    .popup {
+      display: none; position: fixed; z-index: 1000;
+      inset: 0; background: rgba(0,0,0,0.6);
+      justify-content: center; align-items: center;
+      padding: 20px;
+    }
+    .popupContent {
+      background: var(--card-bg);
+      border-radius: 16px;
+      width: min(980px, 96vw);
+      max-height: 92vh;
+      display: flex; flex-direction: column;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+      position: relative;
+      animation: fadeIn 0.15s ease-in;
+      overflow: hidden;
+    }
+    @keyframes fadeIn { from { opacity: 0; transform: scale(0.97); } to { opacity: 1; transform: scale(1); } }
+
+    .popupHeader {
+      padding: 14px 56px 10px 20px;
+      border-bottom: 1px solid var(--border);
+      background: #fff;
+      position: sticky; top: 0; z-index: 2;
+      text-align: left;
+    }
+    .popupHeader h2 { margin: 0; font-size: 22px; line-height: 1.2; color: #111; }
+    .closeBtn {
+      position: absolute; top: 10px; right: 10px;
+      background: var(--red); color: white; border: none;
+      border-radius: 50%; width: 34px; height: 34px;
+      font-size: 18px; cursor: pointer; font-weight: bold; line-height: 34px;
+    }
+
+    .popupBody { padding: 16px; overflow: auto; }
+
+    .formsWrap {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--muted);
+      padding: 10px;
+    }
+    .formsTitle {
+      text-align: left; font-weight: 700; margin: 2px 6px 10px;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .formsGrid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 12px;
+      max-height: 50vh;
+      overflow: auto;
+      padding-right: 4px;
+    }
+    .formBox {
+      background: #fff; border: 1px solid var(--border); border-radius: 10px;
+      padding: 8px; display: flex; flex-direction: column; align-items: center; gap: 6px;
+    }
+    .formBox b {
+      font-size: 12px; font-weight: 700; color: #444;
+      display: block; min-height: 30px; line-height: 1.2;
+    }
+    .formImgs { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; align-items: center; }
+    .formImgs img { width: 88px; height: 88px; object-fit: contain; }
+
+    .stats-box {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(220px, 1fr));
+      gap: 10px;
+      background: var(--muted);
+      border-radius: 12px;
+      padding: 12px;
+      margin-top: 14px;
+      border: 1px solid var(--border);
+    }
+    .stat-item {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px;
+      font-size: 14px;
+      font-weight: 700;
+      color: #111;
+      display: flex; justify-content: space-between;
+    }
+
+    .extra-info {
+      background: #fff;
+      border-radius: 12px;
+      padding: 12px;
+      margin-top: 12px;
+      border: 1px solid var(--border);
+      text-align: left;
+      font-size: 15px;
+      color: #333;
+    }
+    .extra-info .row { margin: 6px 0; }
+    .extra-info .label { font-weight: 800; color: var(--red); margin-right: 6px; }
+
+    .type-tag {
+      display: inline-block; padding: 4px 8px; border-radius: 6px;
+      color: white; font-weight: bold; font-size: 13px; margin-right: 5px;
+    }
+    .type-Electric { background: #FFD700; color: #000; }
+    .type-Fire { background: #F08030; }
+    .type-Water { background: #6890F0; }
+    .type-Grass { background: #78C850; }
+    .type-Ice { background: #98D8D8; color: #000; }
+    .type-Fighting { background: #C03028; }
+    .type-Poison { background: #A040A0; }
+    .type-Ground { background: #E0C068; color: #000; }
+    .type-Flying { background: #A890F0; }
+    .type-Psychic { background: #F85888; }
+    .type-Bug { background: #A8B820; color: #000; }
+    .type-Rock { background: #B8A038; color: #000; }
+    .type-Ghost { background: #705898; }
+    .type-Dragon { background: #7038F8; }
+    .type-Dark { background: #705848; }
+    .type-Steel { background: #B8B8D0; color: #000; }
+    .type-Fairy { background: #EE99AC; }
+
+    @media (max-width: 1200px) {
+      #pokemonContainer { grid-template-columns: repeat(5, 1fr); }
+      .formImgs img { width: 76px; height: 76px; }
+    }
+    @media (max-width: 640px) {
+      .formsGrid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+      .formImgs img { width: 72px; height: 72px; }
+    }
+  </style>
+</head>
+<body>
+  <header>POKEDEX</header>
+
+  <div class="tabs">
+    <div class="tab active" data-region="kanto">Kanto (1)</div>
+    <div class="tab disabled" data-region="johto">Johto (2)</div>
+    <div class="tab disabled" data-region="hoenn">Hoenn (3)</div>
+    <div class="tab disabled" data-region="sinnoh">Sinnoh (4)</div>
+    <div class="tab disabled" data-region="unova">Unova (5)</div>
+    <div class="tab disabled" data-region="kalos">Kalos (6)</div>
+    <div class="tab disabled" data-region="alola">Alola (7)</div>
+    <div class="tab disabled" data-region="galar">Galar (8)</div>
+    <div class="tab disabled" data-region="paldea">Paldea (9)</div>
+  </div>
+
+  <section id="pokemonContainer"></section>
+
+  <div id="popup" class="popup">
+    <div class="popupContent">
+      <button class="closeBtn" onclick="closePopup()">×</button>
+
+      <div class="popupHeader">
+        <h2 id="popupTitle"></h2>
+      </div>
+
+      <div class="popupBody">
+        <div class="formsWrap">
+          <div class="formsTitle">
+            <span>Versões Disponíveis</span>
+            <span id="formsCount" style="font-weight:600; color:#666;"></span>
+          </div>
+          <div class="formsGrid" id="formsContainer"></div>
+        </div>
+
+        <div class="stats-box" id="statsBox"></div>
+
+        <div class="extra-info" id="extraInfo"></div>
+
+        <div style="display:flex; justify-content:center; margin-top:18px; padding-bottom:10px;">
+          <button onclick="closePopup()" style="
+            background:#d32f2f;
+            color:white;
+            font-size:16px;
+            font-weight:bold;
+            border:none;
+            border-radius:10px;
+            padding:10px 30px;
+            cursor:pointer;
+            box-shadow:0 2px 5px rgba(0,0,0,0.3);
+            transition:background 0.2s;
+          " onmouseover="this.style.background='#b71c1c'" onmouseout="this.style.background='#d32f2f'">
+            FECHAR
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const container = document.getElementById("pokemonContainer");
+    const popup = document.getElementById("popup");
+    const popupTitle = document.getElementById("popupTitle");
+    const formsContainer = document.getElementById("formsContainer");
+    const formsCount = document.getElementById("formsCount");
+    const statsBox = document.getElementById("statsBox");
+    const extraInfo = document.getElementById("extraInfo");
+
+    // NOVO: leitura automática de todas as famílias
+    async function loadAllFamilies(region) {
+      const folder = `data/${region}/families/`;
+      const index = await fetch(`${folder}index.json?ver=${Date.now()}`).then(r => r.json());
+      const allPokemons = [];
+      for (const fam of index.families) {
+        const familyData = await fetch(`${folder}${fam}.json?ver=${Date.now()}`).then(r => r.json());
+        allPokemons.push(...familyData.members);
+      }
+      return allPokemons;
+    }
+
+    async function loadPokemons(region) {
+      try {
+        // AGORA usa os JSONs por família
+        const pokemons = await loadAllFamilies(region);
+        renderPokemons(pokemons);
+      } catch (e) {
+        container.innerHTML = `<p>Arquivo <b>${region}</b> ainda não foi adicionado.</p>`;
+      }
+    }
+
+    function renderPokemons(list) {
+      container.innerHTML = "";
+      list.forEach(p => {
+        const card = document.createElement("div");
+        card.className = "pokemonCard";
+        card.innerHTML = `<img src="${p.sprite_normal}" alt="${p.nome}">`;
+        card.onclick = () => showPopup(p);
+        container.appendChild(card);
+      });
+    }
+
+    function labelFromNome(nome) { return nome || ""; }
+
+    function showPopup(p) {
+      popupTitle.textContent = `#${String(p.id).padStart(3, '0')} ${p.nome}`;
+      formsContainer.innerHTML = "";
+      statsBox.innerHTML = "";
+      extraInfo.innerHTML = "";
+
+      const allForms = [];
+      allForms.push({ nome: `${p.nome} (Normal)`, normal: p.sprite_normal, shiny: p.sprite_shiny });
+      if (Array.isArray(p.formas)) p.formas.forEach(f => allForms.push(f));
+      formsCount.textContent = `• ${allForms.length} versões`;
+
+      const frag = document.createDocumentFragment();
+      allForms.forEach(f => {
+        const box = document.createElement("div");
+        box.className = "formBox";
+        box.innerHTML = `
+          <b>${labelFromNome(f.nome)}</b>
+          <div class="formImgs">
+            <img src="${f.normal}" alt="${f.nome} normal" loading="lazy">
+            <img src="${f.shiny}" alt="${f.nome} shiny" loading="lazy">
+          </div>
+        `;
+        frag.appendChild(box);
+      });
+      formsContainer.appendChild(frag);
+
+      const s = p.estatisticas || {};
+      statsBox.innerHTML = `
+        <div class="stat-item"><span>HP</span><span>${s.hp ?? "-"}</span></div>
+        <div class="stat-item"><span>SP.ATK</span><span>${s.sp_atk ?? "-"}</span></div>
+        <div class="stat-item"><span>ATK</span><span>${s.atk ?? "-"}</span></div>
+        <div class="stat-item"><span>SP.DEF</span><span>${s.sp_def ?? "-"}</span></div>
+        <div class="stat-item"><span>DEF</span><span>${s.def ?? "-"}</span></div>
+        <div class="stat-item"><span>SPEED</span><span>${s.speed ?? "-"}</span></div>
+      `;
+
+      const tiposHTML = (p.tipos || []).map(t => `<span class="type-tag type-${t}">${t}</span>`).join(" ");
+      const evolucao = p.evolucao && p.evolucao.proximo
+        ? `<span>${p.evolucao.proximo}</span>`
+        : `<i>Não possui evolução.</i>`;
+      extraInfo.innerHTML = `
+        <div class="row"><span class="label">IV 100%:</span> CP 0000</div>
+        <div class="row"><span class="label">Tipo:</span> ${tiposHTML}</div>
+        <div class="row"><span class="label">Evolui para:</span> ${evolucao}</div>
+      `;
+
+      popup.style.display = "flex";
+    }
+
+    function closePopup() { popup.style.display = "none"; }
+
+    document.querySelectorAll(".tab").forEach(tab => {
+      tab.addEventListener("click", () => {
+        if (tab.classList.contains("disabled")) return;
+        document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+        tab.classList.add("active");
+        loadPokemons(tab.dataset.region);
+      });
+    });
+
+    // Inicial: Kanto
+    loadPokemons("kanto");
+  </script>
+</body>
+</html>
