@@ -1,0 +1,77 @@
+{
+  "family": "Weedle",
+  "members": [
+    {
+      "id": 13,
+      "nome": "Weedle",
+      "tipos": [
+        "Bug",
+        "Poison"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/weedle.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/weedle.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 40,
+        "atk": 35,
+        "def": 30,
+        "sp_atk": 20,
+        "sp_def": 20,
+        "speed": 50
+      },
+      "evolucao": {
+        "proximo": "Kakuna",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 14,
+      "nome": "Kakuna",
+      "tipos": [
+        "Bug",
+        "Poison"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/kakuna.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/kakuna.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 45,
+        "atk": 25,
+        "def": 50,
+        "sp_atk": 25,
+        "sp_def": 25,
+        "speed": 35
+      },
+      "evolucao": {
+        "proximo": "Beedrill",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 15,
+      "nome": "Beedrill",
+      "tipos": [
+        "Bug",
+        "Poison"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/beedrill.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/beedrill.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 65,
+        "atk": 90,
+        "def": 40,
+        "sp_atk": 45,
+        "sp_def": 80,
+        "speed": 75
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

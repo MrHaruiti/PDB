@@ -1,0 +1,77 @@
+{
+  "family": "Oddish",
+  "members": [
+    {
+      "id": 43,
+      "nome": "Oddish",
+      "tipos": [
+        "Grass",
+        "Poison"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/oddish.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/oddish.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 45,
+        "atk": 50,
+        "def": 55,
+        "sp_atk": 75,
+        "sp_def": 65,
+        "speed": 30
+      },
+      "evolucao": {
+        "proximo": "Gloom",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 44,
+      "nome": "Gloom",
+      "tipos": [
+        "Grass",
+        "Poison"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/gloom.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/gloom.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 60,
+        "atk": 65,
+        "def": 70,
+        "sp_atk": 85,
+        "sp_def": 75,
+        "speed": 40
+      },
+      "evolucao": {
+        "proximo": "Vileplume",
+        "condicao": "use-item"
+      }
+    },
+    {
+      "id": 45,
+      "nome": "Vileplume",
+      "tipos": [
+        "Grass",
+        "Poison"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/vileplume.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/vileplume.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 75,
+        "atk": 80,
+        "def": 85,
+        "sp_atk": 110,
+        "sp_def": 90,
+        "speed": 50
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

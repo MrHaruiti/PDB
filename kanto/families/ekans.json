@@ -1,0 +1,51 @@
+{
+  "family": "Ekans",
+  "members": [
+    {
+      "id": 23,
+      "nome": "Ekans",
+      "tipos": [
+        "Poison"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/ekans.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/ekans.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 35,
+        "atk": 60,
+        "def": 44,
+        "sp_atk": 40,
+        "sp_def": 54,
+        "speed": 55
+      },
+      "evolucao": {
+        "proximo": "Arbok",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 24,
+      "nome": "Arbok",
+      "tipos": [
+        "Poison"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/arbok.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/arbok.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 60,
+        "atk": 95,
+        "def": 69,
+        "sp_atk": 65,
+        "sp_def": 79,
+        "speed": 80
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

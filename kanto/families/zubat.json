@@ -1,0 +1,53 @@
+{
+  "family": "Zubat",
+  "members": [
+    {
+      "id": 41,
+      "nome": "Zubat",
+      "tipos": [
+        "Poison",
+        "Flying"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/zubat.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/zubat.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 40,
+        "atk": 45,
+        "def": 35,
+        "sp_atk": 30,
+        "sp_def": 40,
+        "speed": 55
+      },
+      "evolucao": {
+        "proximo": "Golbat",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 42,
+      "nome": "Golbat",
+      "tipos": [
+        "Poison",
+        "Flying"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/golbat.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/golbat.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 75,
+        "atk": 80,
+        "def": 70,
+        "sp_atk": 65,
+        "sp_def": 75,
+        "speed": 90
+      },
+      "evolucao": {
+        "proximo": "Crobat",
+        "condicao": "level-up"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "family": "Mr-mime",
+  "members": [
+    {
+      "id": 122,
+      "nome": "Mr-mime",
+      "tipos": [
+        "Psychic",
+        "Fairy"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/mr-mime.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/mr-mime.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 40,
+        "atk": 45,
+        "def": 65,
+        "sp_atk": 100,
+        "sp_def": 120,
+        "speed": 90
+      },
+      "evolucao": {
+        "proximo": "Mr-rime",
+        "condicao": "level-up"
+      }
+    }
+  ]
+}

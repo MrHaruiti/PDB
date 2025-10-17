@@ -1,0 +1,51 @@
+{
+  "family": "Rattata",
+  "members": [
+    {
+      "id": 19,
+      "nome": "Rattata",
+      "tipos": [
+        "Normal"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/rattata.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/rattata.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 30,
+        "atk": 56,
+        "def": 35,
+        "sp_atk": 25,
+        "sp_def": 35,
+        "speed": 72
+      },
+      "evolucao": {
+        "proximo": "Raticate",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 20,
+      "nome": "Raticate",
+      "tipos": [
+        "Normal"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/raticate.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/raticate.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 55,
+        "atk": 81,
+        "def": 60,
+        "sp_atk": 50,
+        "sp_def": 70,
+        "speed": 97
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

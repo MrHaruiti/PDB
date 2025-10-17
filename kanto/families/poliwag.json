@@ -1,0 +1,75 @@
+{
+  "family": "Poliwag",
+  "members": [
+    {
+      "id": 60,
+      "nome": "Poliwag",
+      "tipos": [
+        "Water"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/poliwag.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/poliwag.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 40,
+        "atk": 50,
+        "def": 40,
+        "sp_atk": 40,
+        "sp_def": 40,
+        "speed": 90
+      },
+      "evolucao": {
+        "proximo": "Poliwhirl",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 61,
+      "nome": "Poliwhirl",
+      "tipos": [
+        "Water"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/poliwhirl.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/poliwhirl.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 65,
+        "atk": 65,
+        "def": 65,
+        "sp_atk": 50,
+        "sp_def": 50,
+        "speed": 90
+      },
+      "evolucao": {
+        "proximo": "Poliwrath",
+        "condicao": "use-item"
+      }
+    },
+    {
+      "id": 62,
+      "nome": "Poliwrath",
+      "tipos": [
+        "Water",
+        "Fighting"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/poliwrath.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/poliwrath.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 90,
+        "atk": 95,
+        "def": 95,
+        "sp_atk": 70,
+        "sp_def": 90,
+        "speed": 70
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

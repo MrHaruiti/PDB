@@ -1,0 +1,51 @@
+{
+  "family": "Psyduck",
+  "members": [
+    {
+      "id": 54,
+      "nome": "Psyduck",
+      "tipos": [
+        "Water"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/psyduck.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/psyduck.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 50,
+        "atk": 52,
+        "def": 48,
+        "sp_atk": 65,
+        "sp_def": 50,
+        "speed": 55
+      },
+      "evolucao": {
+        "proximo": "Golduck",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 55,
+      "nome": "Golduck",
+      "tipos": [
+        "Water"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/golduck.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/golduck.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 80,
+        "atk": 82,
+        "def": 78,
+        "sp_atk": 95,
+        "sp_def": 80,
+        "speed": 85
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

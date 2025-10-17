@@ -1,0 +1,29 @@
+{
+  "family": "Jynx",
+  "members": [
+    {
+      "id": 124,
+      "nome": "Jynx",
+      "tipos": [
+        "Ice",
+        "Psychic"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/jynx.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/jynx.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 65,
+        "atk": 50,
+        "def": 35,
+        "sp_atk": 115,
+        "sp_def": 95,
+        "speed": 95
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

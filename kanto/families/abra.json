@@ -1,0 +1,74 @@
+{
+  "family": "Abra",
+  "members": [
+    {
+      "id": 63,
+      "nome": "Abra",
+      "tipos": [
+        "Psychic"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/abra.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/abra.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 25,
+        "atk": 20,
+        "def": 15,
+        "sp_atk": 105,
+        "sp_def": 55,
+        "speed": 90
+      },
+      "evolucao": {
+        "proximo": "Kadabra",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 64,
+      "nome": "Kadabra",
+      "tipos": [
+        "Psychic"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/kadabra.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/kadabra.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 40,
+        "atk": 35,
+        "def": 30,
+        "sp_atk": 120,
+        "sp_def": 70,
+        "speed": 105
+      },
+      "evolucao": {
+        "proximo": "Alakazam",
+        "condicao": "trade"
+      }
+    },
+    {
+      "id": 65,
+      "nome": "Alakazam",
+      "tipos": [
+        "Psychic"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/alakazam.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/alakazam.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 55,
+        "atk": 50,
+        "def": 45,
+        "sp_atk": 135,
+        "sp_def": 95,
+        "speed": 120
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

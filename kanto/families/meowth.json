@@ -1,0 +1,51 @@
+{
+  "family": "Meowth",
+  "members": [
+    {
+      "id": 52,
+      "nome": "Meowth",
+      "tipos": [
+        "Normal"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/meowth.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/meowth.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 40,
+        "atk": 45,
+        "def": 35,
+        "sp_atk": 40,
+        "sp_def": 40,
+        "speed": 90
+      },
+      "evolucao": {
+        "proximo": "Persian",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 53,
+      "nome": "Persian",
+      "tipos": [
+        "Normal"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/persian.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/persian.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 65,
+        "atk": 70,
+        "def": 60,
+        "sp_atk": 65,
+        "sp_def": 65,
+        "speed": 115
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "family": "Jigglypuff",
+  "members": [
+    {
+      "id": 39,
+      "nome": "Jigglypuff",
+      "tipos": [
+        "Normal",
+        "Fairy"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/jigglypuff.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/jigglypuff.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 115,
+        "atk": 45,
+        "def": 20,
+        "sp_atk": 45,
+        "sp_def": 25,
+        "speed": 20
+      },
+      "evolucao": {
+        "proximo": "Wigglytuff",
+        "condicao": "use-item"
+      }
+    },
+    {
+      "id": 40,
+      "nome": "Wigglytuff",
+      "tipos": [
+        "Normal",
+        "Fairy"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/wigglytuff.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/wigglytuff.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 140,
+        "atk": 70,
+        "def": 45,
+        "sp_atk": 85,
+        "sp_def": 50,
+        "speed": 45
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "family": "Cubone",
+  "members": [
+    {
+      "id": 104,
+      "nome": "Cubone",
+      "tipos": [
+        "Ground"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/cubone.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/cubone.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 50,
+        "atk": 50,
+        "def": 95,
+        "sp_atk": 40,
+        "sp_def": 50,
+        "speed": 35
+      },
+      "evolucao": {
+        "proximo": "Marowak",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 105,
+      "nome": "Marowak",
+      "tipos": [
+        "Ground"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/marowak.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/marowak.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 60,
+        "atk": 80,
+        "def": 110,
+        "sp_atk": 50,
+        "sp_def": 80,
+        "speed": 45
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

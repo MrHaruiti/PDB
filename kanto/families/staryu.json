@@ -1,0 +1,52 @@
+{
+  "family": "Staryu",
+  "members": [
+    {
+      "id": 120,
+      "nome": "Staryu",
+      "tipos": [
+        "Water"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/staryu.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/staryu.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 30,
+        "atk": 45,
+        "def": 55,
+        "sp_atk": 70,
+        "sp_def": 55,
+        "speed": 85
+      },
+      "evolucao": {
+        "proximo": "Starmie",
+        "condicao": "use-item"
+      }
+    },
+    {
+      "id": 121,
+      "nome": "Starmie",
+      "tipos": [
+        "Water",
+        "Psychic"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/starmie.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/starmie.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 60,
+        "atk": 75,
+        "def": 85,
+        "sp_atk": 100,
+        "sp_def": 85,
+        "speed": 115
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

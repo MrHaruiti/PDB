@@ -1,0 +1,51 @@
+{
+  "family": "Grimer",
+  "members": [
+    {
+      "id": 88,
+      "nome": "Grimer",
+      "tipos": [
+        "Poison"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/grimer.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/grimer.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 80,
+        "atk": 80,
+        "def": 50,
+        "sp_atk": 40,
+        "sp_def": 50,
+        "speed": 25
+      },
+      "evolucao": {
+        "proximo": "Muk",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 89,
+      "nome": "Muk",
+      "tipos": [
+        "Poison"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/muk.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/muk.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 105,
+        "atk": 105,
+        "def": 75,
+        "sp_atk": 65,
+        "sp_def": 100,
+        "speed": 50
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

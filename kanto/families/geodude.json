@@ -1,0 +1,77 @@
+{
+  "family": "Geodude",
+  "members": [
+    {
+      "id": 74,
+      "nome": "Geodude",
+      "tipos": [
+        "Rock",
+        "Ground"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/geodude.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/geodude.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 40,
+        "atk": 80,
+        "def": 100,
+        "sp_atk": 30,
+        "sp_def": 30,
+        "speed": 20
+      },
+      "evolucao": {
+        "proximo": "Graveler",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 75,
+      "nome": "Graveler",
+      "tipos": [
+        "Rock",
+        "Ground"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/graveler.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/graveler.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 55,
+        "atk": 95,
+        "def": 115,
+        "sp_atk": 45,
+        "sp_def": 45,
+        "speed": 35
+      },
+      "evolucao": {
+        "proximo": "Golem",
+        "condicao": "trade"
+      }
+    },
+    {
+      "id": 76,
+      "nome": "Golem",
+      "tipos": [
+        "Rock",
+        "Ground"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/golem.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/golem.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 80,
+        "atk": 120,
+        "def": 130,
+        "sp_atk": 55,
+        "sp_def": 65,
+        "speed": 45
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

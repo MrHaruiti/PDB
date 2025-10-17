@@ -1,0 +1,51 @@
+{
+  "family": "Voltorb",
+  "members": [
+    {
+      "id": 100,
+      "nome": "Voltorb",
+      "tipos": [
+        "Electric"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/voltorb.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/voltorb.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 40,
+        "atk": 30,
+        "def": 50,
+        "sp_atk": 55,
+        "sp_def": 55,
+        "speed": 100
+      },
+      "evolucao": {
+        "proximo": "Electrode",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 101,
+      "nome": "Electrode",
+      "tipos": [
+        "Electric"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/electrode.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/electrode.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 60,
+        "atk": 50,
+        "def": 70,
+        "sp_atk": 80,
+        "sp_def": 80,
+        "speed": 150
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

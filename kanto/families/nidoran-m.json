@@ -1,0 +1,75 @@
+{
+  "family": "Nidoran-m",
+  "members": [
+    {
+      "id": 32,
+      "nome": "Nidoran-m",
+      "tipos": [
+        "Poison"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/nidoran-m.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/nidoran-m.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 46,
+        "atk": 57,
+        "def": 40,
+        "sp_atk": 40,
+        "sp_def": 40,
+        "speed": 50
+      },
+      "evolucao": {
+        "proximo": "Nidorino",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 33,
+      "nome": "Nidorino",
+      "tipos": [
+        "Poison"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/nidorino.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/nidorino.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 61,
+        "atk": 72,
+        "def": 57,
+        "sp_atk": 55,
+        "sp_def": 55,
+        "speed": 65
+      },
+      "evolucao": {
+        "proximo": "Nidoking",
+        "condicao": "use-item"
+      }
+    },
+    {
+      "id": 34,
+      "nome": "Nidoking",
+      "tipos": [
+        "Poison",
+        "Ground"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/nidoking.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/nidoking.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 81,
+        "atk": 102,
+        "def": 77,
+        "sp_atk": 85,
+        "sp_def": 75,
+        "speed": 85
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

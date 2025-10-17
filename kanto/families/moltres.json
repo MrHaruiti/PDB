@@ -1,0 +1,29 @@
+{
+  "family": "Moltres",
+  "members": [
+    {
+      "id": 146,
+      "nome": "Moltres",
+      "tipos": [
+        "Fire",
+        "Flying"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/moltres.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/moltres.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 90,
+        "atk": 100,
+        "def": 90,
+        "sp_atk": 125,
+        "sp_def": 85,
+        "speed": 90
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

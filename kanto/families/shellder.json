@@ -1,0 +1,52 @@
+{
+  "family": "Shellder",
+  "members": [
+    {
+      "id": 90,
+      "nome": "Shellder",
+      "tipos": [
+        "Water"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/shellder.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/shellder.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 30,
+        "atk": 65,
+        "def": 100,
+        "sp_atk": 45,
+        "sp_def": 25,
+        "speed": 40
+      },
+      "evolucao": {
+        "proximo": "Cloyster",
+        "condicao": "use-item"
+      }
+    },
+    {
+      "id": 91,
+      "nome": "Cloyster",
+      "tipos": [
+        "Water",
+        "Ice"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/cloyster.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/cloyster.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 50,
+        "atk": 95,
+        "def": 180,
+        "sp_atk": 85,
+        "sp_def": 45,
+        "speed": 70
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "family": "Pikachu",
+  "members": [
+    {
+      "id": 25,
+      "nome": "Pikachu",
+      "tipos": [
+        "Electric"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/pikachu.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/pikachu.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 35,
+        "atk": 55,
+        "def": 40,
+        "sp_atk": 50,
+        "sp_def": 50,
+        "speed": 90
+      },
+      "evolucao": {
+        "proximo": "Raichu",
+        "condicao": "use-item"
+      }
+    },
+    {
+      "id": 26,
+      "nome": "Raichu",
+      "tipos": [
+        "Electric"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/raichu.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/raichu.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 60,
+        "atk": 90,
+        "def": 55,
+        "sp_atk": 90,
+        "sp_def": 80,
+        "speed": 110
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

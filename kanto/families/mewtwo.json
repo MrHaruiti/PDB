@@ -1,0 +1,28 @@
+{
+  "family": "Mewtwo",
+  "members": [
+    {
+      "id": 150,
+      "nome": "Mewtwo",
+      "tipos": [
+        "Psychic"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/mewtwo.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/mewtwo.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 106,
+        "atk": 110,
+        "def": 90,
+        "sp_atk": 154,
+        "sp_def": 90,
+        "speed": 130
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

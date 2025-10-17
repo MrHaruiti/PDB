@@ -1,0 +1,28 @@
+{
+  "family": "Porygon",
+  "members": [
+    {
+      "id": 137,
+      "nome": "Porygon",
+      "tipos": [
+        "Normal"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/porygon.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/porygon.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 65,
+        "atk": 60,
+        "def": 70,
+        "sp_atk": 85,
+        "sp_def": 75,
+        "speed": 40
+      },
+      "evolucao": {
+        "proximo": "Porygon2",
+        "condicao": "trade"
+      }
+    }
+  ]
+}

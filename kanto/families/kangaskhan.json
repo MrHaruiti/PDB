@@ -1,0 +1,28 @@
+{
+  "family": "Kangaskhan",
+  "members": [
+    {
+      "id": 115,
+      "nome": "Kangaskhan",
+      "tipos": [
+        "Normal"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/kangaskhan.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/kangaskhan.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 105,
+        "atk": 95,
+        "def": 80,
+        "sp_atk": 40,
+        "sp_def": 80,
+        "speed": 90
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "family": "Scyther",
+  "members": [
+    {
+      "id": 123,
+      "nome": "Scyther",
+      "tipos": [
+        "Bug",
+        "Flying"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/scyther.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/scyther.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 70,
+        "atk": 110,
+        "def": 80,
+        "sp_atk": 55,
+        "sp_def": 80,
+        "speed": 105
+      },
+      "evolucao": {
+        "proximo": "Scizor",
+        "condicao": "trade"
+      }
+    }
+  ]
+}

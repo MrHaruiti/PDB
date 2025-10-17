@@ -1,0 +1,51 @@
+{
+  "family": "Clefairy",
+  "members": [
+    {
+      "id": 35,
+      "nome": "Clefairy",
+      "tipos": [
+        "Fairy"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/clefairy.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/clefairy.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 70,
+        "atk": 45,
+        "def": 48,
+        "sp_atk": 60,
+        "sp_def": 65,
+        "speed": 35
+      },
+      "evolucao": {
+        "proximo": "Clefable",
+        "condicao": "use-item"
+      }
+    },
+    {
+      "id": 36,
+      "nome": "Clefable",
+      "tipos": [
+        "Fairy"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/clefable.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/clefable.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 95,
+        "atk": 70,
+        "def": 73,
+        "sp_atk": 95,
+        "sp_def": 90,
+        "speed": 60
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

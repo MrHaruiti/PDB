@@ -1,0 +1,28 @@
+{
+  "family": "Tangela",
+  "members": [
+    {
+      "id": 114,
+      "nome": "Tangela",
+      "tipos": [
+        "Grass"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/tangela.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/tangela.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 65,
+        "atk": 55,
+        "def": 115,
+        "sp_atk": 100,
+        "sp_def": 40,
+        "speed": 60
+      },
+      "evolucao": {
+        "proximo": "Tangrowth",
+        "condicao": "level-up"
+      }
+    }
+  ]
+}

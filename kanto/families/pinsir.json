@@ -1,0 +1,28 @@
+{
+  "family": "Pinsir",
+  "members": [
+    {
+      "id": 127,
+      "nome": "Pinsir",
+      "tipos": [
+        "Bug"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/pinsir.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/pinsir.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 65,
+        "atk": 125,
+        "def": 100,
+        "sp_atk": 55,
+        "sp_def": 70,
+        "speed": 85
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

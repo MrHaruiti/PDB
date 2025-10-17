@@ -1,0 +1,51 @@
+{
+  "family": "Koffing",
+  "members": [
+    {
+      "id": 109,
+      "nome": "Koffing",
+      "tipos": [
+        "Poison"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/koffing.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/koffing.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 40,
+        "atk": 65,
+        "def": 95,
+        "sp_atk": 60,
+        "sp_def": 45,
+        "speed": 35
+      },
+      "evolucao": {
+        "proximo": "Weezing",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 110,
+      "nome": "Weezing",
+      "tipos": [
+        "Poison"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/weezing.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/weezing.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 65,
+        "atk": 90,
+        "def": 120,
+        "sp_atk": 85,
+        "sp_def": 70,
+        "speed": 60
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

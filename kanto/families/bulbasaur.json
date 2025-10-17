@@ -1,0 +1,77 @@
+{
+  "family": "Bulbasaur",
+  "members": [
+    {
+      "id": 1,
+      "nome": "Bulbasaur",
+      "tipos": [
+        "Grass",
+        "Poison"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/bulbasaur.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/bulbasaur.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 45,
+        "atk": 49,
+        "def": 49,
+        "sp_atk": 65,
+        "sp_def": 65,
+        "speed": 45
+      },
+      "evolucao": {
+        "proximo": "Ivysaur",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 2,
+      "nome": "Ivysaur",
+      "tipos": [
+        "Grass",
+        "Poison"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/ivysaur.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/ivysaur.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 60,
+        "atk": 62,
+        "def": 63,
+        "sp_atk": 80,
+        "sp_def": 80,
+        "speed": 60
+      },
+      "evolucao": {
+        "proximo": "Venusaur",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 3,
+      "nome": "Venusaur",
+      "tipos": [
+        "Grass",
+        "Poison"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/venusaur.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/venusaur.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 80,
+        "atk": 82,
+        "def": 83,
+        "sp_atk": 100,
+        "sp_def": 100,
+        "speed": 80
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

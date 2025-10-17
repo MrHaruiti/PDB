@@ -1,0 +1,53 @@
+{
+  "family": "Paras",
+  "members": [
+    {
+      "id": 46,
+      "nome": "Paras",
+      "tipos": [
+        "Bug",
+        "Grass"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/paras.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/paras.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 35,
+        "atk": 70,
+        "def": 55,
+        "sp_atk": 45,
+        "sp_def": 55,
+        "speed": 25
+      },
+      "evolucao": {
+        "proximo": "Parasect",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 47,
+      "nome": "Parasect",
+      "tipos": [
+        "Bug",
+        "Grass"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/parasect.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/parasect.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 60,
+        "atk": 95,
+        "def": 80,
+        "sp_atk": 60,
+        "sp_def": 80,
+        "speed": 30
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

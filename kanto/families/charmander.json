@@ -1,0 +1,75 @@
+{
+  "family": "Charmander",
+  "members": [
+    {
+      "id": 4,
+      "nome": "Charmander",
+      "tipos": [
+        "Fire"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/charmander.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/charmander.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 39,
+        "atk": 52,
+        "def": 43,
+        "sp_atk": 60,
+        "sp_def": 50,
+        "speed": 65
+      },
+      "evolucao": {
+        "proximo": "Charmeleon",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 5,
+      "nome": "Charmeleon",
+      "tipos": [
+        "Fire"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/charmeleon.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/charmeleon.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 58,
+        "atk": 64,
+        "def": 58,
+        "sp_atk": 80,
+        "sp_def": 65,
+        "speed": 80
+      },
+      "evolucao": {
+        "proximo": "Charizard",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 6,
+      "nome": "Charizard",
+      "tipos": [
+        "Fire",
+        "Flying"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/charizard.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/charizard.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 78,
+        "atk": 84,
+        "def": 78,
+        "sp_atk": 109,
+        "sp_def": 85,
+        "speed": 100
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

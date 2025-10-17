@@ -1,0 +1,51 @@
+{
+  "family": "Ponyta",
+  "members": [
+    {
+      "id": 77,
+      "nome": "Ponyta",
+      "tipos": [
+        "Fire"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/ponyta.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/ponyta.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 50,
+        "atk": 85,
+        "def": 55,
+        "sp_atk": 65,
+        "sp_def": 65,
+        "speed": 90
+      },
+      "evolucao": {
+        "proximo": "Rapidash",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 78,
+      "nome": "Rapidash",
+      "tipos": [
+        "Fire"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/rapidash.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/rapidash.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 65,
+        "atk": 100,
+        "def": 70,
+        "sp_atk": 80,
+        "sp_def": 80,
+        "speed": 105
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

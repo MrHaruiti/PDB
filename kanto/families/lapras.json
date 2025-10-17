@@ -1,0 +1,29 @@
+{
+  "family": "Lapras",
+  "members": [
+    {
+      "id": 131,
+      "nome": "Lapras",
+      "tipos": [
+        "Water",
+        "Ice"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/lapras.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/lapras.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 130,
+        "atk": 85,
+        "def": 80,
+        "sp_atk": 85,
+        "sp_def": 95,
+        "speed": 60
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

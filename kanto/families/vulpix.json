@@ -1,0 +1,51 @@
+{
+  "family": "Vulpix",
+  "members": [
+    {
+      "id": 37,
+      "nome": "Vulpix",
+      "tipos": [
+        "Fire"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/vulpix.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/vulpix.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 38,
+        "atk": 41,
+        "def": 40,
+        "sp_atk": 50,
+        "sp_def": 65,
+        "speed": 65
+      },
+      "evolucao": {
+        "proximo": "Ninetales",
+        "condicao": "use-item"
+      }
+    },
+    {
+      "id": 38,
+      "nome": "Ninetales",
+      "tipos": [
+        "Fire"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/ninetales.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/ninetales.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 73,
+        "atk": 76,
+        "def": 75,
+        "sp_atk": 81,
+        "sp_def": 100,
+        "speed": 100
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

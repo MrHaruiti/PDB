@@ -1,0 +1,28 @@
+{
+  "family": "Tauros",
+  "members": [
+    {
+      "id": 128,
+      "nome": "Tauros",
+      "tipos": [
+        "Normal"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/tauros.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/tauros.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 75,
+        "atk": 100,
+        "def": 95,
+        "sp_atk": 40,
+        "sp_def": 70,
+        "speed": 110
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

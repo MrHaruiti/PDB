@@ -1,0 +1,29 @@
+{
+  "family": "Articuno",
+  "members": [
+    {
+      "id": 144,
+      "nome": "Articuno",
+      "tipos": [
+        "Ice",
+        "Flying"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/articuno.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/articuno.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 90,
+        "atk": 85,
+        "def": 100,
+        "sp_atk": 95,
+        "sp_def": 125,
+        "speed": 85
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

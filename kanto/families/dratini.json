@@ -1,0 +1,75 @@
+{
+  "family": "Dratini",
+  "members": [
+    {
+      "id": 147,
+      "nome": "Dratini",
+      "tipos": [
+        "Dragon"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/dratini.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/dratini.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 41,
+        "atk": 64,
+        "def": 45,
+        "sp_atk": 50,
+        "sp_def": 50,
+        "speed": 50
+      },
+      "evolucao": {
+        "proximo": "Dragonair",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 148,
+      "nome": "Dragonair",
+      "tipos": [
+        "Dragon"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/dragonair.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/dragonair.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 61,
+        "atk": 84,
+        "def": 65,
+        "sp_atk": 70,
+        "sp_def": 70,
+        "speed": 70
+      },
+      "evolucao": {
+        "proximo": "Dragonite",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 149,
+      "nome": "Dragonite",
+      "tipos": [
+        "Dragon",
+        "Flying"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/dragonite.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/dragonite.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 91,
+        "atk": 134,
+        "def": 95,
+        "sp_atk": 100,
+        "sp_def": 100,
+        "speed": 80
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "family": "Farfetchd",
+  "members": [
+    {
+      "id": 83,
+      "nome": "Farfetchd",
+      "tipos": [
+        "Normal",
+        "Flying"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/farfetchd.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/farfetchd.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 52,
+        "atk": 90,
+        "def": 55,
+        "sp_atk": 58,
+        "sp_def": 62,
+        "speed": 60
+      },
+      "evolucao": {
+        "proximo": "Sirfetchd",
+        "condicao": "three-critical-hits"
+      }
+    }
+  ]
+}

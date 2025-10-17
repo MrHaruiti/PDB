@@ -1,0 +1,29 @@
+{
+  "family": "Onix",
+  "members": [
+    {
+      "id": 95,
+      "nome": "Onix",
+      "tipos": [
+        "Rock",
+        "Ground"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/onix.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/onix.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 35,
+        "atk": 45,
+        "def": 160,
+        "sp_atk": 30,
+        "sp_def": 45,
+        "speed": 70
+      },
+      "evolucao": {
+        "proximo": "Steelix",
+        "condicao": "trade"
+      }
+    }
+  ]
+}

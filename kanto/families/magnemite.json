@@ -1,0 +1,53 @@
+{
+  "family": "Magnemite",
+  "members": [
+    {
+      "id": 81,
+      "nome": "Magnemite",
+      "tipos": [
+        "Electric",
+        "Steel"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/magnemite.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/magnemite.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 25,
+        "atk": 35,
+        "def": 70,
+        "sp_atk": 95,
+        "sp_def": 55,
+        "speed": 45
+      },
+      "evolucao": {
+        "proximo": "Magneton",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 82,
+      "nome": "Magneton",
+      "tipos": [
+        "Electric",
+        "Steel"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/magneton.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/magneton.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 50,
+        "atk": 60,
+        "def": 95,
+        "sp_atk": 120,
+        "sp_def": 70,
+        "speed": 70
+      },
+      "evolucao": {
+        "proximo": "Magnezone",
+        "condicao": "level-up"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "family": "Growlithe",
+  "members": [
+    {
+      "id": 58,
+      "nome": "Growlithe",
+      "tipos": [
+        "Fire"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/growlithe.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/growlithe.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 55,
+        "atk": 70,
+        "def": 45,
+        "sp_atk": 70,
+        "sp_def": 50,
+        "speed": 60
+      },
+      "evolucao": {
+        "proximo": "Arcanine",
+        "condicao": "use-item"
+      }
+    },
+    {
+      "id": 59,
+      "nome": "Arcanine",
+      "tipos": [
+        "Fire"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/arcanine.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/arcanine.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 90,
+        "atk": 110,
+        "def": 80,
+        "sp_atk": 100,
+        "sp_def": 80,
+        "speed": 95
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

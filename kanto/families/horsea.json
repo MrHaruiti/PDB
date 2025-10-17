@@ -1,0 +1,51 @@
+{
+  "family": "Horsea",
+  "members": [
+    {
+      "id": 116,
+      "nome": "Horsea",
+      "tipos": [
+        "Water"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/horsea.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/horsea.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 30,
+        "atk": 40,
+        "def": 70,
+        "sp_atk": 70,
+        "sp_def": 25,
+        "speed": 60
+      },
+      "evolucao": {
+        "proximo": "Seadra",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 117,
+      "nome": "Seadra",
+      "tipos": [
+        "Water"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/seadra.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/seadra.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 55,
+        "atk": 65,
+        "def": 95,
+        "sp_atk": 95,
+        "sp_def": 45,
+        "speed": 85
+      },
+      "evolucao": {
+        "proximo": "Kingdra",
+        "condicao": "trade"
+      }
+    }
+  ]
+}

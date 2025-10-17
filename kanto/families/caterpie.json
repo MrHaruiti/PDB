@@ -1,0 +1,75 @@
+{
+  "family": "Caterpie",
+  "members": [
+    {
+      "id": 10,
+      "nome": "Caterpie",
+      "tipos": [
+        "Bug"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/caterpie.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/caterpie.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 45,
+        "atk": 30,
+        "def": 35,
+        "sp_atk": 20,
+        "sp_def": 20,
+        "speed": 45
+      },
+      "evolucao": {
+        "proximo": "Metapod",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 11,
+      "nome": "Metapod",
+      "tipos": [
+        "Bug"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/metapod.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/metapod.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 50,
+        "atk": 20,
+        "def": 55,
+        "sp_atk": 25,
+        "sp_def": 25,
+        "speed": 30
+      },
+      "evolucao": {
+        "proximo": "Butterfree",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 12,
+      "nome": "Butterfree",
+      "tipos": [
+        "Bug",
+        "Flying"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/butterfree.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/butterfree.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 60,
+        "atk": 45,
+        "def": 50,
+        "sp_atk": 90,
+        "sp_def": 80,
+        "speed": 70
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

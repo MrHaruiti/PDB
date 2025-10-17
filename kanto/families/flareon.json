@@ -1,0 +1,28 @@
+{
+  "family": "Flareon",
+  "members": [
+    {
+      "id": 136,
+      "nome": "Flareon",
+      "tipos": [
+        "Fire"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/flareon.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/flareon.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 65,
+        "atk": 130,
+        "def": 60,
+        "sp_atk": 95,
+        "sp_def": 110,
+        "speed": 65
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

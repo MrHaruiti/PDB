@@ -1,0 +1,28 @@
+{
+  "family": "Lickitung",
+  "members": [
+    {
+      "id": 108,
+      "nome": "Lickitung",
+      "tipos": [
+        "Normal"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/lickitung.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/lickitung.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 90,
+        "atk": 55,
+        "def": 75,
+        "sp_atk": 60,
+        "sp_def": 75,
+        "speed": 30
+      },
+      "evolucao": {
+        "proximo": "Lickilicky",
+        "condicao": "level-up"
+      }
+    }
+  ]
+}

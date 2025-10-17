@@ -1,0 +1,53 @@
+{
+  "family": "Venonat",
+  "members": [
+    {
+      "id": 48,
+      "nome": "Venonat",
+      "tipos": [
+        "Bug",
+        "Poison"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/venonat.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/venonat.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 60,
+        "atk": 55,
+        "def": 50,
+        "sp_atk": 40,
+        "sp_def": 55,
+        "speed": 45
+      },
+      "evolucao": {
+        "proximo": "Venomoth",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 49,
+      "nome": "Venomoth",
+      "tipos": [
+        "Bug",
+        "Poison"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/venomoth.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/venomoth.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 70,
+        "atk": 65,
+        "def": 60,
+        "sp_atk": 90,
+        "sp_def": 75,
+        "speed": 90
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

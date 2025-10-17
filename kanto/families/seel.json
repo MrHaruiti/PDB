@@ -1,0 +1,52 @@
+{
+  "family": "Seel",
+  "members": [
+    {
+      "id": 86,
+      "nome": "Seel",
+      "tipos": [
+        "Water"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/seel.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/seel.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 65,
+        "atk": 45,
+        "def": 55,
+        "sp_atk": 45,
+        "sp_def": 70,
+        "speed": 45
+      },
+      "evolucao": {
+        "proximo": "Dewgong",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 87,
+      "nome": "Dewgong",
+      "tipos": [
+        "Water",
+        "Ice"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/dewgong.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/dewgong.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 90,
+        "atk": 70,
+        "def": 80,
+        "sp_atk": 70,
+        "sp_def": 95,
+        "speed": 70
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

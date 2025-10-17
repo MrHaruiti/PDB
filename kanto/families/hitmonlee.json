@@ -1,0 +1,28 @@
+{
+  "family": "Hitmonlee",
+  "members": [
+    {
+      "id": 106,
+      "nome": "Hitmonlee",
+      "tipos": [
+        "Fighting"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/hitmonlee.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/hitmonlee.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 50,
+        "atk": 120,
+        "def": 53,
+        "sp_atk": 35,
+        "sp_def": 110,
+        "speed": 87
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

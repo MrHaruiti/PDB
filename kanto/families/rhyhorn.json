@@ -1,0 +1,53 @@
+{
+  "family": "Rhyhorn",
+  "members": [
+    {
+      "id": 111,
+      "nome": "Rhyhorn",
+      "tipos": [
+        "Ground",
+        "Rock"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/rhyhorn.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/rhyhorn.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 80,
+        "atk": 85,
+        "def": 95,
+        "sp_atk": 30,
+        "sp_def": 30,
+        "speed": 25
+      },
+      "evolucao": {
+        "proximo": "Rhydon",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 112,
+      "nome": "Rhydon",
+      "tipos": [
+        "Ground",
+        "Rock"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/rhydon.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/rhydon.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 105,
+        "atk": 130,
+        "def": 120,
+        "sp_atk": 45,
+        "sp_def": 45,
+        "speed": 40
+      },
+      "evolucao": {
+        "proximo": "Rhyperior",
+        "condicao": "trade"
+      }
+    }
+  ]
+}

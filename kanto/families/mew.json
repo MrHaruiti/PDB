@@ -1,0 +1,28 @@
+{
+  "family": "Mew",
+  "members": [
+    {
+      "id": 151,
+      "nome": "Mew",
+      "tipos": [
+        "Psychic"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/mew.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/mew.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 100,
+        "atk": 100,
+        "def": 100,
+        "sp_atk": 100,
+        "sp_def": 100,
+        "speed": 100
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}

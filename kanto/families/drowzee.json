@@ -1,0 +1,51 @@
+{
+  "family": "Drowzee",
+  "members": [
+    {
+      "id": 96,
+      "nome": "Drowzee",
+      "tipos": [
+        "Psychic"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/drowzee.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/drowzee.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 60,
+        "atk": 48,
+        "def": 45,
+        "sp_atk": 43,
+        "sp_def": 90,
+        "speed": 42
+      },
+      "evolucao": {
+        "proximo": "Hypno",
+        "condicao": "level-up"
+      }
+    },
+    {
+      "id": 97,
+      "nome": "Hypno",
+      "tipos": [
+        "Psychic"
+      ],
+      "geracao": 1,
+      "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/hypno.png",
+      "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/hypno.png",
+      "formas": [],
+      "estatisticas": {
+        "hp": 85,
+        "atk": 73,
+        "def": 70,
+        "sp_atk": 73,
+        "sp_def": 115,
+        "speed": 67
+      },
+      "evolucao": {
+        "proximo": null,
+        "condicao": "nenhuma"
+      }
+    }
+  ]
+}
