@@ -85,12 +85,12 @@
       background: var(--card-bg);
       border-radius: 16px;
       width: min(980px, 96vw);
-      max-height: 92vh;                /* NÃO sai da tela */
+      max-height: 92vh;
       display: flex; flex-direction: column;
       box-shadow: 0 10px 30px rgba(0,0,0,0.35);
       position: relative;
       animation: fadeIn 0.15s ease-in;
-      overflow: hidden;                 /* esconde o excesso; rolagem fica no corpo */
+      overflow: hidden;
     }
     @keyframes fadeIn { from { opacity: 0; transform: scale(0.97); } to { opacity: 1; transform: scale(1); } }
 
@@ -98,7 +98,7 @@
       padding: 14px 56px 10px 20px;
       border-bottom: 1px solid var(--border);
       background: #fff;
-      position: sticky; top: 0; z-index: 2;  /* header fixo */
+      position: sticky; top: 0; z-index: 2;
       text-align: left;
     }
     .popupHeader h2 { margin: 0; font-size: 22px; line-height: 1.2; color: #111; }
@@ -109,12 +109,8 @@
       font-size: 18px; cursor: pointer; font-weight: bold; line-height: 34px;
     }
 
-    .popupBody {
-      padding: 16px;
-      overflow: auto;                    /* rolagem do conteúdo */
-    }
+    .popupBody { padding: 16px; overflow: auto; }
 
-    /* Seção de Versões (grid fluido + rolagem própria quando gigante) */
     .formsWrap {
       border: 1px solid var(--border);
       border-radius: 12px;
@@ -129,7 +125,7 @@
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
       gap: 12px;
-      max-height: 50vh;                 /* MUITAS versões? vira scroll só aqui */
+      max-height: 50vh;
       overflow: auto;
       padding-right: 4px;
     }
@@ -144,7 +140,6 @@
     .formImgs { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; align-items: center; }
     .formImgs img { width: 88px; height: 88px; object-fit: contain; }
 
-    /* Stats 3x3 (duas colunas) */
     .stats-box {
       display: grid;
       grid-template-columns: repeat(2, minmax(220px, 1fr));
@@ -166,7 +161,6 @@
       display: flex; justify-content: space-between;
     }
 
-    /* Caixa extra */
     .extra-info {
       background: #fff;
       border-radius: 12px;
@@ -184,7 +178,6 @@
       display: inline-block; padding: 4px 8px; border-radius: 6px;
       color: white; font-weight: bold; font-size: 13px; margin-right: 5px;
     }
-    /* Cores dos tipos */
     .type-Electric { background: #FFD700; color: #000; }
     .type-Fire { background: #F08030; }
     .type-Water { background: #6890F0; }
@@ -239,7 +232,6 @@
       </div>
 
       <div class="popupBody">
-        <!-- VERSÕES -->
         <div class="formsWrap">
           <div class="formsTitle">
             <span>Versões Disponíveis</span>
@@ -248,13 +240,10 @@
           <div class="formsGrid" id="formsContainer"></div>
         </div>
 
-        <!-- STATS 3x3 -->
         <div class="stats-box" id="statsBox"></div>
 
-        <!-- EXTRA -->
         <div class="extra-info" id="extraInfo"></div>
 
-        <!-- BOTÃO FECHAR -->
         <div style="display:flex; justify-content:center; margin-top:18px; padding-bottom:10px;">
           <button onclick="closePopup()" style="
             background:#d32f2f;
@@ -284,14 +273,25 @@
     const statsBox = document.getElementById("statsBox");
     const extraInfo = document.getElementById("extraInfo");
 
+    // NOVO: leitura automática de todas as famílias
+    async function loadAllFamilies(region) {
+      const folder = `data/${region}/families/`;
+      const index = await fetch(`${folder}index.json?ver=${Date.now()}`).then(r => r.json());
+      const allPokemons = [];
+      for (const fam of index.families) {
+        const familyData = await fetch(`${folder}${fam}.json?ver=${Date.now()}`).then(r => r.json());
+        allPokemons.push(...familyData.members);
+      }
+      return allPokemons;
+    }
+
     async function loadPokemons(region) {
       try {
-        // cache-buster pra evitar JSON velho
-        const response = await fetch(region + ".json?ver=" + Date.now());
-        const pokemons = await response.json();
+        // AGORA usa os JSONs por família
+        const pokemons = await loadAllFamilies(region);
         renderPokemons(pokemons);
       } catch (e) {
-        container.innerHTML = `<p>Arquivo <b>${region}.json</b> ainda não foi adicionado.</p>`;
+        container.innerHTML = `<p>Arquivo <b>${region}</b> ainda não foi adicionado.</p>`;
       }
     }
 
@@ -306,10 +306,7 @@
       });
     }
 
-    function labelFromNome(nome) {
-      // já vem pronto no JSON ("Pikachu (World Cap)") — fallback só por segurança
-      return nome || "";
-    }
+    function labelFromNome(nome) { return nome || ""; }
 
     function showPopup(p) {
       popupTitle.textContent = `#${String(p.id).padStart(3, '0')} ${p.nome}`;
@@ -317,24 +314,11 @@
       statsBox.innerHTML = "";
       extraInfo.innerHTML = "";
 
-      // Monta blocos de versões (inclui a base Normal/Shiny como primeiro card)
       const allForms = [];
-
-      // Forma base
-      allForms.push({
-        nome: `${p.nome} (Normal)`,
-        normal: p.sprite_normal,
-        shiny: p.sprite_shiny
-      });
-
-      // Demais (festivas / variantes)
-      if (Array.isArray(p.formas)) {
-        p.formas.forEach(f => allForms.push(f));
-      }
-
+      allForms.push({ nome: `${p.nome} (Normal)`, normal: p.sprite_normal, shiny: p.sprite_shiny });
+      if (Array.isArray(p.formas)) p.formas.forEach(f => allForms.push(f));
       formsCount.textContent = `• ${allForms.length} versões`;
 
-      // Render com grid fluido + scroll próprio
       const frag = document.createDocumentFragment();
       allForms.forEach(f => {
         const box = document.createElement("div");
@@ -350,9 +334,8 @@
       });
       formsContainer.appendChild(frag);
 
-      // Stats 3x3 (duas colunas)
       const s = p.estatisticas || {};
-      const statsHTML = `
+      statsBox.innerHTML = `
         <div class="stat-item"><span>HP</span><span>${s.hp ?? "-"}</span></div>
         <div class="stat-item"><span>SP.ATK</span><span>${s.sp_atk ?? "-"}</span></div>
         <div class="stat-item"><span>ATK</span><span>${s.atk ?? "-"}</span></div>
@@ -360,14 +343,11 @@
         <div class="stat-item"><span>DEF</span><span>${s.def ?? "-"}</span></div>
         <div class="stat-item"><span>SPEED</span><span>${s.speed ?? "-"}</span></div>
       `;
-      statsBox.innerHTML = statsHTML;
 
-      // Extra info
       const tiposHTML = (p.tipos || []).map(t => `<span class="type-tag type-${t}">${t}</span>`).join(" ");
       const evolucao = p.evolucao && p.evolucao.proximo
         ? `<span>${p.evolucao.proximo}</span>`
         : `<i>Não possui evolução.</i>`;
-
       extraInfo.innerHTML = `
         <div class="row"><span class="label">IV 100%:</span> CP 0000</div>
         <div class="row"><span class="label">Tipo:</span> ${tiposHTML}</div>
@@ -388,7 +368,7 @@
       });
     });
 
-    // Carrega Kanto
+    // Inicial: Kanto
     loadPokemons("kanto");
   </script>
 </body>
