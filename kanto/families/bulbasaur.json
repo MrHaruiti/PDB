@@ -10,27 +10,27 @@
       "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/bulbasaur.png",
       "formas": [
         {
-          "nome": "Bulbasaur",
-          "normal": "https://img.pokemondb.net/sprites/go/normal/bulbasaur.png",
-          "shiny": "https://img.pokemondb.net/sprites/go/shiny/bulbasaur.png",
-          "tem_shiny": true,
-          "evolui": true,
-          "tipo": ["Grass", "Poison"],
-          "origem": "Base"
-        },
-        {
-          "nome": "Bulbasaur (Clone)",
-          "normal": "https://img.pokemondb.net/sprites/go/normal/bulbasaur-clone.png",
-          "shiny": "https://img.pokemondb.net/sprites/go/shiny/bulbasaur-clone.png",
+          "nome": "Bulbasaur (Red Party Hat)",
+          "normal": "https://img.pokemondb.net/sprites/go/normal/bulbasaur-red-party-hat.png",
+          "shiny": "https://img.pokemondb.net/sprites/go/shiny/bulbasaur-red-party-hat.png",
           "tem_shiny": true,
           "evolui": false,
           "tipo": ["Grass", "Poison"],
           "origem": "GO Event"
         },
         {
-          "nome": "Bulbasaur (Red Party Hat)",
-          "normal": "https://img.pokemondb.net/sprites/go/normal/bulbasaur-red-party-hat.png",
-          "shiny": "https://img.pokemondb.net/sprites/go/shiny/bulbasaur-red-party-hat.png",
+          "nome": "Bulbasaur (Pikachu Cap)",
+          "normal": "https://img.pokemondb.net/sprites/go/normal/bulbasaur-pikachu-cap.png",
+          "shiny": "https://img.pokemondb.net/sprites/go/shiny/bulbasaur-pikachu-cap.png",
+          "tem_shiny": true,
+          "evolui": false,
+          "tipo": ["Grass", "Poison"],
+          "origem": "GO Event"
+        },
+        {
+          "nome": "Bulbasaur (Shedinja Costume)",
+          "normal": "https://img.pokemondb.net/sprites/go/normal/bulbasaur-shedinja-costume.png",
+          "shiny": "https://img.pokemondb.net/sprites/go/shiny/bulbasaur-shedinja-costume.png",
           "tem_shiny": true,
           "evolui": false,
           "tipo": ["Grass", "Poison"],
@@ -58,15 +58,6 @@
       "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/ivysaur.png",
       "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/ivysaur.png",
       "formas": [
-        {
-          "nome": "Ivysaur",
-          "normal": "https://img.pokemondb.net/sprites/go/normal/ivysaur.png",
-          "shiny": "https://img.pokemondb.net/sprites/go/shiny/ivysaur.png",
-          "tem_shiny": true,
-          "evolui": true,
-          "tipo": ["Grass", "Poison"],
-          "origem": "Base"
-        },
         {
           "nome": "Ivysaur (Red Party Hat)",
           "normal": "https://img.pokemondb.net/sprites/go/normal/ivysaur-red-party-hat.png",
@@ -99,28 +90,19 @@
       "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/venusaur.png",
       "formas": [
         {
-          "nome": "Venusaur",
-          "normal": "https://img.pokemondb.net/sprites/go/normal/venusaur.png",
-          "shiny": "https://img.pokemondb.net/sprites/go/shiny/venusaur.png",
-          "tem_shiny": true,
-          "evolui": false,
-          "tipo": ["Grass", "Poison"],
-          "origem": "Base"
-        },
-        {
-          "nome": "Venusaur (Clone)",
-          "normal": "https://img.pokemondb.net/sprites/go/normal/venusaur-clone.png",
-          "shiny": "https://img.pokemondb.net/sprites/go/shiny/venusaur-clone.png",
+          "nome": "Venusaur (Red Party Hat)",
+          "normal": "https://img.pokemondb.net/sprites/go/normal/venusaur-red-party-hat.png",
+          "shiny": "https://img.pokemondb.net/sprites/go/shiny/venusaur-red-party-hat.png",
           "tem_shiny": true,
           "evolui": false,
           "tipo": ["Grass", "Poison"],
           "origem": "GO Event"
         },
         {
-          "nome": "Venusaur (Red Party Hat)",
-          "normal": "https://img.pokemondb.net/sprites/go/normal/venusaur-red-party-hat.png",
-          "shiny": "https://img.pokemondb.net/sprites/go/shiny/venusaur-red-party-hat.png",
-          "tem_shiny": true,
+          "nome": "Venusaur (Clone)",
+          "normal": "https://img.pokemondb.net/sprites/go/normal/venusaur-clone.png",
+          "shiny": null,
+          "tem_shiny": false,
           "evolui": false,
           "tipo": ["Grass", "Poison"],
           "origem": "GO Event"
