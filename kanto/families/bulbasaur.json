@@ -4,14 +4,39 @@
     {
       "id": 1,
       "nome": "Bulbasaur",
-      "tipos": [
-        "Grass",
-        "Poison"
-      ],
+      "tipos": ["Grass", "Poison"],
       "geracao": 1,
       "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/bulbasaur.png",
       "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/bulbasaur.png",
-      "formas": [],
+      "formas": [
+        {
+          "nome": "Bulbasaur",
+          "normal": "https://img.pokemondb.net/sprites/go/normal/bulbasaur.png",
+          "shiny": "https://img.pokemondb.net/sprites/go/shiny/bulbasaur.png",
+          "tem_shiny": true,
+          "evolui": true,
+          "tipo": ["Grass", "Poison"],
+          "origem": "Base"
+        },
+        {
+          "nome": "Bulbasaur (Clone)",
+          "normal": "https://img.pokemondb.net/sprites/go/normal/bulbasaur-clone.png",
+          "shiny": "https://img.pokemondb.net/sprites/go/shiny/bulbasaur-clone.png",
+          "tem_shiny": true,
+          "evolui": false,
+          "tipo": ["Grass", "Poison"],
+          "origem": "GO Event"
+        },
+        {
+          "nome": "Bulbasaur (Red Party Hat)",
+          "normal": "https://img.pokemondb.net/sprites/go/normal/bulbasaur-red-party-hat.png",
+          "shiny": "https://img.pokemondb.net/sprites/go/shiny/bulbasaur-red-party-hat.png",
+          "tem_shiny": true,
+          "evolui": false,
+          "tipo": ["Grass", "Poison"],
+          "origem": "GO Event"
+        }
+      ],
       "estatisticas": {
         "hp": 45,
         "atk": 49,
@@ -28,14 +53,30 @@
     {
       "id": 2,
       "nome": "Ivysaur",
-      "tipos": [
-        "Grass",
-        "Poison"
-      ],
+      "tipos": ["Grass", "Poison"],
       "geracao": 1,
       "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/ivysaur.png",
       "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/ivysaur.png",
-      "formas": [],
+      "formas": [
+        {
+          "nome": "Ivysaur",
+          "normal": "https://img.pokemondb.net/sprites/go/normal/ivysaur.png",
+          "shiny": "https://img.pokemondb.net/sprites/go/shiny/ivysaur.png",
+          "tem_shiny": true,
+          "evolui": true,
+          "tipo": ["Grass", "Poison"],
+          "origem": "Base"
+        },
+        {
+          "nome": "Ivysaur (Red Party Hat)",
+          "normal": "https://img.pokemondb.net/sprites/go/normal/ivysaur-red-party-hat.png",
+          "shiny": "https://img.pokemondb.net/sprites/go/shiny/ivysaur-red-party-hat.png",
+          "tem_shiny": true,
+          "evolui": false,
+          "tipo": ["Grass", "Poison"],
+          "origem": "GO Event"
+        }
+      ],
       "estatisticas": {
         "hp": 60,
         "atk": 62,
@@ -52,14 +93,57 @@
     {
       "id": 3,
       "nome": "Venusaur",
-      "tipos": [
-        "Grass",
-        "Poison"
-      ],
+      "tipos": ["Grass", "Poison"],
       "geracao": 1,
       "sprite_normal": "https://img.pokemondb.net/sprites/go/normal/venusaur.png",
       "sprite_shiny": "https://img.pokemondb.net/sprites/go/shiny/venusaur.png",
-      "formas": [],
+      "formas": [
+        {
+          "nome": "Venusaur",
+          "normal": "https://img.pokemondb.net/sprites/go/normal/venusaur.png",
+          "shiny": "https://img.pokemondb.net/sprites/go/shiny/venusaur.png",
+          "tem_shiny": true,
+          "evolui": false,
+          "tipo": ["Grass", "Poison"],
+          "origem": "Base"
+        },
+        {
+          "nome": "Venusaur (Clone)",
+          "normal": "https://img.pokemondb.net/sprites/go/normal/venusaur-clone.png",
+          "shiny": "https://img.pokemondb.net/sprites/go/shiny/venusaur-clone.png",
+          "tem_shiny": true,
+          "evolui": false,
+          "tipo": ["Grass", "Poison"],
+          "origem": "GO Event"
+        },
+        {
+          "nome": "Venusaur (Red Party Hat)",
+          "normal": "https://img.pokemondb.net/sprites/go/normal/venusaur-red-party-hat.png",
+          "shiny": "https://img.pokemondb.net/sprites/go/shiny/venusaur-red-party-hat.png",
+          "tem_shiny": true,
+          "evolui": false,
+          "tipo": ["Grass", "Poison"],
+          "origem": "GO Event"
+        },
+        {
+          "nome": "Venusaur (Mega)",
+          "normal": "https://img.pokemondb.net/sprites/go/normal/venusaur-mega.png",
+          "shiny": "https://img.pokemondb.net/sprites/go/shiny/venusaur-mega.png",
+          "tem_shiny": true,
+          "evolui": false,
+          "tipo": ["Grass", "Poison"],
+          "origem": "Mega Evolution"
+        },
+        {
+          "nome": "Venusaur (Gigantamax)",
+          "normal": "https://img.pokemondb.net/sprites/go/normal/venusaur-gigantamax.png",
+          "shiny": "https://img.pokemondb.net/sprites/go/shiny/venusaur-gigantamax.png",
+          "tem_shiny": true,
+          "evolui": false,
+          "tipo": ["Grass", "Poison"],
+          "origem": "Gigantamax"
+        }
+      ],
       "estatisticas": {
         "hp": 80,
         "atk": 82,
