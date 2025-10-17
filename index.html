@@ -34,7 +34,6 @@
       box-shadow: 0 2px 5px rgba(0,0,0,0.3);
     }
 
-    /* Tabs */
     .tabs {
       display: flex;
       justify-content: center;
@@ -54,7 +53,6 @@
     .tab.active { background: var(--red-deep); border-bottom: 3px solid var(--amber); }
     .tab.disabled { opacity: 0.5; cursor: not-allowed; }
 
-    /* Grid principal */
     #pokemonContainer {
       display: grid;
       grid-template-columns: repeat(10, 1fr);
@@ -74,7 +72,6 @@
     .pokemonCard:hover { transform: scale(1.08); box-shadow: 0 4px 10px rgba(0,0,0,0.25); }
     .pokemonCard img { width: 80px; height: 80px; object-fit: contain; }
 
-    /* POPUP */
     .popup {
       display: none; position: fixed; z-index: 1000;
       inset: 0; background: rgba(0,0,0,0.6);
@@ -273,9 +270,9 @@
     const statsBox = document.getElementById("statsBox");
     const extraInfo = document.getElementById("extraInfo");
 
-    // NOVO: leitura automática de todas as famílias
+    // ✅ Caminho corrigido (agora busca em kanto/families/)
     async function loadAllFamilies(region) {
-      const folder = `data/${region}/families/`;
+      const folder = `${region}/families/`;
       const index = await fetch(`${folder}index.json?ver=${Date.now()}`).then(r => r.json());
       const allPokemons = [];
       for (const fam of index.families) {
@@ -287,7 +284,6 @@
 
     async function loadPokemons(region) {
       try {
-        // AGORA usa os JSONs por família
         const pokemons = await loadAllFamilies(region);
         renderPokemons(pokemons);
       } catch (e) {
@@ -368,7 +364,6 @@
       });
     });
 
-    // Inicial: Kanto
     loadPokemons("kanto");
   </script>
 </body>
