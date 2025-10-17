@@ -29,8 +29,8 @@
         },
         {
           "nome": "Bulbasaur (Shedinja Costume)",
-          "normal": "https://img.pokemondb.net/sprites/go/normal/bulbasaur-shedinja-costume.png",
-          "shiny": "https://img.pokemondb.net/sprites/go/shiny/bulbasaur-shedinja-costume.png",
+          "normal": "https://img.pokemondb.net/sprites/go/normal/bulbasaur-shedinja.png",
+          "shiny": "https://img.pokemondb.net/sprites/go/shiny/bulbasaur-shedinja.png",
           "tem_shiny": true,
           "evolui": false,
           "tipo": ["Grass", "Poison"],
